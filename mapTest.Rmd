@@ -1,0 +1,29 @@
+---
+title: "Test"
+author: "Tom Clarke"
+date: "14 June 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+## EG
+
+Text TEXT TEXT
+
+```{r}
+require(dplyr)
+require(sp)
+require(leaflet)
+bounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/bounds_simple.rds")
+
+leaflet() %>%
+  addProviderTiles(providers$OpenStreetMap.BlackAndWhite) %>%
+  addPolygons(data=bounds,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = "#C6DBEF")
+
+
+```
+
