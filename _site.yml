@@ -1,12 +1,2 @@
 name: "map test"
 output_dir: "docs"
-navbar:
-  title: "Map test"
-  left:
-  - text: "Home"
-    href: index.html
-  - text: "Map 1"
-    href: mapTest.html
-output:
-  html_document:
-   theme: cosmo
