@@ -53,7 +53,18 @@ knitr::opts_chunk$set(echo = F,message = F,warning = F)
 
 #bounds<-spTransform(bounds,CRS("+init=epsg:4326"))
 
-bounds<-readRDS("bounds_simple.rds")
+res1_rose_use<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pc_rose.rds")
+
+pcEst<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pcEst.rds")
+
+outLab<-readxl::read_excel("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/coding sheets.xlsx",sheet = "outcomes")
+
+popSize<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/popSize.rds")
+
+bounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/bounds_simple.rds")
+
+mpList<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/mpList_out.rds")
+
 pc_use<-pcEst %>% bind_rows() %>%
   select(pc,outcome,fRate) %>% 
   bind_rows(res1_rose_use) %>%
@@ -66,7 +77,7 @@ pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Do
 
 
 
-laBounds<-readRDS("laBounds_simple.rds")
+laBounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/laBounds_simple.rds")
 
 laBounds<-spTransform(laBounds,CRS("+init=epsg:4326"))
 
