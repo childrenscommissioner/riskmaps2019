@@ -177,7 +177,7 @@ names(labels)<-names(la_use)[!grepl("_fill|^la|^cd",names(la_use))]
 
 
 leaflet() %>%
-  addProviderTiles(providers$OpenStreetMap.BlackAndWhite) %>%
+  addProviderTiles(providers$CartoDB) %>%
   addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
     opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`alcordrugdep_fill`),
     popupOptions = highlightOptions(bringToFront = T,weight=4),group="Alcohol/substance misuse",popup =labels[["alcordrugdep"]]) %>%
@@ -293,7 +293,7 @@ names(labels)<-names(pc_Dep)[!grepl("_fill|^PC|^LA|^pc",names(pc_Dep))]
 
 
 leaflet() %>%
-  addProviderTiles(providers$OpenStreetMap.BlackAndWhite) %>%
+  addProviderTiles(providers$CartoDB) %>%
   addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
     opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`alcordrugdep_fill`),
     popupOptions = highlightOptions(bringToFront = T,weight=4),group="Alcohol/substance misuse",popup =labels[["alcordrugdep"]]) %>%
