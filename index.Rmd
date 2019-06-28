@@ -38,7 +38,7 @@ bounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents
 pcEst<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pcEst.csv")
 resConf_rose_use <-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pcEst_rose.csv")
 
-outLab<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/outLab.csv")
+outLab<-readxl::read_excel("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/coding sheets_web.xlsx","outcomes")
 
 popSize<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/popSize.csv")
 
@@ -275,7 +275,7 @@ c<-sp::merge(bounds,as.data.frame(pc_Dep),by.x="pcon18nm",by.y="PCON11NM",all.x=
 pal <- colorNumeric("viridis", domain = c(0,1))
 pal3<-colorNumeric("viridis", domain = c(0,1.3))
 
-outLab<-readxl::read_excel("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/coding sheets.xlsx","outcomes")
+
 
 outLab$labOutcome<-gsub(" [(].*$","",outLab$labOutcome)
 
@@ -328,7 +328,7 @@ leaflet() %>%
        for (i in 2:(n-1)){cuts[i] = " "} 
        cuts[1] = "Lowest rate" 
        paste0(cuts[-n], cuts[-1])},
-    title = "Projected rate of children<br/>affected in<br/>parliametary constituency",
+    title = "Projected rate of children<br/>affected in<br/>parliamentary constituency",
      na.label = "Missing/excluded",
     opacity = 0.7
   ) 
