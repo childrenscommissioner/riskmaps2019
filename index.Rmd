@@ -169,7 +169,7 @@ pal <- colorNumeric("viridis", domain = c(0,1))
 
 labels <- lapply(names(la_use)[!grepl("_fill|^la|^cd",names(la_use))],function(x){
   paste0(
-  "<strong>",c$la,"</strong><br/>Projected % of children in household where an ",tolower(outLab$labOutcome[outLab$outcome==x])," : ",round(c@data[,x],1),
+  "<strong>",c$la,"</strong><br/>Projected % of children in household where an ",gsub(" [(].*[)]","",tolower(outLab$labOutcome[outLab$outcome==x]))," : ",round(c@data[,x],1),
   "%<br/>Projected number of 0-15 yr olds affected: ",round(c@data[,x]/100*c@data$pop,-1)) %>% lapply(htmltools::HTML)
 })
 
@@ -284,7 +284,7 @@ c<-sp::merge(c,mpList,by.x="pcon18nm",by.y="Constituency",all.x=T)
 
 labels <- lapply(names(pc_Dep)[!grepl("_fill|^PC|^LA|^pc",names(pc_Dep))],function(x){
   iconv(paste0(
-  "<strong>",c$pcon18nm,"</strong><br/>Projected % of children in household where an ",tolower(outLab$labOutcome[outLab$outcome==x])," : ",round(c@data[,x],3)*100,
+  "<strong>",c$pcon18nm,"</strong><br/>Projected % of children in household where an ",gsub(" [(].*[)]","",tolower(outLab$labOutcome[outLab$outcome==x]))," : ",round(c@data[,x],3)*100,
   "%<br/>Projected number of 0-15 yr olds affected: ",round(c@data[,x]*c@data$pop,-1),"<br/>MP: ",c$nm,
     "<br/>Party: ",c$party),to="UTF-8") %>% lapply(htmltools::HTML)
 })
