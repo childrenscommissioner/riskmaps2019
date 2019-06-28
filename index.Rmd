@@ -11,28 +11,6 @@ output:
 
 ---
 
-
-## About these maps
-
-
-
-
-The maps below present our projected proportions of children living in households where an adult has any of the so called 'toxic trio' factors present, or where multiple factors exist in the same household. These factors are:
-
-* **Alcohol/substance misuse**:
-   + Key measure presented below: Children in households where an adult has a drug or alcohol dependence
-* **Domestic abuse**:
-   + Key measure presented below: Children in households where an adult has experienced violence or abuse from a partner in the last year
-* **Mental health problems**:
-   + Key measure presented below: Children in households where an adult has a clinically diagnosable mental health condition
-
-These have been shown to put children at notably greater risk of immediate harm as well as having a detrimental impact on their later life outcomes.
-
-*Note: These figures are not actual data collected from each local area, but are instead projections from a national survey combined with additional predictive modelling. More detail on the methodology for generating these estimates is available in the accompanying [technical report](LINK).*
-
-
-## Parliamentary Constituencies Map
-
 ```{r setup, include=F}
 
 require(dplyr)
@@ -53,27 +31,51 @@ knitr::opts_chunk$set(echo = F,message = F,warning = F)
 
 #bounds<-spTransform(bounds,CRS("+init=epsg:4326"))
 
-res1_rose_use<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pc_rose.rds")
-
-pcEst<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pcEst.rds")
-
-outLab<-readxl::read_excel("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/coding sheets.xlsx",sheet = "outcomes")
-
-popSize<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/popSize.rds")
+pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-15.csv")
 
 bounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/bounds_simple.rds")
 
-mpList<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/mpList_out.rds")
+pcEst<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pcEst.csv")
+resConf_rose_use <-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pcEst_rose.csv")
+
+outLab<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/outLab.csv")
+
+popSize<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/popSize.csv")
+
+depRank<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/depRank.csv")
+
+depDec<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/depDec.csv")
+
+mpList<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/mpList_out.csv")
+
 
 pc_use<-pcEst %>% bind_rows() %>%
-  select(pc,outcome,fRate) %>% 
-  bind_rows(res1_rose_use) %>%
-  mutate(est=fRate*100) %>%
+  select(pc,outcome,fRate=popRate,fLower,fUpper,estRate=fRate) %>% 
+  bind_rows(resConf_rose_use %>%
+       left_join(outLab %>% select(outcome,popRate)) %>%
+      select(pc,outcome,fRate=popRate,fLower,fUpper,estRate=fRate)) %>%
+  mutate(est=fRate) %>%
   left_join(popSize %>% select(-pop),by=c("pc"="pc")) %>%
-  select(-fRate) %>%
-  spread(key=outcome,value=est) 
+  select(-fRate)
 
-pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-15.csv")
+pc_use<-pc_use %>%
+  left_join(pcPop %>% select(PCON11NM,pop=pop015)) %>%
+  mutate(popRate=round(est*pop,0),
+   modRate_low=round(fLower*pop,0),
+    modRate_high=round(fUpper*pop,0),
+    modRate_mid=round(estRate*pop,0)) %>% select(-pop)
+
+
+
+require(cdata)
+
+cT<-data.frame(outcome=unique(pc_use$outcome),estRate=paste0(unique(pc_use$outcome),"_model"),
+  est=paste0(unique(pc_use$outcome),"_pop"),popRate=paste0(unique(pc_use$outcome),"_popN"),
+  modRate_low=paste0(unique(pc_use$outcome),"_modLow"),
+  modRate_high=paste0(unique(pc_use$outcome),"_modHigh"),
+  modRate_mid=paste0(unique(pc_use$outcome),"_modMid"),stringsAsFactors = F)
+
+pc_use<-blocks_to_rowrecs(pc_use,keyColumns = "pc",controlTable = cT,columnsToCopy = c("PCON11CD","PCON11NM","LAnum"))
 
 
 
@@ -81,7 +83,11 @@ laBounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documen
 
 laBounds<-spTransform(laBounds,CRS("+init=epsg:4326"))
 
-laEst<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/laEstimates.csv")
+laEst<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/laEstimates.csv") %>% filter(!grepl("synthetic",outcome))
+
+laEst_rose<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/laEstimates_rose.csv") 
+
+
 
 laEst<-laEst %>% #filter(!outcome %in% c("alcordrugsep","submisuse")) %>%
   group_by(outcome) %>%
@@ -93,8 +99,14 @@ laEst<-laEst %>% #filter(!outcome %in% c("alcordrugsep","submisuse")) %>%
   mutate(fRate=popRate*popMult) %>%
   mutate(fUpper=fRate+confU,fLower=ifelse(fRate-confL<0,0,fRate-confL))
 
+laEst_rose<-laEst_rose %>% ungroup() %>%
+  mutate(fRate=scales::rescale(mid,c(min(laEst$fRate[laEst$outcome=="toxictrionarrow"]),max(laEst$fRate[laEst$outcome=="toxictrionarrow"])))) %>%
+  mutate(outcome="toxictrionarrow_synthetic")
+
 la_use<-laEst %>%
-  select(la=LA_152,cd=LA152_Code,fRate,outcome) %>% mutate(est=fRate*100) %>%
+  select(la=LA_152,cd=LA152_Code,fRate,outcome) %>% 
+  bind_rows(laEst_rose %>% select(la=LA_152,cd=LA152_Code,fRate,outcome)) %>%
+  mutate(est=fRate*100) %>%
   select(-fRate) %>%
   spread(key=outcome,value=est)
 
@@ -105,93 +117,39 @@ laPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Do
 
 ```
 
+## About these maps
 
+The maps below present our projected proportions of children living in households where an adult has any of the so called 'toxic trio' factors present, or where multiple factors exist in the same household. These factors are:
 
-```{r compMap}
+* **Alcohol/substance misuse**:
+   + Key measure presented below: Children in households where an adult has a drug or alcohol dependence
+* **Domestic abuse**:
+   + Key measure presented below: Children in households where an adult has experienced violence or abuse from a partner in the last year
+* **Mental health problems**:
+   + Key measure presented below: Children in households where an adult has a clinically diagnosable mental health condition
 
+These have been shown to put children at notably greater risk of immediate harm as well as having a detrimental impact on their later life outcomes.
 
-for(i in names(pc_use)[5:length(names(pc_use))]){
-nVar<-rlang::sym(paste0(i,"_fill"))
-var<-rlang::sym(i) 
+*Note: These figures are not actual data collected from each local area, but are instead projections from a national survey combined with additional predictive modelling. More detail on the methodology for generating these estimates is available in the accompanying [technical report](LINK).*
 
-pc_use <- pc_use %>% ungroup() %>%
-  mutate(!!nVar:=scales::rescale((!!var),c(0,1))) }
+This approach makes several key assumptions that are difficult to test without further local data:
 
-pc_use<-pc_use %>%
-  left_join(pcPop %>% select(PCON11NM,pop=pop015))
+* The relationships between local area characteristics and the toxic trio factors are consistent across local areas.
+* The local area characteristics used in our projections include all characteristics likely to influence levels of the toxic trio in an area.
+* The sample in the national survey is diverse enough to represent the characteristics and interactions of these characteristics in each local area.
 
-bounds@data$pcon18nm<-gsub("St[.] ","St ",bounds@data$pcon18nm)
-
-c<-sp::merge(bounds,as.data.frame(pc_use),by.x="pcon18nm",by.y="PCON11NM",all.x=T,all.y=T)
-pal <- colorNumeric("viridis", domain = c(0,1))
-pal3<-colorNumeric("viridis", domain = c(0,1.3))
-
-outLab<-readxl::read_excel("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/coding sheets.xlsx","outcomes")
-
-outLab$labOutcome<-gsub(" [(].*$","",outLab$labOutcome)
-
-c<-sp::merge(c,mpList,by.x="pcon18nm",by.y="Constituency",all.x=T)
-
-
-labels <- lapply(names(pc_use)[!grepl("_fill|^PC|^LA|^pc",names(pc_use))],function(x){
-  paste0(
-  "<strong>",c$pcon18nm,"</strong><br/>Projected % of children in household where an ",tolower(outLab$labOutcome[outLab$outcome==x])," : ",round(c@data[,x],1),
-  "%<br/>Projected number of 0-15 yr olds affected: ",round(c@data[,x]/100*c@data$pop,-1),"<br/>MP: ",c$nm,
-    "<br/>Party: ",c$party) %>% lapply(htmltools::HTML)
-})
-
-names(labels)<-names(pc_use)[!grepl("_fill|^PC|^LA|^pc",names(pc_use))]
-
-
-leaflet() %>%
-  addProviderTiles(providers$OpenStreetMap.BlackAndWhite) %>%
-  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`alcordrugdep_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Alcohol/substance misuse",popup =labels[["alcordrugdep"]]) %>%
-
-  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`dvavictimyear_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Domestic abuse",popup =labels[["dvavictimyear"]]) %>%
-  
-  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`severemhprob_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Mental health problems",popup =labels[["severemhprob"]]) %>%
-  
-  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`oneplusharmsnarrow_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Any of the above risks",popup =labels[["oneplusharmsnarrow"]]) %>%
-  
-  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`twoplusharmsnarrow_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="2 or more of the above risks",popup =labels[["twoplusharmsnarrow"]]) %>%
-  
-    addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`toxictrionarrow_synthetic_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="All 3 of the above risks",popup =labels[["toxictrionarrow_synthetic"]]) %>%
-  
-  addLayersControl(
-   baseGroups = c("Alcohol/substance misuse", "Domestic abuse","Mental health problems",
-     "Any of the above risks","2 or more of the above risks","All 3 of the above risks","All 3 of the above risks"),
-    options = layersControlOptions(collapsed = FALSE)) %>%
-   addLegend("topleft", pal = pal, values = seq(0,1),bins=5,
-     labFormat = function(type, cuts, p) { 
-       n = length(cuts) 
-       cuts[n] = "Highest rate" 
-       for (i in 2:(n-1)){cuts[i] = " "} 
-       cuts[1] = "Lowest rate" 
-       paste0(cuts[-n], cuts[-1])},
-    title = "Predicted rate of children<br/>affected in<br/>parliametary constituency",
-     na.label = "Missing/excluded",
-    opacity = 0.7
-  ) 
-
-```
+As such the results below provide only a useful first step in estimating local levels of these factors. They are in need of further validation from local surveys and administrative data that are not currently collected centrally.
 
 ## Local authority Map
 
 *Please note: estimates of local authority alcohol and drug dependence are not comparable to Public Health England estimates due to differences in methodology*
 
-```{r compMapLA}
+
+```{r, echo=F,message=F,warning=F}
+
+require(dplyr)
+require(tidyr)
+require(leaflet)
 
 
 for(i in names(la_use)[3:length(names(la_use))]){
@@ -240,9 +198,9 @@ leaflet() %>%
     opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`twoplusharmsnarrow_fill`),
     popupOptions = highlightOptions(bringToFront = T,weight=4),group="2 or more of the above risks",popup =labels[["twoplusharmsnarrow"]]) %>%
   
-  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal3(`toxictrionarrow_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="All 3 of the above risks",popup =labels[["toxictrionarrow"]]) %>%
+    addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`toxictrionarrow_synthetic_fill`),
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="All 3 of the above risks",popup =labels[["toxictrionarrow_synthetic"]]) %>%
   
   addLayersControl(
    baseGroups = c("Alcohol/substance misuse", "Domestic abuse","Mental health problems",
@@ -255,14 +213,131 @@ leaflet() %>%
        for (i in 2:(n-1)){cuts[i] = " "} 
        cuts[1] = "Lowest rate" 
        paste0(cuts[-n], cuts[-1])},
-    title = "Predicted rate of children<br/>affected in<br/>local authority",
+    title = "Projected rate of children<br/>affected in<br/>local authority",
      na.label = "Missing/excluded",
     opacity = 0.7
   ) 
 
 ```
 
-```{r, results='asis'}
+## Parliamentary Constituencies Map
+
+
+```{r, echo=F,message=F,warning=F}
+pc_use<-pcEst %>% bind_rows() %>%
+  select(pc,outcome,fRate=popRate,fLower,fUpper,estRate=fRate) %>% 
+  bind_rows(resConf_rose_use %>%
+       left_join(outLab %>% select(outcome,popRate)) %>%
+      select(pc,outcome,fRate=popRate,fLower,fUpper,estRate=fRate)) %>%
+  mutate(est=fRate) %>%
+  left_join(popSize %>% select(-pop),by=c("pc"="pc")) %>%
+  select(-fRate)
+
+pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-15.csv")
+
+
+
+pc_use_d<-pc_use
+
+
+pcDep<-pc_use_d %>%
+  left_join(depRank %>% select(Constituency,depDec),by=c("PCON11NM"="Constituency")) %>%
+  left_join(depDec %>% ungroup() %>% select(outcome,depDec,min,max) %>% distinct()) %>%
+ # filter(!outcome %in% c("alcordrugdep","submisuse")) %>%
+  mutate(split=paste0(outcome,"_",depDec)) %>%
+  split(.$split) %>%
+  purrr::map_df(function(x){
+    
+    l<-unique(x$min)
+    t<-unique(x$max)
+    
+    x %>% mutate(estRate_dep=scales::rescale(estRate,c(l,t)))
+  }) %>%
+  select(pc,outcome,fRate=estRate_dep) %>% 
+  mutate(est=fRate) %>%
+  left_join(popSize %>% select(-pop),by=c("pc"="pc")) %>%
+  select(-fRate) %>%
+  spread(key=outcome,value=est) 
+
+for(i in names(pcDep)[5:length(names(pcDep))]){
+nVar<-rlang::sym(paste0(i,"_fill"))
+var<-rlang::sym(i) 
+
+pcDep <- pcDep %>% ungroup() %>%
+  mutate(!!nVar:=scales::rescale((!!var),c(0,1))) }
+
+pc_Dep<-pcDep %>%
+  left_join(pcPop %>% select(PCON11NM,pop=pop015))
+
+bounds@data$pcon18nm<-gsub("St[.] ","St ",bounds@data$pcon18nm)
+
+c<-sp::merge(bounds,as.data.frame(pc_Dep),by.x="pcon18nm",by.y="PCON11NM",all.x=T,all.y=T)
+pal <- colorNumeric("viridis", domain = c(0,1))
+pal3<-colorNumeric("viridis", domain = c(0,1.3))
+
+outLab<-readxl::read_excel("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/coding sheets.xlsx","outcomes")
+
+outLab$labOutcome<-gsub(" [(].*$","",outLab$labOutcome)
+
+c<-sp::merge(c,mpList,by.x="pcon18nm",by.y="Constituency",all.x=T)
+
+
+labels <- lapply(names(pc_Dep)[!grepl("_fill|^PC|^LA|^pc",names(pc_Dep))],function(x){
+  iconv(paste0(
+  "<strong>",c$pcon18nm,"</strong><br/>Projected % of children in household where an ",tolower(outLab$labOutcome[outLab$outcome==x])," : ",round(c@data[,x],3)*100,
+  "%<br/>Projected number of 0-15 yr olds affected: ",round(c@data[,x]*c@data$pop,-1),"<br/>MP: ",c$nm,
+    "<br/>Party: ",c$party),to="UTF-8") %>% lapply(htmltools::HTML)
+})
+
+names(labels)<-names(pc_Dep)[!grepl("_fill|^PC|^LA|^pc",names(pc_Dep))]
+
+
+leaflet() %>%
+  addProviderTiles(providers$OpenStreetMap.BlackAndWhite) %>%
+  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`alcordrugdep_fill`),
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Alcohol/substance misuse",popup =labels[["alcordrugdep"]]) %>%
+
+  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`dvavictimyear_fill`),
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Domestic abuse",popup =labels[["dvavictimyear"]]) %>%
+  
+  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`severemhprob_fill`),
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Mental health problems",popup =labels[["severemhprob"]]) %>%
+  
+  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`oneplusharmsnarrow_fill`),
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="Any of the above risks",popup =labels[["oneplusharmsnarrow"]]) %>%
+  
+  addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`twoplusharmsnarrow_fill`),
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="2 or more of the above risks",popup =labels[["twoplusharmsnarrow"]]) %>%
+  
+   addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`toxictrionarrow_synthetic_fill`),
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="All 3 of the above risks",popup =labels[["toxictrionarrow_synthetic"]])  %>%
+  addLayersControl(
+   baseGroups = c("Alcohol/substance misuse", "Domestic abuse","Mental health problems",
+     "Any of the above risks","2 or more of the above risks","All 3 of the above risks"),
+    options = layersControlOptions(collapsed = FALSE)) %>%
+   addLegend("topleft", pal = pal, values = seq(0,1),bins=5,
+     labFormat = function(type, cuts, p) { 
+       n = length(cuts) 
+       cuts[n] = "Highest rate" 
+       for (i in 2:(n-1)){cuts[i] = " "} 
+       cuts[1] = "Lowest rate" 
+       paste0(cuts[-n], cuts[-1])},
+    title = "Projected rate of children<br/>affected in<br/>parliametary constituency",
+     na.label = "Missing/excluded",
+    opacity = 0.7
+  ) 
+
+
+```
+
+
+```{r, results='asis',echo=F,warning=F}
 cat(paste0('<script>
   
   window.addEventListener("load", function () {
