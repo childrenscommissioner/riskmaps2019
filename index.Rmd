@@ -220,7 +220,7 @@ leaflet() %>%
 
 ```
 
-## Parliamentary Constituencies Map
+## Parliamentary Constituency Map
 
 
 ```{r, echo=F,message=F,warning=F}
