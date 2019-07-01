@@ -1,7 +1,7 @@
 ---
 title: "Children in families at risk - Local area maps"
 output: 
-  html_document: 
+  html_document:
     template: "C:\\Users\\TCLARKE1\\OneDrive - Department for Education\\Documents\\Admin\\CCO_template_html.html"
     fig_height: 8
     fig_width: 8
@@ -146,6 +146,7 @@ The data underlying these maps can be downloaded from [here](LINK)
 
 *Please note: estimates of local authority alcohol and drug dependence are not comparable to Public Health England estimates due to differences in methodology*
 
+**Click on an area to display more information**
 
 ```{r, echo=F,message=F,warning=F}
 
@@ -223,7 +224,7 @@ leaflet() %>%
 ```
 
 ```{r, include=F}
-readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/toxicTrio_la_data_2.csv") %>% 
+readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/output_files/toxicTrio_la_data_rate.csv") %>% 
   paste0(collapse="\n") %>% 
   openssl::base64_encode() -> encoded
 ```
@@ -232,6 +233,7 @@ readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/Toxic
 
 ## Parliamentary Constituency Map
 
+**Click on an area to display more information**
 
 ```{r, echo=F,message=F,warning=F}
 pc_use<-pcEst %>% bind_rows() %>%
@@ -347,7 +349,7 @@ leaflet() %>%
 ```
 
 ```{r, include=F}
-readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/toxicTrio_la_data_2.csv") %>% 
+readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/output_files/toxicTrio_pc_data_rate.csv") %>% 
   paste0(collapse="\n") %>% 
   openssl::base64_encode() -> encoded
 ```
