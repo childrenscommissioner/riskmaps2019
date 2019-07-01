@@ -148,6 +148,7 @@ The data underlying these maps can be downloaded from [here](LINK)
 
 **Click on an area to display more information**
 
+
 ```{r, echo=F,message=F,warning=F}
 
 require(dplyr)
@@ -234,6 +235,7 @@ readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/Toxic
 ## Parliamentary Constituency Map
 
 **Click on an area to display more information**
+
 
 ```{r, echo=F,message=F,warning=F}
 pc_use<-pcEst %>% bind_rows() %>%
