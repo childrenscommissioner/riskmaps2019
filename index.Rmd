@@ -130,7 +130,7 @@ The maps below present our projected proportions of children living in household
 
 These have been shown to put children at notably greater risk of immediate harm as well as having a detrimental impact on their later life outcomes.
 
-*Note: These figures are not actual data collected from each local area, but are instead projections from a national survey combined with additional predictive modelling. More detail on the methodology for generating these estimates is available in the accompanying [technical report](LINK).*
+*Note: These figures are not actual data collected from each local area, but are instead projections from a national survey combined with additional predictive modelling. More detail on the methodology for generating these estimates is available in the accompanying [technical report](https://www.childrenscommissioner.gov.uk/wp-content/uploads/2019/07/cco-vulnerability-2019-tech-report-2.pdf).*
 
 This approach makes several key assumptions that are difficult to test without further local data:
 
@@ -139,6 +139,8 @@ This approach makes several key assumptions that are difficult to test without f
 * The sample in the national survey is diverse enough to represent the characteristics and interactions of these characteristics in each local area.
 
 As such the results below provide only a useful first step in estimating local levels of these factors. They are in need of further validation from local surveys and administrative data that are not currently collected centrally.
+
+The data underlying these maps can be downloaded from [here](LINK)
 
 ## Local authority Map
 
@@ -219,6 +221,14 @@ leaflet() %>%
   ) 
 
 ```
+
+```{r, include=F}
+readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/toxicTrio_la_data_2.csv") %>% 
+  paste0(collapse="\n") %>% 
+  openssl::base64_encode() -> encoded
+```
+
+[Download underlying data](`r sprintf('data:text/csv;base64,%s', encoded)`)
 
 ## Parliamentary Constituency Map
 
@@ -335,6 +345,14 @@ leaflet() %>%
 
 
 ```
+
+```{r, include=F}
+readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/toxicTrio_la_data_2.csv") %>% 
+  paste0(collapse="\n") %>% 
+  openssl::base64_encode() -> encoded
+```
+
+[Download underlying data](`r sprintf('data:text/csv;base64,%s', encoded)`)
 
 
 ```{r, results='asis',echo=F,warning=F}
