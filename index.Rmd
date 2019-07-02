@@ -358,3 +358,4 @@ cat(paste0('<script>
   ))
 ```
 
+**Both maps contain National Statistics data © Crown copyright and database right 2018 and OS data © Crown copyright and database right 2018**
