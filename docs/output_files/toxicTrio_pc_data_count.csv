@@ -1,534 +1,534 @@
-"Constituency","MP","Party","Projected number of 0-15 yr olds in a household where an adult experienced domestic abuse in last year","Projected number of 0-15 yr olds in a household where an adult has ever experienced domestic abuse","Projected number of 0-15 yr olds in a household where an adult has moderate or higher mental ill-health symptoms","Projected number of 0-15 yr olds in a household where an adult has severe mental ill-health symptoms","Projected number of 0-15 yr olds in a household where an adult reports any substance misuse","Projected number of 0-15 yr olds in a household where an adult has an alcohol or drug dependency","Projected number of 0-15 yr olds in a household where an adult has any of the 'toxic trio' issues (broad measures)","Projected number of 0-15 yr olds in a household where an adult has any of the 'toxic trio' issues (narrow measures)","Projected number of 0-15 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (broad measures)","Projected number of 0-15 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (narrow measures)","Projected number of 0-15 yr olds in a household where an adult has 2 or more of the toxic trio issues (broad measures)","Projected number of 0-15 yr olds in a household where an adult has 2 or more of the toxic trio issues (narrow measures)","Projected number of 0-15 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (broad measures)","Projected number of 0-15 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (narrow measures)"
-"Aldershot","Leo Docherty","Conservative",1450,5520,6410,2450,2050,800,9510,3560,3080,690,3770,940,680,190
-"Aldridge-Brownhills","Wendy Morton","Conservative",970,3660,4130,1630,1400,530,6240,2340,2000,450,2490,610,490,130
-"Altrincham and Sale West","Sir Graham Brady","Conservative",1580,6270,6790,2710,2220,840,10450,3770,3360,730,4180,1030,810,190
-"Amber Valley","Nigel Mills","Conservative",1050,4070,4860,1980,1590,690,7120,2720,2340,590,2880,780,550,150
-"Arundel and South Downs","Nick Herbert","Conservative",970,4080,4660,1650,1680,600,7270,2440,2080,390,2560,570,500,110
-"Ashfield","Gloria De Piero","Labour",1370,5300,6260,2480,2100,810,9160,3540,3050,770,3730,990,700,170
-"Ashford","Damian Green","Conservative",1800,6930,7790,3030,2550,960,11710,4370,3790,850,4680,1110,880,230
-"Ashton-under-Lyne","Angela Rayner","Labour",1580,5420,6580,2900,2010,930,9180,3900,3460,910,4220,1170,740,250
-"Aylesbury","Mr David Lidington","Conservative",1710,6570,7860,3160,2770,1120,11670,4340,3630,830,4500,1190,940,240
-"Banbury","Victoria Prentis","Conservative",1660,6340,7280,2630,2400,900,11020,3880,3370,740,4210,1050,810,210
-"Barking","Dame Margaret Hodge","Labour",2610,11560,13040,5420,4710,1800,19220,7700,6690,1610,8080,2040,1490,460
-"Barnsley Central","Dan Jarvis","Labour",1170,4530,5300,2150,1770,660,7760,3050,2600,670,3190,850,610,150
-"Barnsley East","Stephanie Peacock","Labour",1310,5030,5920,2420,1870,780,8530,3350,2990,740,3640,980,630,200
-"Barrow and Furness","John Woodcock","Independent",1180,4200,5050,2220,1590,780,7190,2940,2510,740,3140,950,590,170
-"Basildon and Billericay","Mr John Baron","Conservative",1750,5690,7390,3230,2290,1130,10290,4330,3780,1090,4660,1400,890,250
-"Basingstoke","Mrs Maria Miller","Conservative",1540,6270,7280,2700,2440,890,10920,3900,3420,740,4250,1040,810,210
-"Bassetlaw","John Mann","Labour",1340,4900,6180,2570,1940,890,8830,3480,2930,820,3600,1050,670,190
-"Bath","Wera Hobhouse","Liberal Democrat",1200,4150,4930,1940,1450,540,6950,2680,2420,660,3060,880,630,140
-"Batley and Spen","Tracy Brabin","Labour Co-op",1700,6480,7250,2850,2260,850,10860,4080,3490,810,4300,1030,800,220
-"Battersea","Marsha De Cordova","Labour",1350,5310,6410,2630,2210,940,9110,3670,3110,810,3830,1060,760,210
-"Beaconsfield","Mr Dominic Grieve","Conservative",1250,4790,5670,2130,1850,750,8660,3130,2510,540,3060,760,550,150
-"Beckenham","Bob Stewart","Conservative",1210,4620,5540,2240,1790,750,8140,3050,2580,590,3170,840,600,160
-"Bedford","Mohammad Yasin","Labour",1660,6470,8270,3530,2490,1120,10960,4700,4010,1080,4950,1410,940,260
-"Bermondsey and Old Southwark","Neil Coyle","Labour",1560,6800,7650,3220,2760,1070,11230,4580,3970,970,4800,1210,900,270
-"Berwick-upon-Tweed","Anne-Marie Trevelyan","Conservative",710,2890,3350,1260,1130,400,4990,1810,1590,350,1980,480,390,100
-"Bethnal Green and Bow","Rushanara Ali","Labour",1970,8310,9320,3880,3260,1240,13660,5500,4770,1180,5790,1480,1120,340
-"Beverley and Holderness","Graham Stuart","Conservative",1080,4160,4820,1820,1530,590,7160,2630,2290,520,2820,700,520,140
-"Bexhill and Battle","Huw Merriman","Conservative",1020,4160,4860,1810,1660,590,7300,2620,2250,480,2810,680,570,150
-"Bexleyheath and Crayford","Sir David Evennett","Conservative",1340,5210,6160,2480,1940,840,9000,3430,2970,760,3660,980,680,180
-"Birkenhead","Frank Field","Independent",1630,5340,6190,2730,2040,910,8980,3950,3150,870,3800,1080,650,240
-"Birmingham, Edgbaston","Preet Kaur Gill","Labour Co-op",1650,6370,6870,2930,2210,920,10040,4000,3620,910,4450,1180,810,250
-"Birmingham, Erdington","Jack Dromey","Labour",1920,7370,8140,3540,2980,1210,12010,4930,4280,1110,5260,1420,1160,290
-"Birmingham, Hall Green","Mr Roger Godsiff","Labour",2390,8540,10070,4340,2970,1320,14260,6010,5220,1350,6290,1700,1010,360
-"Birmingham, Hodge Hill","Liam Byrne","Labour",2660,11490,12770,5330,4400,1630,18780,7500,6540,1610,7900,2030,1450,450
-"Birmingham, Ladywood","Shabana Mahmood","Labour",2430,9870,11260,4760,3750,1520,16370,6710,5870,1460,7070,1820,1210,390
-"Birmingham, Northfield","Richard Burden","Labour",1740,7090,8060,3460,2700,1130,11620,4850,4270,1070,5160,1320,930,280
-"Birmingham, Perry Barr","Mr Khalid Mahmood","Labour",2190,7480,9030,3870,2630,1180,12670,5300,4570,1240,5560,1560,960,330
-"Birmingham, Selly Oak","Steve McCabe","Labour",1350,5020,6320,2510,2030,830,9020,3500,3060,770,3740,1030,670,210
-"Birmingham, Yardley","Jess Phillips","Labour",2040,8360,9370,3920,3400,1300,13740,5580,4830,1200,5890,1520,1210,340
-"Bishop Auckland","Helen Goodman","Labour",1060,4100,4840,1950,1690,680,7100,2790,2380,600,2920,770,560,140
-"Blackburn","Kate Hollern","Labour",2090,7540,8940,3850,2710,1240,12800,5460,4590,1190,5550,1490,920,330
-"Blackley and Broughton","Graham Stringer","Labour",3330,9570,11900,5590,3490,1790,16540,7710,6350,1850,7610,2260,1160,480
-"Blackpool North and Cleveleys","Paul Maynard","Conservative",1080,4190,4780,2020,1580,700,6950,2840,2510,640,3080,810,570,140
-"Blackpool South","Gordon Marsden","Labour",1300,4590,5220,2320,1800,790,7610,3310,2740,760,3320,920,630,200
-"Blaydon","Liz Twist","Labour",1000,3900,4470,1710,1430,540,6730,2450,2090,460,2570,610,480,140
-"Blyth Valley","Mr Ronnie Campbell","Labour",990,3980,4920,1960,1690,740,6980,2790,2390,600,2910,760,520,160
-"Bognor Regis and Littlehampton","Nick Gibb","Conservative",1170,4590,5490,2140,1870,790,8130,3010,2580,620,3190,850,650,160
-"Bolsover","Mr Dennis Skinner","Labour",1270,4940,6110,2560,1900,840,8410,3490,2950,800,3630,1040,700,200
-"Bolton North East","Sir David Crausby","Labour",1610,5740,6970,2960,2350,1060,9980,4110,3570,950,4390,1220,830,240
-"Bolton South East","Yasmin Qureshi","Labour",2020,7400,8800,3840,2790,1300,12470,5310,4650,1190,5650,1510,960,320
-"Bolton West","Chris Green","Conservative",1350,5140,5690,2280,1780,700,8470,3270,2890,670,3540,850,620,170
-"Bootle","Peter Dowd","Labour",1500,5490,6780,2960,2320,1090,9650,4200,3470,920,4190,1150,740,260
-"Boston and Skegness","Matt Warman","Conservative",1300,5040,6080,2440,2000,810,8680,3480,2940,760,3600,950,700,210
-"Bosworth","David Tredinnick","Conservative",1260,4840,5650,2140,1810,700,8400,3110,2680,600,3300,810,600,160
-"Bournemouth East","Mr Tobias Ellwood","Conservative",1430,5400,6170,2470,1930,770,9130,3550,3090,720,3770,920,650,180
-"Bournemouth West","Conor Burns","Conservative",1220,4800,5800,2440,1880,800,8060,3320,2840,750,3510,990,680,190
-"Bracknell","Dr Phillip Lee","Conservative",1660,6220,7300,2880,2310,920,10720,4130,3550,820,4330,1090,770,210
-"Bradford East","Imran Hussain","Labour",2350,8910,10700,4360,3590,1460,15560,6090,5310,1320,6480,1770,1160,340
-"Bradford South","Judith Cummins","Labour",2060,6810,8620,3660,2460,1120,11860,4910,4140,1160,5150,1520,1030,290
-"Bradford West","Naz Shah","Labour",2380,8730,10340,4310,3240,1380,14740,5930,5280,1330,6450,1740,1140,360
-"Braintree","James Cleverly","Conservative",1460,5460,6390,2450,1990,760,9210,3470,3150,750,3940,1030,770,200
-"Brent Central","Dawn Butler","Labour",2190,9200,10620,4370,3720,1430,15460,6200,5330,1310,6450,1690,1220,380
-"Brent North","Barry Gardiner","Labour",1860,7290,8930,3520,3010,1340,13070,4970,4210,1020,5190,1360,1020,270
-"Brentford and Isleworth","Ruth Cadbury","Labour",1890,7240,8670,3470,2980,1310,12790,4880,4150,1050,5140,1390,1010,260
-"Brentwood and Ongar","Alex Burghart","Conservative",1430,5020,5890,2430,1730,690,8410,3360,2950,710,3560,910,620,170
-"Bridgwater and West Somerset","Mr Ian Liddell-Grainger","Conservative",1420,5220,6480,2770,2120,1070,9250,3770,3160,880,3920,1150,730,200
-"Brigg and Goole","Andrew Percy","Conservative",1100,4030,5040,1910,1560,600,7180,2680,2390,570,2960,800,530,150
-"Brighton, Kemptown","Lloyd Russell-Moyle","Labour Co-op",1030,3870,4710,1840,1570,570,6820,2620,2220,570,2730,740,550,130
-"Brighton, Pavilion","Caroline Lucas","Green Party",1060,4310,5040,1870,1700,610,7510,2710,2380,520,2960,720,580,150
-"Bristol East","Kerry McCarthy","Labour",1380,5120,6750,2810,2260,1150,9270,3950,3180,860,3890,1160,700,230
-"Bristol North West","Darren Jones","Labour",1600,5850,7470,3110,2160,980,10200,4260,3540,1010,4310,1290,740,250
-"Bristol South","Karin Smyth","Labour",1810,6950,7880,3330,2400,1050,11290,4580,4140,1030,5010,1330,840,270
-"Bristol West","Thangam Debbonaire","Labour",1360,5370,6650,2570,2310,970,9560,3690,3170,780,3870,1010,750,230
-"Broadland","Mr Keith Simpson","Conservative",1110,4030,5070,2040,1760,750,7360,2760,2280,550,2830,800,580,160
-"Bromley and Chislehurst","Robert Neill","Conservative",1280,5090,6150,2360,2070,870,9100,3340,2870,670,3530,920,700,190
-"Bromsgrove","Sajid Javid","Conservative",1080,4270,5070,1860,1730,680,7660,2700,2300,480,2870,710,550,150
-"Broxbourne","Mr Charles Walker","Conservative",1380,5360,6310,2500,2120,900,9370,3520,3030,760,3730,990,710,180
-"Broxtowe","Anna Soubry","Change UK - The Independent Group",1020,4190,4950,1820,1670,570,7400,2630,2280,490,2830,680,560,150
-"Buckingham","John Bercow","Speaker",1260,5130,5740,2090,2150,750,9030,3060,2640,520,3280,770,660,140
-"Burnley","Julie Cooper","Labour",1620,5530,6620,2920,1850,880,9150,3930,3550,930,4270,1160,670,240
-"Burton","Andrew Griffiths","Conservative",1480,5700,6440,2530,2060,790,9670,3630,3120,710,3840,920,700,190
-"Bury North","James Frith","Labour",1380,5300,5630,2290,1820,680,8500,3280,2930,690,3600,860,660,170
-"Bury South","Mr Ivan Lewis","Independent",1690,6150,6870,2960,2280,970,10090,3970,3470,1000,4380,1280,890,220
-"Bury St Edmunds","Jo Churchill","Conservative",1300,5090,6000,2210,2130,830,9120,3210,2740,580,3420,860,670,170
-"Calder Valley","Craig Whittaker","Conservative",1380,5420,5990,2310,2100,760,9050,3340,2970,690,3730,940,760,170
-"Camberwell and Peckham","Ms Harriet Harman","Labour",2250,8650,9540,4170,3460,1380,14000,5840,5030,1330,6190,1660,1410,350
-"Camborne and Redruth","George Eustice","Conservative",1140,4180,5270,2210,1680,840,7550,3050,2500,690,3080,890,570,170
-"Cambridge","Daniel Zeichner","Labour",1340,5040,6000,2300,1980,770,8810,3300,2830,690,3540,950,710,180
-"Cannock Chase","Amanda Milling","Conservative",1140,4470,5380,2070,1760,730,7940,2910,2510,600,3080,810,610,150
-"Canterbury","Rosie Duffield","Labour",1190,4650,5370,2040,1760,670,8080,2970,2520,550,3100,730,590,160
-"Carlisle","John Stevenson","Conservative",1060,4140,4960,2000,1570,690,7230,2760,2380,610,2930,790,540,140
-"Carshalton and Wallington","Tom Brake","Liberal Democrat",1710,6080,7260,3070,2380,1090,10540,4190,3510,970,4390,1280,880,240
-"Castle Point","Rebecca Harris","Conservative",1150,4090,4690,1890,1460,580,6960,2740,2310,590,2820,720,500,150
-"Central Devon","Mel Stride","Conservative",1140,4250,4970,1950,1550,610,7280,2760,2410,550,2940,740,530,140
-"Central Suffolk and North Ipswich","Dr Dan Poulter","Conservative",1150,4590,5390,1980,1780,690,8170,2860,2460,520,3060,760,580,150
-"Charnwood","Edward Argar","Conservative",1180,4610,5490,2130,1880,760,8180,2990,2540,560,3140,800,610,160
-"Chatham and Aylesford","Tracey Crouch","Conservative",1540,5930,6880,2760,2350,900,10140,3910,3360,860,4130,1120,810,190
-"Cheadle","Mary Robinson","Conservative",1090,4530,5160,1920,1750,670,7960,2780,2420,490,2960,690,510,120
-"Chelmsford","Vicky Ford","Conservative",1340,5450,6450,2380,2130,750,9620,3430,2940,640,3660,890,720,190
-"Chelsea and Fulham","Greg Hands","Conservative",1380,5300,5900,2340,1930,750,8840,3390,2980,680,3660,870,660,170
-"Cheltenham","Alex Chalk","Conservative",1280,5040,5730,2220,1840,700,8610,3180,2740,600,3370,790,620,170
-"Chesham and Amersham","Dame Cheryl Gillan","Conservative",1120,4760,5490,1980,2120,770,8610,2970,2480,460,3060,670,600,130
-"Chesterfield","Toby Perkins","Labour",1160,4370,5610,2380,1710,790,7610,3210,2650,730,3260,960,610,190
-"Chichester","Gillian Keegan","Conservative",1170,4640,5390,1990,1780,670,8110,2930,2520,550,3130,760,600,160
-"Chingford and Woodford Green","Mr Iain Duncan Smith","Conservative",1480,5300,7010,2990,2230,1080,9310,3970,3320,960,4110,1340,830,230
-"Chippenham","Michelle Donelan","Conservative",1390,4930,5850,2240,1850,720,8580,3210,2740,650,3400,890,650,180
-"Chipping Barnet","Theresa Villiers","Conservative",2130,6850,8330,3520,2510,1050,11810,4870,4260,1210,5260,1490,960,270
-"Chorley","Sir Lindsay Hoyle","Labour",1320,5300,5960,2250,2050,720,8980,3250,2890,640,3620,890,720,170
-"Christchurch","Sir Christopher Chope","Conservative",900,3310,3940,1600,1170,470,5660,2220,1940,470,2350,600,400,110
-"Cities of London and Westminster","Mark Field","Conservative",1260,4830,6300,2680,1920,950,8310,3590,3040,840,3740,1120,680,190
-"City of Chester","Christian Matheson","Labour",1150,4420,5080,2000,1640,650,7560,2910,2530,570,3080,730,530,150
-"City of Durham","Dr Roberta Blackman-Woods","Labour",990,3900,4420,1680,1450,540,6710,2410,2070,450,2550,610,470,130
-"Clacton","Giles Watling","Conservative",1010,4180,4630,1930,1660,600,6800,2740,2380,590,2900,750,590,170
-"Cleethorpes","Martin Vickers","Conservative",1140,4550,5530,2220,1920,810,7890,3140,2680,680,3290,870,630,180
-"Colchester","Will Quince","Conservative",1630,6480,7820,3150,2550,1120,11410,4370,3750,930,4620,1200,870,230
-"Colne Valley","Thelma Walker","Labour",1580,6040,7070,2660,2320,860,10370,3810,3420,770,4270,1080,840,220
-"Congleton","Fiona Bruce","Conservative",1110,4090,5010,2040,1710,750,7320,2780,2300,550,2840,790,580,150
-"Copeland","Trudy Harrison","Conservative",990,3590,4210,1730,1340,560,6170,2490,2120,520,2600,660,460,130
-"Corby","Tom Pursglove","Conservative",1630,6340,7350,2780,2330,880,11050,4000,3390,750,4160,990,770,220
-"Coventry North East","Colleen Fletcher","Labour",2280,8620,9990,4290,3110,1360,14230,5880,5280,1320,6400,1690,1070,340
-"Coventry North West","Mr Geoffrey Robinson","Labour",1450,5630,6740,2660,2240,940,9910,3720,3210,800,3960,1050,780,210
-"Coventry South","Mr Jim Cunningham","Labour",1340,5100,6130,2390,1980,710,8900,3400,2900,750,3550,960,680,170
-"Crawley","Henry Smith","Conservative",1670,6500,7360,2830,2440,930,11130,4100,3520,770,4340,1030,810,220
-"Crewe and Nantwich","Laura Smith","Labour",1480,5720,6440,2550,2060,790,9650,3640,3150,720,3880,930,710,190
-"Croydon Central","Sarah Jones","Labour",2150,7090,9430,4020,3090,1530,13170,5490,4720,1310,5780,1700,1050,320
-"Croydon North","Mr Steve Reed","Labour Co-op",2490,9660,11240,4590,3900,1590,16490,6540,5610,1420,6900,1810,1340,330
-"Croydon South","Chris Philp","Conservative",1500,6220,7250,2710,2550,900,10900,3930,3410,740,4270,1020,870,220
-"Dagenham and Rainham","Jon Cruddas","Labour",2110,7610,9220,3960,2920,1320,13050,5440,4740,1210,5780,1580,1020,330
-"Darlington","Jenny Chapman","Labour",1270,4930,5720,2340,1970,810,8370,3340,2910,730,3560,930,650,160
-"Dartford","Gareth Johnson","Conservative",1510,6250,7230,2660,2440,850,10890,3860,3370,720,4190,1000,810,210
-"Daventry","Chris Heaton-Harris","Conservative",1480,4840,5960,2420,1820,740,8490,3340,2860,740,3500,970,640,180
-"Denton and Reddish","Andrew Gwynne","Labour",1210,4790,6030,2560,1870,850,8150,3450,2950,790,3610,1020,640,190
-"Derby North","Chris Williamson","Independent",1250,5040,6190,2400,2160,890,8950,3440,2960,720,3610,920,670,210
-"Derby South","Margaret Beckett","Labour",1960,8200,9220,3890,3260,1260,13530,5460,4730,1190,5750,1510,1120,330
-"Derbyshire Dales","Sir Patrick McLoughlin","Conservative",730,2880,3500,1330,1130,450,5260,1920,1570,320,1920,440,340,90
-"Devizes","Claire Perry","Conservative",1290,5000,5960,2290,2010,800,8940,3230,2710,600,3380,870,670,180
-"Dewsbury","Paula Sherriff","Labour",1700,6560,7400,2890,2400,910,11140,4160,3550,810,4380,1060,820,230
-"Don Valley","Caroline Flint","Labour",1180,4790,5830,2260,1910,800,8420,3220,2800,680,3380,860,570,190
-"Doncaster Central","Dame Rosie Winterton","Labour",1470,5700,6770,2720,2280,920,9870,3870,3340,840,4080,1070,750,180
-"Doncaster North","Edward Miliband","Labour",1490,5650,6680,2800,2130,910,9550,3880,3440,850,4190,1110,730,230
-"Dover","Charlie Elphicke","Conservative",1180,4750,5820,2290,1980,820,8340,3240,2800,700,3410,880,620,190
-"Dudley North","Ian Austin","Independent",1650,5140,6440,2920,1760,790,8790,3780,3440,990,4120,1190,620,210
-"Dudley South","Mike Wood","Conservative",1050,4190,5250,2130,1830,810,7430,3010,2520,640,3080,820,580,170
-"Dulwich and West Norwood","Helen Hayes","Labour",1890,6740,8210,3470,2840,1330,11850,4940,4120,1110,5040,1410,940,260
-"Ealing Central and Acton","Dr Rupa Huq","Labour",1530,6200,7560,2980,2580,1070,10910,4240,3630,890,4420,1130,790,250
-"Ealing North","Stephen Pound","Labour",2260,7750,9680,4110,3200,1410,13770,5650,4840,1360,5970,1740,1160,320
-"Ealing, Southall","Mr Virendra Sharma","Labour",1490,5750,7230,2820,2430,1010,10250,3980,3420,870,4190,1130,820,250
-"Easington","Grahame Morris","Labour",1120,4640,5090,2160,1850,700,7540,3040,2630,660,3210,840,680,190
-"East Devon","Sir Hugo Swire","Conservative",1160,4430,5300,2080,1910,780,7910,2920,2430,550,3030,800,640,160
-"East Ham","Stephen Timms","Labour",3080,11250,13320,5600,4330,1920,19130,7910,6830,1740,8310,2260,1440,480
-"East Hampshire","Mr Damian Hinds","Conservative",1220,4910,5520,2150,1820,710,8440,3050,2660,560,3290,790,610,140
-"East Surrey","Mr Sam Gyimah","Conservative",1350,5360,6420,2400,2250,900,9640,3460,2920,620,3630,900,690,180
-"East Worthing and Shoreham","Tim Loughton","Conservative",1200,4850,5630,2080,1940,710,8460,3010,2650,570,3310,820,660,160
-"East Yorkshire","Sir Greg Knight","Conservative",1240,4560,5230,2150,1650,670,7670,3090,2650,630,3260,790,590,170
-"Eastbourne","Stephen Lloyd","Independent",1260,4880,5880,2370,1930,840,8620,3290,2780,690,3430,920,670,180
-"Eastleigh","Mims Davies","Conservative",1650,5820,6570,2620,2090,810,9760,3700,3170,760,3940,1040,770,200
-"Eddisbury","Antoinette Sandbach","Conservative",1100,4420,5090,1930,1720,650,7580,2800,2470,560,3070,760,600,150
-"Edmonton","Kate Osamor","Labour Co-op",1920,8510,9880,4060,3310,1290,14290,5750,4980,1220,5970,1530,970,340
-"Ellesmere Port and Neston","Justin Madders","Labour",1000,4030,4830,1890,1610,690,7120,2670,2290,550,2810,720,540,140
-"Elmet and Rothwell","Alec Shelbrooke","Conservative",1210,4510,5470,2230,1870,770,8030,3050,2510,580,3110,830,660,170
-"Eltham","Clive Efford","Labour",1340,5190,6110,2390,2120,790,8980,3430,2960,750,3630,960,690,160
-"Enfield North","Joan Ryan","Change UK - The Independent Group",2020,7770,9130,4010,3230,1400,13180,5620,4670,1250,5710,1560,1200,340
-"Enfield, Southgate","Bambos Charalambous","Labour",1490,5500,6280,2560,1970,800,9240,3660,3220,750,3930,960,680,180
-"Epping Forest","Dame Eleanor Laing","Conservative",1210,4990,5820,2160,2040,720,8790,3130,2720,590,3390,820,660,170
-"Epsom and Ewell","Chris Grayling","Conservative",1320,5540,6290,2290,2240,810,9800,3380,2890,550,3550,780,640,150
-"Erewash","Maggie Throup","Conservative",1200,4660,5820,2300,2020,860,8260,3270,2780,700,3400,910,650,200
-"Erith and Thamesmead","Teresa Pearce","Labour",2630,9130,10660,4640,3240,1430,15020,6230,5690,1500,6930,1890,1200,400
-"Esher and Walton","Dominic Raab","Conservative",1430,6110,7020,2450,2550,890,10970,3640,3120,570,3830,830,730,160
-"Exeter","Mr Ben Bradshaw","Labour",1190,4610,5200,2010,1760,650,7910,2890,2470,540,3060,740,590,160
-"Fareham","Suella Braverman","Conservative",950,4020,4790,1660,1680,610,7350,2460,2070,380,2540,560,490,110
-"Faversham and Mid Kent","Helen Whately","Conservative",1350,5170,5870,2290,2000,760,8880,3360,2870,640,3530,840,650,180
-"Feltham and Heston","Seema Malhotra","Labour Co-op",2170,8410,9700,3860,3370,1240,14300,5530,4780,1210,5890,1550,1160,270
-"Filton and Bradley Stoke","Jack Lopresti","Conservative",1350,5060,5850,2280,1820,710,8630,3230,2800,640,3440,870,630,170
-"Finchley and Golders Green","Mike Freer","Conservative",2240,7310,8960,3450,2520,1050,12670,4990,4310,1080,5290,1480,890,270
-"Folkestone and Hythe","Damian Collins","Conservative",1280,5000,6220,2400,2130,900,8970,3420,2940,730,3580,950,690,210
-"Forest of Dean","Mr Mark Harper","Conservative",1010,4020,4650,1760,1570,590,6910,2540,2240,500,2800,700,550,140
-"Fylde","Mark Menzies","Conservative",910,3450,4070,1550,1420,540,6100,2210,1880,430,2340,610,490,120
-"Gainsborough","Sir Edward Leigh","Conservative",1280,4500,5030,1970,1540,580,7480,2840,2410,610,2990,760,570,150
-"Garston and Halewood","Maria Eagle","Labour",1540,5570,6460,2770,2080,890,9220,3770,3400,880,4160,1120,750,230
-"Gateshead","Ian Mearns","Labour",1380,5220,6040,2610,1890,820,8610,3570,3210,800,3890,1020,650,210
-"Gedling","Vernon Coaker","Labour",1280,4930,5340,2110,1790,660,8140,3040,2640,610,3280,790,640,160
-"Gillingham and Rainham","Rehman Chishti","Conservative",1440,5510,6530,2590,2210,940,9660,3620,3100,770,3850,1040,770,200
-"Gloucester","Richard Graham","Conservative",1670,6550,8000,3160,2830,1190,11490,4470,3840,960,4720,1280,950,270
-"Gosport","Caroline Dinenage","Conservative",1470,5090,5910,2430,1920,770,8660,3470,2990,730,3700,960,700,180
-"Grantham and Stamford","Nick Boles","Independent",1340,5330,6300,2350,2210,800,9400,3390,2950,650,3690,930,750,190
-"Gravesham","Adam Holloway","Conservative",1770,5800,7470,3170,2400,1180,10550,4230,3520,1070,4400,1440,870,270
-"Great Grimsby","Melanie Onn","Labour",1670,5320,6760,3070,2320,1050,9490,4150,3450,990,4270,1260,1010,250
-"Great Yarmouth","Brandon Lewis","Conservative",1480,4990,6350,2760,1960,930,8860,3700,3270,910,4030,1170,760,220
-"Greenwich and Woolwich","Matthew Pennycook","Labour",2220,8370,9530,4050,3110,1310,13720,5610,5010,1250,6130,1620,1090,340
-"Guildford","Anne Milton","Conservative",1260,5000,5860,2150,2130,790,8910,3150,2690,570,3360,820,690,170
-"Hackney North and Stoke Newington","Ms Diane Abbott","Labour",2990,10200,11910,5250,3640,1610,16680,7010,6410,1710,7840,2150,1390,450
-"Hackney South and Shoreditch","Meg Hillier","Labour Co-op",2330,7740,9290,4220,3280,1520,13240,5770,4960,1410,6120,1750,1370,340
-"Halesowen and Rowley Regis","James Morris","Conservative",1310,4870,5890,2410,1790,710,8170,3320,2830,790,3510,1020,730,200
-"Halifax","Holly Lynch","Labour",1600,6190,7230,2970,2440,1000,10570,4210,3620,920,4430,1170,820,210
-"Haltemprice and Howden","Mr David Davis","Conservative",880,3650,4200,1540,1500,550,6490,2250,1910,370,2370,540,480,110
-"Halton","Derek Twigg","Labour",1340,5190,6120,2460,2060,800,8940,3480,3000,760,3670,970,700,180
-"Hammersmith","Andy Slaughter","Labour",1360,5860,6710,2760,2270,870,9710,3920,3370,830,4070,1050,760,240
-"Hampstead and Kilburn","Tulip Siddiq","Labour",2000,7510,9280,3790,2810,1150,12800,5190,4440,1250,5480,1590,1110,310
-"Harborough","Neil O'Brien","Conservative",1260,4880,5700,2150,1920,750,8630,3070,2610,570,3260,830,640,160
-"Harlow","Robert Halfon","Conservative",1620,5580,7690,3260,2270,1120,10030,4340,3590,1070,4390,1450,780,270
-"Harrogate and Knaresborough","Andrew Jones","Conservative",1220,4940,5480,2130,1820,680,8470,3010,2580,550,3200,770,630,150
-"Harrow East","Bob Blackman","Conservative",1420,5820,6700,2550,2310,850,10230,3730,3150,660,3880,880,730,200
-"Harrow West","Gareth Thomas","Labour Co-op",1710,6190,7210,2840,2300,880,10680,4070,3450,830,4270,1070,820,230
-"Hartlepool","Mike Hill","Labour",1250,5090,5870,2440,2130,810,8540,3470,2940,740,3590,950,770,220
-"Harwich and North Essex","Sir Bernard Jenkin","Conservative",1260,4320,5230,1980,1620,610,7460,2800,2520,660,3160,900,640,160
-"Hastings and Rye","Amber Rudd","Conservative",1540,5960,6600,2750,2160,860,9610,3810,3430,860,4210,1110,770,220
-"Havant","Alan Mak","Conservative",1120,4580,5530,2180,1920,780,8020,3120,2680,660,3260,820,590,180
-"Hayes and Harlington","John McDonnell","Labour",2300,8920,10200,4180,3450,1320,14990,5910,5100,1310,6280,1660,1230,300
-"Hazel Grove","Mr William Wragg","Conservative",1090,3860,4620,1780,1470,610,6710,2600,2220,540,2750,740,510,150
-"Hemel Hempstead","Sir Mike Penning","Conservative",1570,6100,6850,2730,2190,850,10220,3940,3460,790,4220,990,730,200
-"Hemsworth","Jon Trickett","Labour",1390,5350,6570,2830,2010,890,9070,3800,3140,870,3870,1140,770,230
-"Hendon","Dr Matthew Offord","Conservative",2330,8720,10370,4390,3210,1450,14970,5900,5070,1380,6280,1760,1160,310
-"Henley","John Howell","Conservative",990,4090,4880,1700,1690,600,7440,2500,2110,400,2590,580,520,120
-"Hereford and South Herefordshire","Jesse Norman","Conservative",1130,4530,5340,1970,1820,660,7990,2840,2470,530,3080,760,620,160
-"Hertford and Stortford","Mr Mark Prisk","Conservative",1290,5350,6220,2200,2320,820,9700,3240,2730,510,3380,770,700,150
-"Hertsmere","Oliver Dowden","Conservative",1610,5930,6920,2760,2150,860,10140,3870,3330,770,4090,1060,760,200
-"Hexham","Guy Opperman","Conservative",700,2960,3410,1210,1270,450,5310,1800,1530,290,1890,420,370,80
-"Heywood and Middleton","Liz McInnes","Labour",1570,6010,6930,2890,2390,1020,10130,4100,3540,910,4360,1160,840,220
-"High Peak","Ruth George","Labour",1040,4170,4780,1790,1600,580,7160,2580,2270,500,2840,710,560,140
-"Hitchin and Harpenden","Bim Afolami","Conservative",1220,5220,6140,2130,2220,790,9510,3180,2700,490,3310,710,620,150
-"Holborn and St Pancras","Keir Starmer","Labour",1850,7710,8760,3740,3090,1260,12770,5270,4550,1140,5520,1430,1060,310
-"Hornchurch and Upminster","Julia Lopez","Conservative",1340,5340,6500,2490,2150,880,9550,3540,3030,720,3730,940,740,190
-"Hornsey and Wood Green","Catherine West","Labour",1530,6140,7390,2850,2480,1020,10900,4030,3470,830,4270,1090,860,220
-"Horsham","Jeremy Quin","Conservative",1320,5540,6120,2240,2260,790,9640,3290,2850,560,3520,800,680,150
-"Houghton and Sunderland South","Bridget Phillipson","Labour",1180,4340,5170,2200,1570,690,7390,3060,2610,680,3210,860,600,170
-"Hove","Peter Kyle","Labour",1230,4920,5740,2170,1820,690,8390,3100,2800,630,3470,850,640,160
-"Huddersfield","Mr Barry Sheerman","Labour Co-op",1370,5310,6150,2470,2030,720,9030,3490,3000,770,3690,970,730,180
-"Huntingdon","Mr Jonathan Djanogly","Conservative",1410,5620,6540,2380,2140,800,9830,3490,3030,660,3770,920,710,190
-"Hyndburn","Graham P Jones","Labour",1410,4930,6400,2660,2040,1010,8920,3820,3000,830,3630,1090,600,240
-"Ilford North","Wes Streeting","Labour",1620,6150,7030,2690,2340,880,10590,3900,3370,730,4170,990,790,210
-"Ilford South","Mike Gapes","Change UK - The Independent Group",2390,9320,11530,4420,3570,1440,16430,6250,5440,1390,6610,1740,1220,390
-"Ipswich","Sandy Martin","Labour",1500,6000,7330,2850,2580,1060,10620,4070,3520,860,4280,1110,790,240
-"Isle of Wight","Mr Bob Seely","Conservative",1580,5990,7150,2970,2260,1010,10360,4050,3490,920,4310,1180,800,220
-"Islington North","Jeremy Corbyn","Labour",1680,5990,7280,3210,2500,1160,10410,4490,3760,1020,4570,1280,880,270
-"Islington South and Finsbury","Emily Thornberry","Labour",1260,5210,5830,2500,2120,800,8580,3510,3040,760,3700,950,750,210
-"Jarrow","Mr Stephen Hepburn","Labour",1080,4200,4910,2010,1630,680,7130,2860,2500,620,3060,790,550,140
-"Keighley","John Grogan","Labour",1530,5810,6560,2720,2070,820,9670,3880,3360,800,4130,1000,750,200
-"Kenilworth and Southam","Jeremy Wright","Conservative",860,3580,4160,1570,1380,540,6350,2260,1960,400,2400,550,410,90
-"Kensington","Emma Dent Coad","Labour",1430,5340,6210,2570,2070,890,9160,3510,3030,810,3770,1060,740,210
-"Kettering","Mr Philip Hollobone","Conservative",1550,6020,6660,2710,2010,790,9820,3860,3460,800,4210,990,710,190
-"Kingston and Surbiton","Sir Edward Davey","Liberal Democrat",1720,6530,7480,2910,2410,930,11150,4220,3610,820,4450,1090,830,220
-"Kingston upon Hull East","Karl Turner","Labour",1500,6000,6300,2730,2130,840,9300,3810,3370,870,4140,1080,900,230
-"Kingston upon Hull North","Diana Johnson","Labour",1420,5980,6630,2810,2360,890,9790,3990,3440,850,4170,1060,800,240
-"Kingston upon Hull West and Hessle","Emma Hardy","Labour",1080,4580,5290,2190,1890,710,7710,3080,2650,650,3220,840,650,190
-"Kingswood","Chris Skidmore","Conservative",1340,4500,5670,2250,1760,730,8080,3150,2650,650,3270,910,610,170
-"Knowsley","Sir George Howarth","Labour",1500,6400,7150,2980,2550,980,10550,4220,3690,890,4460,1140,830,260
-"Lancaster and Fleetwood","Cat Smith","Labour",1240,4110,4540,1920,1290,530,6670,2750,2310,630,2810,750,480,140
-"Leeds Central","Hilary Benn","Labour",2270,9300,10010,4340,3480,1340,14760,6080,5420,1360,6580,1660,1250,350
-"Leeds East","Richard Burgon","Labour",2040,7460,8580,3750,3030,1240,12410,5190,4490,1200,5510,1510,1210,310
-"Leeds North East","Fabian Hamilton","Labour",1360,5050,6150,2370,1980,830,8860,3390,2940,710,3680,990,720,190
-"Leeds North West","Alex Sobel","Labour Co-op",780,3000,3490,1270,1150,430,5250,1860,1610,360,2010,510,390,100
-"Leeds West","Rachel Reeves","Labour",1390,5230,6080,2520,2270,910,8840,3580,3080,760,3790,1020,860,220
-"Leicester East","Keith Vaz","Labour",2000,7440,8880,3710,2850,1260,12740,5200,4550,1180,5560,1490,1000,270
-"Leicester South","Jonathan Ashworth","Labour Co-op",1780,6950,7960,3220,2690,1010,11710,4590,3980,1010,4880,1280,930,230
-"Leicester West","Liz Kendall","Labour",1860,7670,8410,3610,3110,1150,12480,5070,4390,1120,5380,1390,1160,310
-"Leigh","Jo Platt","Labour Co-op",1490,5030,6070,2540,1820,820,8880,3580,2860,820,3460,1010,600,180
-"Lewes","Maria Caulfield","Conservative",1080,4280,4850,1820,1620,580,7260,2600,2330,530,2920,740,580,140
-"Lewisham East","Janet Daby","Labour",1830,6270,8030,3340,2590,1120,11330,4580,3980,1030,4880,1370,890,290
-"Lewisham West and Penge","Ellie Reeves","Labour",1870,7160,8210,3430,2570,1080,11800,4740,4250,1060,5170,1370,890,290
-"Lewisham, Deptford","Vicky Foxcroft","Labour",1610,6980,7940,3330,2740,1070,11600,4710,4080,1010,4920,1250,860,280
-"Leyton and Wanstead","John Cryer","Labour",1580,6010,7990,3360,2640,1330,10810,4630,3790,1020,4640,1360,830,260
-"Lichfield","Michael Fabricant","Conservative",1270,4560,5080,1940,1620,590,7550,2790,2480,580,3080,780,590,150
-"Lincoln","Karen Lee","Labour",1360,5240,6050,2460,2120,830,8900,3510,3030,770,3730,980,740,180
-"Liverpool, Riverside","Dame Louise Ellman","Labour Co-op",1160,4440,5160,2200,1500,600,7310,3050,2560,690,3100,850,590,190
-"Liverpool, Walton","Dan Carden","Labour",1160,4990,5820,2380,2080,770,8470,3400,2910,700,3520,900,650,210
-"Liverpool, Wavertree","Luciana Berger","Independent",1340,5000,5880,2430,1970,830,8490,3390,3000,750,3680,990,680,200
-"Liverpool, West Derby","Stephen Twigg","Labour Co-op",1290,5530,6220,2600,2260,850,9140,3690,3190,790,3870,990,760,220
-"Loughborough","Nicky Morgan","Conservative",1240,4780,5480,2070,1860,690,8160,2980,2640,590,3310,840,680,160
-"Louth and Horncastle","Victoria Atkins","Conservative",1010,3900,4630,1840,1530,660,6820,2570,2200,540,2720,730,540,140
-"Ludlow","Mr Philip Dunne","Conservative",890,3210,3990,1670,1380,630,5780,2230,1800,440,2240,650,490,130
-"Luton North","Kelvin Hopkins","Independent",1660,6520,8030,3170,2890,1240,11550,4540,3870,960,4730,1270,910,270
-"Luton South","Mr Gavin Shuker","Independent",1920,7430,8830,3450,2990,1070,12940,4920,4230,1080,5180,1370,980,240
-"Macclesfield","David Rutley","Conservative",1160,4160,5130,2160,1760,730,7400,2840,2380,610,2930,850,620,160
-"Maidenhead","Mrs Theresa May","Conservative",1270,5270,6150,2200,2190,800,9500,3240,2780,520,3410,760,630,150
-"Maidstone and The Weald","Mrs Helen Grant","Conservative",1360,5330,6200,2280,2040,780,9310,3370,2900,640,3600,880,680,180
-"Makerfield","Yvonne Fovargue","Labour",1510,5390,6060,2440,1930,720,8900,3440,3060,770,3830,970,760,190
-"Maldon","Mr John Whittingdale","Conservative",1020,3990,4640,1730,1510,580,6940,2510,2180,480,2700,670,500,140
-"Manchester Central","Lucy Powell","Labour Co-op",2190,8440,9220,3990,3300,1310,13530,5660,4930,1260,6020,1570,1230,330
-"Manchester, Gorton","Afzal Khan","Labour",2190,7740,9200,3970,2900,1300,12980,5400,4770,1230,5860,1610,1070,320
-"Manchester, Withington","Jeff Smith","Labour",1230,4770,5980,2480,1970,880,8210,3440,2930,770,3600,990,660,190
-"Mansfield","Ben Bradley","Conservative",1450,5610,6580,2700,2260,910,9650,3820,3250,840,4000,1060,770,200
-"Meon Valley","George Hollingbery","Conservative",1100,4160,5050,2030,1700,710,7410,2770,2330,540,2870,770,570,150
-"Meriden","Dame Caroline Spelman","Conservative",1480,5880,7290,2850,2520,1060,10430,4070,3490,870,4260,1110,790,240
-"Mid Bedfordshire","Ms Nadine Dorries","Conservative",1550,5840,6830,2720,2330,940,10260,3830,3310,760,4120,1070,800,200
-"Mid Derbyshire","Mrs Pauline Latham","Conservative",1020,3800,4580,1910,1590,660,6680,2560,2140,500,2650,710,580,140
-"Mid Dorset and North Poole","Michael Tomlinson","Conservative",960,3690,4480,1790,1510,650,6580,2470,2080,470,2550,670,490,130
-"Mid Norfolk","George Freeman","Conservative",1380,4970,5780,2310,1770,700,8430,3250,2800,670,3430,890,620,170
-"Mid Sussex","Sir Nicholas Soames","Conservative",1380,5590,6480,2430,2270,880,9980,3520,3000,590,3690,870,690,150
-"Mid Worcestershire","Nigel Huddleston","Conservative",1250,4800,5570,2120,1860,700,8220,3050,2680,620,3370,870,690,170
-"Middlesbrough","Andy McDonald","Labour",1530,6320,7150,3100,2420,1020,10320,4350,3840,950,4640,1170,830,250
-"Middlesbrough South and East Cleveland","Mr Simon Clarke","Conservative",1240,4770,5530,2250,1840,720,8090,3190,2750,710,3370,900,640,150
-"Milton Keynes North","Mark Lancaster","Conservative",2180,8120,9550,3970,3030,1340,13890,5410,4660,1240,5790,1610,1100,300
-"Milton Keynes South","Iain Stewart","Conservative",2410,8790,10550,4470,3360,1520,15190,6020,5150,1430,6420,1840,1230,340
-"Mitcham and Morden","Siobhain McDonagh","Labour",1510,5980,7420,2940,2510,1080,10540,4170,3550,880,4330,1130,820,250
-"Mole Valley","Sir Paul Beresford","Conservative",1040,4290,4950,1800,1720,630,7630,2630,2240,440,2760,620,530,130
-"Morecambe and Lunesdale","David Morris","Conservative",1430,4620,6140,2600,1870,860,8100,3520,2850,910,3550,1250,750,200
-"Morley and Outwood","Andrea Jenkyns","Conservative",1300,4610,5570,2180,1820,760,8200,3170,2590,620,3230,870,620,170
-"New Forest East","Dr Julian Lewis","Conservative",1260,4260,5260,2150,1590,670,7440,3010,2560,630,3120,840,550,160
-"New Forest West","Sir Desmond Swayne","Conservative",840,3170,3880,1560,1360,600,5680,2170,1800,410,2210,590,430,110
-"Newark","Robert Jenrick","Conservative",1360,4960,5750,2300,1850,730,8450,3280,2800,650,3460,880,650,170
-"Newbury","Richard Benyon","Conservative",1480,5640,6910,2770,2380,1050,10130,3840,3180,730,3920,1040,760,200
-"Newcastle-under-Lyme","Paul Farrelly","Labour",1090,4140,4760,1890,1520,590,7130,2730,2270,530,2790,680,510,150
-"Newcastle upon Tyne Central","Chi Onwurah","Labour",1580,5950,7140,3010,2250,1000,10170,4180,3710,910,4480,1190,740,240
-"Newcastle upon Tyne East","Mr Nicholas Brown","Labour",940,3860,4340,1840,1500,590,6320,2580,2240,560,2720,710,540,160
-"Newcastle upon Tyne North","Catherine McKinnell","Labour",1200,4760,5940,2370,2020,900,8390,3370,2860,720,3490,930,640,200
-"Newton Abbot","Anne Marie Morris","Conservative",990,3830,4710,1800,1560,660,6820,2620,2240,520,2790,720,530,140
-"Normanton, Pontefract and Castleford","Yvette Cooper","Labour",1530,5920,6960,2830,2390,970,10150,4040,3490,880,4280,1120,800,200
-"North Cornwall","Scott Mann","Conservative",1160,4360,5150,2100,1660,690,7570,3060,2580,610,3150,770,540,150
-"North Devon","Peter Heaton-Jones","Conservative",1090,4350,5010,1850,1700,610,7520,2660,2340,510,2940,740,600,140
-"North Dorset","Simon Hoare","Conservative",1240,4230,5250,2200,1560,690,7580,2990,2400,590,2940,830,520,170
-"North Durham","Mr Kevan Jones","Labour",1180,4170,5570,2330,1810,850,7450,3100,2580,740,3210,1050,690,190
-"North East Bedfordshire","Alistair Burt","Conservative",1780,6320,7180,2800,2260,850,10620,4060,3460,790,4290,1060,820,210
-"North East Cambridgeshire","Stephen Barclay","Conservative",1600,6020,6930,2860,2210,940,10200,3940,3370,850,4190,1110,820,220
-"North East Derbyshire","Lee Rowley","Conservative",1170,4080,4970,1910,1430,560,7020,2690,2380,600,2970,820,550,150
-"North East Hampshire","Mr Ranil Jayawardena","Conservative",1100,4660,5460,1900,1990,710,8480,2830,2390,430,2930,640,550,120
-"North East Hertfordshire","Sir Oliver Heald","Conservative",1410,5140,6100,2450,1860,720,8880,3420,2870,710,3540,920,650,190
-"North East Somerset","Mr Jacob Rees-Mogg","Conservative",1180,4400,5360,2160,1870,790,7870,2940,2450,560,3040,830,640,160
-"North Herefordshire","Bill Wiggin","Conservative",1130,3720,4320,1700,1330,520,6400,2490,2020,510,2480,670,450,140
-"North Norfolk","Norman Lamb","Liberal Democrat",750,3020,3560,1310,1200,420,5320,1880,1630,350,2030,510,410,100
-"North Shropshire","Mr Owen Paterson","Conservative",1420,5040,5880,2320,1860,740,8610,3320,2850,670,3510,910,650,180
-"North Somerset","Dr Liam Fox","Conservative",1100,4450,5210,1870,2000,750,8050,2840,2380,440,2950,660,590,130
-"North Swindon","Justin Tomlinson","Conservative",1530,6130,7100,2650,2370,850,10620,3780,3310,730,4140,1050,850,200
-"North Thanet","Sir Roger Gale","Conservative",1190,4720,5900,2360,2060,930,8380,3360,2830,710,3460,930,650,200
-"North Tyneside","Mary Glindon","Labour",1300,4910,5880,2400,2090,940,8600,3460,2890,750,3550,960,690,180
-"North Warwickshire","Craig Tracey","Conservative",1200,4710,5320,2010,1810,640,7980,2880,2580,580,3230,820,660,160
-"North West Cambridgeshire","Mr Shailesh Vara","Conservative",2100,7990,8720,3470,2830,1070,13150,4980,4340,990,5370,1290,1020,270
-"North West Durham","Laura Pidcock","Labour",1350,4590,5380,2220,1620,620,7700,3010,2570,760,3250,940,700,160
-"North West Hampshire","Kit Malthouse","Conservative",1300,5160,6080,2220,2080,810,9230,3230,2760,570,3450,860,680,170
-"North West Leicestershire","Andrew Bridgen","Conservative",1240,4600,5650,2110,1930,710,8230,3020,2600,590,3290,860,710,180
-"North West Norfolk","Sir Henry Bellingham","Conservative",1100,4400,5250,2080,1700,730,7710,2920,2520,620,3090,790,580,150
-"North Wiltshire","James Gray","Conservative",1370,4700,5480,2130,1580,630,8110,2980,2530,640,3130,880,590,140
-"Northampton North","Michael Ellis","Conservative",1560,5250,6550,2760,1750,790,8770,3820,3190,970,3890,1250,650,210
-"Northampton South","Andrew Lewer","Conservative",1890,6600,7490,3280,2070,830,10660,4530,4050,1090,4940,1350,860,220
-"Norwich North","Chloe Smith","Conservative",1050,4140,4940,1950,1660,700,7320,2730,2330,570,2880,760,570,150
-"Norwich South","Clive Lewis","Labour",1120,4330,5010,1980,1730,630,7400,2830,2430,620,2990,800,590,130
-"Nottingham East","Mr Chris Leslie","Change UK - The Independent Group",1400,5730,6770,2890,2470,1060,9800,4110,3470,880,4220,1110,820,240
-"Nottingham North","Alex Norris","Labour Co-op",1890,7320,8300,3630,2990,1290,12150,5100,4270,1110,5250,1430,1170,310
-"Nottingham South","Lilian Greenwood","Labour",1170,4570,5470,2130,1820,650,7990,3040,2620,660,3190,840,590,150
-"Nuneaton","Mr Marcus Jones","Conservative",1480,5270,6820,3000,1950,860,8940,3880,3250,1010,4030,1340,800,210
-"Old Bexley and Sidcup","James Brokenshire","Conservative",1060,4140,4830,1780,1560,580,7250,2600,2200,500,2750,690,530,140
-"Oldham East and Saddleworth","Debbie Abrahams","Labour",1650,6430,7520,2980,2610,980,11070,4260,3670,930,4490,1190,860,200
-"Oldham West and Royton","Jim McMahon","Labour Co-op",1940,7470,8600,3590,2590,1100,12320,4940,4420,1100,5350,1420,890,290
-"Orpington","Joseph Johnson","Conservative",1210,4760,5690,2110,1900,690,8410,3040,2650,580,3300,820,650,170
-"Oxford East","Anneliese Dodds","Labour Co-op",1690,6190,7670,3240,2240,930,10400,4370,3670,1050,4540,1360,910,250
-"Oxford West and Abingdon","Layla Moran","Liberal Democrat",1230,4990,5810,2190,2000,760,8900,3140,2680,560,3300,790,620,150
-"Pendle","Andrew Stephenson","Conservative",1160,4790,5790,2220,1930,800,8540,3160,2720,630,3330,820,650,170
-"Penistone and Stocksbridge","Angela Smith","Independent",980,3750,4530,1790,1570,650,6690,2500,2080,470,2580,670,530,140
-"Penrith and The Border","Rory Stewart","Conservative",750,3230,3650,1340,1360,480,5730,1970,1680,320,2080,450,400,90
-"Peterborough","Ms Lisa Forbes","Labour",2060,7690,9200,3780,2960,1240,13190,5260,4640,1160,5660,1530,1000,310
-"Plymouth, Moor View","Johnny Mercer","Conservative",1340,5040,6060,2430,1940,800,8730,3390,3000,750,3650,1000,640,190
-"Plymouth, Sutton and Devonport","Luke Pollard","Labour Co-op",1370,5270,5960,2410,2030,770,8810,3440,2990,760,3680,980,720,180
-"Poole","Sir Robert Syms","Conservative",1240,4820,5460,2190,1720,680,8090,3140,2760,630,3370,790,580,160
-"Poplar and Limehouse","Jim Fitzpatrick","Labour",2200,9320,11110,4480,3750,1360,15880,6350,5410,1340,6530,1720,1230,410
-"Portsmouth North","Penny Mordaunt","Conservative",1360,5380,6650,2580,2320,960,9570,3680,3170,790,3870,1020,730,220
-"Portsmouth South","Stephen Morgan","Labour",1440,5380,6300,2580,2050,850,9120,3600,3170,790,3880,1060,690,210
-"Preston","Sir Mark Hendrick","Labour Co-op",1440,5380,6540,2670,2070,860,9320,3730,3290,820,4000,1070,690,220
-"Pudsey","Stuart Andrew","Conservative",1210,4630,5620,2270,1960,830,8260,3120,2600,600,3210,850,650,170
-"Putney","Justine Greening","Conservative",1200,4720,5710,2200,1940,810,8430,3110,2670,630,3300,860,670,170
-"Rayleigh and Wickford","Mr Mark Francois","Conservative",1110,4360,5170,1920,1800,720,7810,2770,2350,500,2930,740,590,150
-"Reading East","Matt Rodda","Labour",1620,6150,7300,2790,2300,880,10550,3950,3540,840,4420,1160,850,220
-"Reading West","Alok Sharma","Conservative",1360,5600,6850,2620,2320,940,10120,3720,3180,740,3890,970,770,200
-"Redcar","Anna Turley","Labour Co-op",1130,4180,5190,2090,1640,680,7420,2910,2520,640,3070,850,550,170
-"Redditch","Rachel Maclean","Conservative",1560,5200,6180,2640,1780,700,8750,3570,3180,920,3920,1080,700,180
-"Reigate","Crispin Blunt","Conservative",1360,5430,6370,2350,2150,820,9680,3420,2890,610,3610,880,700,190
-"Ribble Valley","Mr Nigel Evans","Conservative",950,3980,4720,1630,1720,610,7300,2420,2050,370,2510,560,490,110
-"Richmond (Yorks)","Rishi Sunak","Conservative",1200,4530,5410,2120,1950,790,8080,2960,2470,560,3080,830,670,160
-"Richmond Park","Zac Goldsmith","Conservative",1500,6250,7420,2580,2760,980,11500,3840,3250,590,3990,890,780,180
-"Rochdale","Tony Lloyd","Labour",2050,7760,8810,3770,2800,1210,12670,5200,4620,1170,5640,1500,1000,320
-"Rochester and Strood","Kelly Tolhurst","Conservative",1400,5610,6800,2630,2290,950,10040,3730,3160,740,3890,990,790,210
-"Rochford and Southend East","James Duddridge","Conservative",1620,5720,7100,3000,2240,1010,10000,4140,3660,910,4440,1200,750,240
-"Romford","Andrew Rosindell","Conservative",1680,5760,7090,3050,2200,1000,10040,4050,3460,1010,4320,1300,800,230
-"Romsey and Southampton North","Caroline Nokes","Conservative",990,3800,4590,1800,1610,670,6810,2510,2110,470,2610,680,520,140
-"Rossendale and Darwen","Jake Berry","Conservative",1350,5150,5850,2310,1930,740,8780,3350,2850,650,3520,850,660,180
-"Rother Valley","Sir Kevin Barron","Labour",1210,4600,5760,2390,1930,950,8300,3310,2740,720,3400,960,660,180
-"Rotherham","Sarah Champion","Labour",1320,5500,6420,2750,2350,1000,9320,3910,3330,830,4050,1040,790,230
-"Rugby","Mark Pawsey","Conservative",1500,5570,6530,2610,1950,770,9440,3640,3200,750,3870,980,670,180
-"Ruislip, Northwood and Pinner","Mr Nick Hurd","Conservative",1200,4660,5510,2050,1890,740,8300,2940,2510,540,3130,800,630,160
-"Runnymede and Weybridge","Mr Philip Hammond","Conservative",1230,4900,5770,2110,1940,760,8760,3060,2610,550,3260,810,630,170
-"Rushcliffe","Mr Kenneth Clarke","Conservative",1160,4810,5480,2100,1880,720,8420,3010,2620,520,3220,740,570,130
-"Rutland and Melton","Sir Alan Duncan","Conservative",1370,4780,5520,2210,1650,630,8240,3040,2600,670,3220,910,620,150
-"Saffron Walden","Mrs Kemi Badenoch","Conservative",1490,5250,6900,2720,2260,970,10000,3760,3140,730,3890,1070,750,210
-"Salford and Eccles","Rebecca Long Bailey","Labour",1500,5620,6560,2760,2070,890,9410,3800,3360,850,4110,1110,730,230
-"Salisbury","John Glen","Conservative",1100,4380,5160,1830,1620,600,7820,2700,2310,500,2910,710,570,150
-"Scarborough and Whitby","Mr Robert Goodwill","Conservative",1290,4420,5230,2230,1520,640,7470,2940,2520,760,3150,960,620,170
-"Scunthorpe","Nic Dakin","Labour",1440,5170,5970,2450,1810,670,8620,3470,2940,800,3630,1010,740,180
-"Sedgefield","Phil Wilson","Labour",990,3960,4840,1870,1640,660,7000,2690,2310,560,2810,710,510,160
-"Sefton Central","Bill Esterson","Labour",850,3220,3860,1500,1340,550,5740,2110,1770,400,2200,590,450,120
-"Selby and Ainsty","Nigel Adams","Conservative",1290,4720,5700,2330,1770,740,8400,3170,2580,640,3200,880,630,170
-"Sevenoaks","Sir Michael Fallon","Conservative",1280,4930,5870,2230,2040,820,8790,3160,2680,580,3340,870,690,170
-"Sheffield Central","Paul Blomfield","Labour",1280,4620,5390,2250,1620,640,7850,3230,2660,720,3210,880,540,150
-"Sheffield South East","Mr Clive Betts","Labour",1290,5070,6420,2680,2040,930,8770,3660,3120,820,3820,1060,680,210
-"Sheffield, Brightside and Hillsborough","Gill Furniss","Labour",1940,8060,8980,3680,3290,1170,13250,5240,4530,1110,5510,1440,1130,320
-"Sheffield, Hallam","Jared O'Mara","Independent",1040,3740,4410,1660,1380,540,6660,2470,1980,420,2430,590,440,120
-"Sheffield, Heeley","Louise Haigh","Labour",1310,4810,5850,2390,1900,790,8400,3300,2880,730,3530,980,650,200
-"Sherwood","Mark Spencer","Conservative",1490,4950,5920,2430,1720,700,8450,3300,2810,830,3500,1050,700,180
-"Shipley","Philip Davies","Conservative",1150,4500,5230,1910,1730,640,7880,2810,2430,540,3030,740,580,160
-"Shrewsbury and Atcham","Daniel Kawczynski","Conservative",1310,4760,5490,2100,1820,710,8250,3070,2560,600,3210,840,630,170
-"Sittingbourne and Sheppey","Gordon Henderson","Conservative",1830,6990,8020,3310,2720,1100,11720,4690,4130,1050,5070,1330,950,250
-"Skipton and Ripon","Julian Smith","Conservative",960,4130,4640,1650,1730,600,7320,2460,2110,400,2600,570,500,110
-"Sleaford and North Hykeham","Dr Caroline Johnson","Conservative",1270,5020,6000,2250,2190,860,9080,3240,2700,570,3390,850,690,180
-"Slough","Mr Tanmanjeet Singh Dhesi","Labour",2300,9270,11230,4310,3800,1580,16600,6130,5260,1230,6460,1640,1280,330
-"Solihull","Julian Knight","Conservative",1180,4650,5520,2010,1870,740,8360,2920,2490,510,3110,780,610,160
-"Somerton and Frome","David Warburton","Conservative",1340,4740,5700,2150,1850,730,8400,3070,2580,590,3260,870,660,170
-"South Basildon and East Thurrock","Stephen Metcalfe","Conservative",1660,5600,7170,3100,2360,1180,10090,4210,3700,1030,4530,1330,820,240
-"South Cambridgeshire","Heidi Allen","Independent",1440,5950,6890,2570,2330,890,10530,3700,3180,640,3910,910,720,160
-"South Derbyshire","Mrs Heather Wheeler","Conservative",1420,5200,6150,2440,1920,790,8960,3480,3000,690,3660,930,650,180
-"South Dorset","Richard Drax","Conservative",1010,3930,4480,1710,1440,550,6750,2470,2100,460,2590,620,490,140
-"South East Cambridgeshire","Lucy Frazer","Conservative",1420,5920,6570,2360,2440,830,10350,3490,3020,580,3730,830,730,150
-"South East Cornwall","Mrs Sheryll Murray","Conservative",940,3830,4450,1650,1470,520,6640,2370,2090,450,2600,630,510,130
-"South Holland and The Deepings","Sir John Hayes","Conservative",1200,4930,5620,2070,1860,640,8440,2970,2640,570,3300,790,670,160
-"South Leicestershire","Alberto Costa","Conservative",1200,4790,5460,2010,1900,710,8520,3020,2430,490,2960,680,540,140
-"South Norfolk","Mr Richard Bacon","Conservative",1240,4820,5860,2330,1970,850,8590,3230,2720,610,3350,860,630,160
-"South Northamptonshire","Andrea Leadsom","Conservative",1470,5900,6780,2490,2240,820,10410,3660,3030,610,3710,850,690,170
-"South Ribble","Seema Kennedy","Conservative",1200,4550,5280,1950,1740,670,7890,2870,2490,550,3100,770,600,160
-"South Shields","Mrs Emma Lewell-Buck","Labour",1130,4170,4950,2120,1540,680,7050,2900,2520,650,3080,840,550,180
-"South Staffordshire","Gavin Williamson","Conservative",1200,3950,4710,1880,1370,530,6750,2590,2190,580,2710,750,510,130
-"South Suffolk","James Cartlidge","Conservative",1150,4250,4880,1850,1610,620,7330,2680,2320,530,2880,740,550,140
-"South Swindon","Robert Buckland","Conservative",1510,5890,6560,2550,2100,790,9910,3660,3150,700,3890,920,720,200
-"South Thanet","Craig Mackinlay","Conservative",1330,5020,5980,2350,2040,780,8750,3340,2850,730,3510,950,700,160
-"South West Bedfordshire","Andrew Selous","Conservative",1630,6280,6910,2700,2340,870,10530,3920,3400,770,4200,1010,800,210
-"South West Devon","Sir Gary Streeter","Conservative",890,3790,4400,1550,1620,590,6860,2320,1980,360,2430,530,450,100
-"South West Hertfordshire","Mr David Gauke","Conservative",1270,5230,6110,2130,2370,840,9560,3180,2690,490,3350,770,700,140
-"South West Norfolk","Elizabeth Truss","Conservative",1450,5600,6200,2480,1930,750,9230,3550,3150,730,3840,920,670,180
-"South West Surrey","Mr Jeremy Hunt","Conservative",1330,5240,6170,2260,2280,850,9530,3310,2790,560,3460,830,700,160
-"South West Wiltshire","Dr Andrew Murrison","Conservative",1190,4860,5650,2070,1930,680,8470,3000,2640,560,3300,790,660,160
-"Southampton, Itchen","Royston Smith","Conservative",1430,5450,6440,2530,2240,860,9450,3630,3110,790,3820,1030,760,180
-"Southampton, Test","Dr Alan Whitehead","Labour",1450,5610,6620,2620,2340,840,9760,3740,3200,820,3930,1040,770,190
-"Southend West","Sir David Amess","Conservative",1100,4540,5270,1950,1750,630,7890,2820,2470,530,3070,740,590,150
-"Southport","Damien Moore","Conservative",1090,4260,4710,1840,1490,570,7090,2630,2300,520,2830,670,520,140
-"Spelthorne","Kwasi Kwarteng","Conservative",1270,5100,6060,2280,2020,780,8890,3300,2900,650,3620,890,690,180
-"St Albans","Mrs Anne Main","Conservative",1440,5610,6670,2570,2430,990,10020,3690,3070,670,3820,980,770,200
-"St Austell and Newquay","Steve Double","Conservative",1170,4630,5680,2170,1870,770,8340,3100,2630,640,3220,820,640,170
-"St Helens North","Conor McGinn","Labour",1470,5320,6230,2670,1770,730,8860,3680,3250,860,3960,1080,690,190
-"St Helens South and Whiston","Ms Marie Rimmer","Labour",1470,5500,6350,2680,2050,860,9150,3690,3290,830,4010,1080,700,220
-"St Ives","Derek Thomas","Conservative",930,3610,4180,1580,1360,510,6290,2290,1930,420,2380,560,450,130
-"Stafford","Jeremy Lefroy","Conservative",1180,4440,5100,1940,1660,640,7630,2830,2430,550,3010,750,570,150
-"Staffordshire Moorlands","Karen Bradley","Conservative",820,3160,3790,1430,1250,490,5650,2030,1720,390,2140,550,420,110
-"Stalybridge and Hyde","Jonathan Reynolds","Labour Co-op",1450,4980,6360,2650,2080,870,8970,3630,3130,890,3850,1130,740,200
-"Stevenage","Stephen McPartland","Conservative",1290,5090,6230,2480,2030,910,9090,3460,2960,720,3630,960,680,170
-"Stockport","Ann Coffey","Change UK - The Independent Group",1240,4960,6190,2480,2110,930,8750,3510,3000,750,3650,960,630,200
-"Stockton North","Alex Cunningham","Labour",1650,5680,6790,3060,1880,830,9350,4000,3630,980,4390,1200,710,240
-"Stockton South","Dr Paul Williams","Labour",1360,5420,6280,2330,2060,760,9360,3370,2980,660,3700,920,700,180
-"Stoke-on-Trent Central","Gareth Snell","Labour Co-op",1340,5090,5860,2540,1790,810,8280,3490,3180,780,3830,990,610,200
-"Stoke-on-Trent North","Ruth Smeeth","Labour",1760,6250,7480,3310,2220,1020,10400,4430,4040,1040,4880,1300,790,280
-"Stoke-on-Trent South","Jack Brereton","Conservative",1370,5220,6000,2500,2000,860,8740,3550,3110,790,3810,1000,700,180
-"Stone","Sir William Cash","Conservative",780,3300,3770,1340,1410,500,5890,2010,1730,320,2130,460,400,90
-"Stourbridge","Margot James","Conservative",1310,5050,5620,2340,1700,670,8190,3310,3010,720,3670,860,620,160
-"Stratford-on-Avon","Nadhim Zahawi","Conservative",1060,3790,4720,1930,1630,680,6810,2580,2150,530,2670,770,570,150
-"Streatham","Chuka Umunna","Independent",1800,6770,7550,3190,2410,1020,10940,4400,3930,1000,4810,1300,860,260
-"Stretford and Urmston","Kate Green","Labour",1700,5600,7130,3020,2360,1090,10110,4000,3370,1010,4230,1380,860,250
-"Stroud","Dr David Drew","Labour Co-op",1250,4760,5950,2520,2020,940,8550,3360,2750,650,3370,920,660,170
-"Suffolk Coastal","Dr Th<e9>r<e8>se Coffey","Conservative",970,3900,4560,1610,1510,550,6890,2390,2080,450,2590,630,490,140
-"Sunderland Central","Julie Elliott","Labour",1390,4510,5570,2360,1610,730,7830,3360,2860,780,3440,970,540,180
-"Surrey Heath","Michael Gove","Conservative",1330,5170,6090,2260,2200,860,9250,3280,2780,590,3470,890,710,180
-"Sutton and Cheam","Paul Scully","Conservative",1480,5420,6420,2550,2060,830,9410,3640,3090,720,3810,980,710,190
-"Sutton Coldfield","Mr Andrew Mitchell","Conservative",1420,4520,5890,2410,1910,850,8500,3270,2710,720,3430,1070,760,180
-"Tamworth","Christopher Pincher","Conservative",1410,5040,5860,2460,1840,770,8530,3500,2990,750,3690,950,670,180
-"Tatton","Esther McVey","Conservative",1030,3930,4700,1840,1630,670,6990,2580,2170,490,2690,710,530,130
-"Taunton Deane","Rebecca Pow","Conservative",1430,5670,6940,2690,2260,970,9990,3870,3360,760,4180,1050,770,210
-"Telford","Lucy Allan","Conservative",1610,5730,6910,2900,2110,920,9790,3990,3460,900,4220,1180,750,240
-"Tewkesbury","Mr Laurence Robertson","Conservative",1370,4940,5930,2330,1890,760,8690,3340,2760,650,3430,900,660,180
-"The Cotswolds","Sir Geoffrey Clifton-Brown","Conservative",1060,4190,4800,1790,1750,650,7420,2610,2200,450,2750,660,580,130
-"The Wrekin","Mark Pritchard","Conservative",1410,4700,5790,2330,1840,740,8370,3290,2830,750,3490,960,640,180
-"Thirsk and Malton","Kevin Hollinrake","Conservative",1040,4030,4730,1790,1660,650,7160,2560,2180,480,2710,690,540,140
-"Thornbury and Yate","Luke Hall","Conservative",990,3890,4680,1810,1600,680,6960,2550,2150,460,2660,680,510,130
-"Thurrock","Jackie Doyle-Price","Conservative",2040,8050,10030,3950,3400,1480,14300,5580,4770,1200,5820,1570,1080,330
-"Tiverton and Honiton","Neil Parish","Conservative",1330,4720,5530,2230,1680,670,7990,3140,2740,650,3330,850,580,160
-"Tonbridge and Malling","Tom Tugendhat","Conservative",1510,5600,6570,2470,2140,830,9790,3580,3060,690,3810,980,730,200
-"Tooting","Dr Rosena Allin-Khan","Labour",1450,5460,6540,2670,2070,930,9500,3660,3150,830,3890,1080,730,200
-"Torbay","Kevin Foster","Conservative",1200,4700,5340,2120,1850,670,7920,3040,2640,670,3240,860,630,140
-"Torridge and West Devon","Mr Geoffrey Cox","Conservative",1100,4240,5030,1900,1700,630,7440,2730,2340,540,2940,770,610,160
-"Totnes","Dr Sarah Wollaston","Independent",880,3470,3970,1510,1340,490,6030,2190,1860,400,2290,540,430,120
-"Tottenham","Mr David Lammy","Labour",1900,8510,9800,4030,3560,1210,14370,5700,4870,1190,5890,1490,1120,350
-"Truro and Falmouth","Sarah Newton","Conservative",1050,4240,4830,1820,1600,580,7210,2620,2340,520,2910,710,550,140
-"Tunbridge Wells","Greg Clark","Conservative",1580,5520,6620,2640,2010,770,9690,3610,3040,780,3770,1070,780,190
-"Twickenham","Sir Vince Cable","Liberal Democrat",1360,5780,6770,2380,2470,900,10510,3540,2990,550,3680,810,700,160
-"Tynemouth","Sir Alan Campbell","Labour",1190,4850,5570,2080,1850,660,8350,2990,2630,580,3270,810,630,160
-"Uxbridge and South Ruislip","Boris Johnson","Conservative",1380,5440,6640,2570,2230,940,9770,3640,3100,740,3810,990,760,200
-"Vauxhall","Kate Hoey","Labour",2060,5240,7090,3250,2240,1100,9740,4300,3780,1240,4580,1510,810,250
-"Wakefield","Mary Creagh","Labour",1350,5260,6320,2550,2200,920,9010,3570,3070,800,3790,1060,780,210
-"Wallasey","Ms Angela Eagle","Labour",1290,4960,5870,2470,1800,770,8380,3390,3000,750,3640,970,610,210
-"Walsall North","Eddie Hughes","Conservative",1940,7220,8050,3560,2800,1190,11680,4950,4400,1170,5380,1420,1080,280
-"Walsall South","Valerie Vaz","Labour",1820,6310,8320,3510,2550,1230,11630,4930,4130,1070,4980,1390,810,300
-"Walthamstow","Stella Creasy","Labour Co-op",2150,7710,9550,4080,3110,1420,13520,5650,4930,1240,6000,1630,1040,320
-"Wansbeck","Ian Lavery","Labour",1020,3910,4520,1810,1650,610,6720,2570,2200,560,2720,730,560,130
-"Wantage","Mr Edward Vaizey","Conservative",1670,6260,7280,2900,2590,980,10930,4020,3430,790,4250,1130,910,210
-"Warley","John Spellar","Labour",2010,6110,8380,3680,2540,1230,11480,4990,4230,1160,5120,1490,850,330
-"Warrington North","Helen Jones","Labour",1150,4710,5590,2220,2050,840,8380,3170,2650,640,3300,830,690,160
-"Warrington South","Faisal Rashid","Labour",1470,5610,6390,2340,2130,790,9690,3440,2990,670,3730,930,720,190
-"Warwick and Leamington","Matt Western","Labour",1430,4750,5950,2490,1760,740,8330,3420,2870,740,3490,960,630,180
-"Washington and Sunderland West","Mrs Sharon Hodgson","Labour",1250,4860,5660,2390,1820,770,8160,3310,2930,730,3570,940,610,190
-"Watford","Richard Harrington","Conservative",1790,6750,7960,2960,2640,1030,11880,4340,3710,810,4630,1160,900,240
-"Waveney","Peter Aldous","Conservative",1220,4810,5870,2280,2060,860,8490,3270,2820,700,3440,910,650,200
-"Wealden","Ms Nusrat Ghani","Conservative",1260,4900,5770,2160,2050,790,8750,3110,2640,570,3290,840,660,160
-"Weaver Vale","Mike Amesbury","Labour",1090,4260,5200,2020,1810,790,7680,2870,2430,580,3000,800,620,160
-"Wellingborough","Mr Peter Bone","Conservative",1720,6370,7650,3270,2380,1120,10980,4380,3710,1010,4620,1320,890,250
-"Wells","James Heappey","Conservative",1390,4980,5880,2360,1750,700,8440,3300,2900,700,3510,900,610,170
-"Welwyn Hatfield","Grant Shapps","Conservative",1460,5780,6650,2480,2310,830,10020,3590,3160,700,3950,990,780,190
-"Wentworth and Dearne","John Healey","Labour",1330,5190,6080,2420,2050,780,8910,3460,2990,750,3660,960,700,170
-"West Bromwich East","Tom Watson","Labour",1560,6070,6930,2920,2140,910,9910,4020,3660,890,4420,1150,720,240
-"West Bromwich West","Mr Adrian Bailey","Labour Co-op",1520,6400,7020,2910,2530,890,10400,4100,3580,890,4350,1140,880,250
-"West Dorset","Sir Oliver Letwin","Conservative",990,3800,4540,1730,1630,670,6810,2460,2070,450,2580,670,540,130
-"West Ham","Lyn Brown","Labour",3370,11910,13950,6280,4550,2090,19890,8590,7530,2040,9170,2510,1750,470
-"West Lancashire","Rosie Cooper","Labour",1040,4250,5150,2000,1770,740,7610,2860,2420,570,2970,730,590,150
-"West Suffolk","Matt Hancock","Conservative",1660,6250,7330,2740,2430,940,10950,4000,3440,770,4290,1080,830,220
-"West Worcestershire","Harriett Baldwin","Conservative",1140,4240,4940,1890,1490,560,7170,2670,2390,580,2980,790,570,150
-"Westminster North","Ms Karen Buck","Labour",1690,6430,8290,3390,2820,1100,11570,4730,3980,1010,4820,1340,970,310
-"Westmorland and Lonsdale","Tim Farron","Liberal Democrat",780,3240,3650,1370,1320,480,5680,1990,1710,340,2110,480,400,90
-"Weston-Super-Mare","John Penrose","Conservative",1490,5460,7140,2970,2380,1110,9660,4030,3360,930,4180,1300,890,240
-"Wigan","Lisa Nandy","Labour",1230,4940,6050,2340,2090,840,8830,3360,2880,700,3490,870,620,210
-"Wimbledon","Stephen Hammond","Conservative",1300,5150,5990,2270,2080,820,9120,3280,2830,580,3490,840,650,140
-"Winchester","Steve Brine","Conservative",1170,4780,5290,1920,1940,670,8360,2810,2410,470,2980,700,600,120
-"Windsor","Adam Afriyie","Conservative",1730,5790,6560,2590,1970,790,9880,3750,3120,760,3870,1040,730,190
-"Wirral South","Alison McGovern","Labour",870,3320,3870,1450,1250,480,5760,2120,1830,410,2270,560,420,110
-"Wirral West","Margaret Greenwood","Labour",900,3120,3680,1420,1100,410,5320,1990,1710,430,2130,570,410,110
-"Witham","Priti Patel","Conservative",1070,4260,4900,1760,1610,600,7430,2600,2260,490,2810,690,530,140
-"Witney","Robert Courts","Conservative",1280,4990,5770,2100,2090,770,8930,3070,2600,520,3230,790,670,150
-"Woking","Mr Jonathan Lord","Conservative",1490,5690,6770,2550,2400,940,10200,3620,3060,680,3840,1020,830,200
-"Wokingham","John Redwood","Conservative",1290,5430,6330,2180,2070,730,9660,3220,2750,520,3370,740,640,150
-"Wolverhampton North East","Emma Reynolds","Labour",1740,6690,7020,3080,2040,800,10260,4210,3770,1000,4590,1210,880,250
-"Wolverhampton South East","Mr Pat McFadden","Labour",2030,6950,7600,3400,2190,890,10940,4630,4080,1150,4980,1380,990,270
-"Wolverhampton South West","Eleanor Smith","Labour",1210,4360,5590,2300,1660,740,7660,3180,2630,750,3200,950,570,190
-"Worcester","Mr Robin Walker","Conservative",1260,4970,5700,2200,1860,700,8590,3170,2710,590,3320,780,610,170
-"Workington","Sue Hayman","Labour",980,3680,4160,1620,1350,510,6220,2330,2020,470,2510,610,490,130
-"Worsley and Eccles South","Barbara Keeley","Labour",1550,5530,7090,2860,2250,940,10060,3950,3390,870,4150,1180,760,240
-"Worthing West","Sir Peter Bottomley","Conservative",1040,4210,4800,1790,1500,550,7130,2560,2290,510,2850,700,540,140
-"Wycombe","Mr Steve Baker","Conservative",1780,6360,7670,3020,2390,930,11140,4270,3640,890,4470,1160,820,230
-"Wyre and Preston North","Mr Ben Wallace","Conservative",910,3760,4310,1600,1480,560,6640,2320,2010,390,2460,570,440,100
-"Wyre Forest","Mark Garnier","Conservative",1430,4680,5820,2480,1940,940,8320,3330,2780,800,3510,1120,730,200
-"Wythenshawe and Sale East","Mike Kane","Labour",1820,6550,7840,3240,2560,1100,11250,4480,3900,980,4810,1340,920,270
-"Yeovil","Mr Marcus Fysh","Conservative",1260,5000,5990,2230,2030,740,8870,3190,2770,590,3460,860,700,180
-"York Central","Rachael Maskell","Labour Co-op",1190,4630,5210,2030,1700,640,7870,2910,2500,560,3090,740,580,160
-"York Outer","Julian Sturdy","Conservative",1120,4220,4780,1870,1500,600,7260,2660,2250,510,2790,710,540,130
+"Constituency","MP","Party","Projected number of 0-17 yr olds in a household where an adult experienced domestic abuse in last year","Projected number of 0-17 yr olds in a household where an adult has ever experienced domestic abuse","Projected number of 0-17 yr olds in a household where an adult has moderate or higher mental ill-health symptoms","Projected number of 0-17 yr olds in a household where an adult has severe mental ill-health symptoms","Projected number of 0-17 yr olds in a household where an adult reports any substance misuse","Projected number of 0-17 yr olds in a household where an adult has an alcohol or drug dependency","Projected number of 0-17 yr olds in a household where an adult has any of the 'toxic trio' issues (broad measures)","Projected number of 0-17 yr olds in a household where an adult has any of the 'toxic trio' issues (narrow measures)","Projected number of 0-17 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (broad measures)","Projected number of 0-17 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (narrow measures)","Projected number of 0-17 yr olds in a household where an adult has 2 or more of the toxic trio issues (broad measures)","Projected number of 0-17 yr olds in a household where an adult has 2 or more of the toxic trio issues (narrow measures)","Projected number of 0-17 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (broad measures)","Projected number of 0-17 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (narrow measures)"
+"Aldershot","Leo Docherty","Conservative",1610,6130,7120,2730,2270,890,10570,3960,3420,770,4190,1040,760,210
+"Aldridge-Brownhills","Wendy Morton","Conservative",1100,4140,4670,1840,1590,600,7060,2650,2260,510,2810,690,550,140
+"Altrincham and Sale West","Sir Graham Brady","Conservative",1760,6970,7550,3010,2460,930,11620,4190,3730,810,4640,1150,900,210
+"Amber Valley","Nigel Mills","Conservative",1170,4570,5450,2220,1780,780,7990,3050,2620,660,3230,870,610,160
+"Arundel and South Downs","Nick Herbert","Conservative",1090,4600,5260,1860,1900,670,8200,2750,2340,440,2890,640,570,120
+"Ashfield","Gloria De Piero","Labour",1530,5930,7000,2780,2340,910,10230,3960,3410,860,4170,1110,780,190
+"Ashford","Damian Green","Conservative",2010,7740,8700,3380,2850,1070,13080,4880,4230,950,5230,1240,990,260
+"Ashton-under-Lyne","Angela Rayner","Labour",1760,6040,7320,3230,2240,1030,10220,4340,3850,1020,4700,1300,820,280
+"Aylesbury","Mr David Lidington","Conservative",1890,7260,8700,3490,3070,1240,12900,4800,4020,920,4980,1310,1040,260
+"Banbury","Victoria Prentis","Conservative",1850,7100,8150,2950,2680,1010,12330,4340,3770,820,4710,1180,910,240
+"Barking","Dame Margaret Hodge","Labour",2850,12610,14230,5910,5140,1960,20980,8400,7300,1750,8820,2230,1630,510
+"Barnsley Central","Dan Jarvis","Labour",1300,5020,5880,2380,1960,740,8600,3380,2890,750,3540,940,680,170
+"Barnsley East","Stephanie Peacock","Labour",1460,5600,6580,2690,2080,870,9480,3730,3330,820,4050,1080,700,220
+"Barrow and Furness","John Woodcock","Independent",1330,4740,5700,2510,1790,880,8120,3320,2830,840,3540,1080,660,190
+"Basildon and Billericay","Mr John Baron","Conservative",1940,6310,8180,3580,2540,1250,11400,4790,4180,1210,5160,1550,980,270
+"Basingstoke","Mrs Maria Miller","Conservative",1710,6930,8050,2980,2700,980,12060,4310,3780,820,4690,1150,900,230
+"Bassetlaw","John Mann","Labour",1500,5500,6930,2880,2180,1000,9910,3900,3280,920,4040,1180,750,210
+"Bath","Wera Hobhouse","Liberal Democrat",1360,4720,5600,2200,1640,620,7900,3040,2750,750,3480,1000,720,160
+"Batley and Spen","Tracy Brabin","Labour Co-op",1900,7240,8100,3180,2530,950,12140,4560,3900,900,4810,1150,900,250
+"Battersea","Marsha De Cordova","Labour",1450,5720,6900,2830,2380,1010,9820,3950,3350,870,4130,1150,820,230
+"Beaconsfield","Mr Dominic Grieve","Conservative",1390,5340,6320,2380,2060,830,9660,3490,2800,600,3420,850,620,170
+"Beckenham","Bob Stewart","Conservative",1360,5180,6220,2520,2010,840,9140,3420,2900,670,3560,940,670,180
+"Bedford","Mohammad Yasin","Labour",1860,7260,9270,3950,2790,1260,12290,5270,4500,1220,5550,1580,1050,300
+"Bermondsey and Old Southwark","Neil Coyle","Labour",1720,7510,8450,3550,3050,1180,12400,5070,4380,1070,5310,1330,1000,300
+"Berwick-upon-Tweed","Anne-Marie Trevelyan","Conservative",810,3270,3790,1420,1280,460,5660,2050,1800,400,2250,550,440,110
+"Bethnal Green and Bow","Rushanara Ali","Labour",2170,9180,10300,4290,3610,1370,15090,6080,5270,1300,6400,1640,1240,370
+"Beverley and Holderness","Graham Stuart","Conservative",1230,4730,5480,2070,1740,670,8140,2990,2600,590,3210,800,590,160
+"Bexhill and Battle","Huw Merriman","Conservative",1150,4710,5520,2060,1890,670,8280,2970,2550,550,3180,770,640,160
+"Bexleyheath and Crayford","Sir David Evennett","Conservative",1490,5810,6880,2770,2160,940,10050,3830,3320,850,4090,1090,760,200
+"Birkenhead","Frank Field","Independent",1830,5980,6940,3060,2290,1020,10060,4430,3530,970,4260,1210,730,270
+"Birmingham, Edgbaston","Preet Kaur Gill","Labour Co-op",1840,7120,7680,3280,2470,1020,11220,4470,4050,1020,4980,1320,910,270
+"Birmingham, Erdington","Jack Dromey","Labour",2140,8190,9050,3930,3310,1340,13350,5480,4760,1230,5850,1580,1290,320
+"Birmingham, Hall Green","Mr Roger Godsiff","Labour",2680,9570,11290,4860,3320,1470,15980,6740,5850,1510,7050,1900,1130,410
+"Birmingham, Hodge Hill","Liam Byrne","Labour",2960,12780,14200,5930,4900,1810,20880,8340,7270,1790,8790,2250,1610,500
+"Birmingham, Ladywood","Shabana Mahmood","Labour",2690,10970,12510,5290,4170,1690,18190,7450,6520,1630,7850,2020,1340,430
+"Birmingham, Northfield","Richard Burden","Labour",1910,7800,8870,3800,2970,1240,12790,5340,4700,1180,5690,1460,1030,310
+"Birmingham, Perry Barr","Mr Khalid Mahmood","Labour",2440,8360,10090,4330,2940,1310,14160,5930,5110,1380,6220,1750,1070,370
+"Birmingham, Selly Oak","Steve McCabe","Labour",1500,5560,7000,2780,2250,910,9990,3880,3400,860,4140,1140,740,230
+"Birmingham, Yardley","Jess Phillips","Labour",2260,9240,10350,4340,3760,1440,15190,6170,5340,1330,6510,1680,1330,370
+"Bishop Auckland","Helen Goodman","Labour",1190,4620,5460,2200,1910,770,8010,3150,2680,680,3290,870,630,150
+"Blackburn","Kate Hollern","Labour",2330,8400,9960,4290,3030,1380,14270,6090,5110,1320,6190,1670,1020,370
+"Blackley and Broughton","Graham Stringer","Labour",3630,10450,13000,6100,3810,1960,18060,8420,6930,2020,8320,2470,1270,520
+"Blackpool North and Cleveleys","Paul Maynard","Conservative",1210,4700,5360,2270,1770,790,7800,3180,2820,710,3460,900,640,160
+"Blackpool South","Gordon Marsden","Labour",1450,5130,5840,2600,2020,890,8520,3700,3060,850,3720,1030,700,220
+"Blaydon","Liz Twist","Labour",1130,4400,5050,1930,1610,610,7590,2760,2350,520,2900,690,550,150
+"Blyth Valley","Mr Ronnie Campbell","Labour",1110,4480,5530,2210,1900,830,7850,3140,2680,680,3270,860,590,180
+"Bognor Regis and Littlehampton","Nick Gibb","Conservative",1300,5090,6090,2370,2080,870,9020,3340,2860,690,3540,940,730,180
+"Bolsover","Mr Dennis Skinner","Labour",1420,5550,6850,2880,2130,950,9430,3920,3310,900,4070,1160,790,230
+"Bolton North East","Sir David Crausby","Labour",1790,6410,7780,3300,2620,1180,11140,4590,3980,1060,4900,1360,930,270
+"Bolton South East","Yasmin Qureshi","Labour",2240,8200,9750,4260,3100,1440,13810,5890,5150,1310,6260,1670,1070,360
+"Bolton West","Chris Green","Conservative",1520,5760,6370,2560,1990,780,9490,3660,3240,750,3960,950,700,190
+"Bootle","Peter Dowd","Labour",1680,6120,7570,3310,2590,1210,10770,4680,3870,1020,4680,1290,830,290
+"Boston and Skegness","Matt Warman","Conservative",1460,5630,6810,2730,2230,900,9710,3890,3290,850,4030,1060,790,230
+"Bosworth","David Tredinnick","Conservative",1420,5440,6350,2410,2030,780,9430,3500,3010,670,3710,910,680,180
+"Bournemouth East","Mr Tobias Ellwood","Conservative",1580,5970,6820,2730,2130,850,10090,3920,3410,790,4160,1010,720,200
+"Bournemouth West","Conor Burns","Conservative",1360,5320,6440,2710,2080,880,8950,3690,3160,840,3890,1100,750,210
+"Bracknell","Dr Phillip Lee","Conservative",1860,6980,8180,3240,2590,1030,12020,4630,3980,920,4860,1220,870,240
+"Bradford East","Imran Hussain","Labour",2610,9890,11890,4840,3980,1630,17290,6770,5890,1460,7200,1960,1290,380
+"Bradford South","Judith Cummins","Labour",2280,7520,9520,4040,2720,1240,13100,5420,4580,1280,5690,1680,1140,320
+"Bradford West","Naz Shah","Labour",2670,9810,11620,4840,3630,1550,16560,6660,5940,1490,7250,1960,1280,410
+"Braintree","James Cleverly","Conservative",1640,6120,7170,2750,2230,850,10340,3900,3540,840,4420,1150,860,230
+"Brent Central","Dawn Butler","Labour",2430,10190,11770,4850,4120,1590,17140,6870,5910,1460,7150,1870,1350,420
+"Brent North","Barry Gardiner","Labour",2070,8110,9950,3920,3360,1500,14560,5540,4690,1140,5780,1520,1140,300
+"Brentford and Isleworth","Ruth Cadbury","Labour",2070,7920,9480,3790,3260,1430,13980,5340,4540,1150,5620,1520,1100,280
+"Brentwood and Ongar","Alex Burghart","Conservative",1610,5660,6640,2740,1950,780,9480,3790,3330,810,4020,1030,690,190
+"Bridgwater and West Somerset","Mr Ian Liddell-Grainger","Conservative",1590,5840,7250,3100,2370,1200,10350,4220,3530,980,4390,1280,820,230
+"Brigg and Goole","Andrew Percy","Conservative",1240,4520,5660,2140,1750,680,8070,3010,2680,640,3320,900,600,170
+"Brighton, Kemptown","Lloyd Russell-Moyle","Labour Co-op",1170,4410,5350,2100,1780,650,7750,2980,2520,650,3100,840,620,150
+"Brighton, Pavilion","Caroline Lucas","Green Party",1200,4870,5690,2110,1910,690,8480,3050,2680,590,3340,810,650,170
+"Bristol East","Kerry McCarthy","Labour",1530,5650,7450,3100,2490,1260,10230,4360,3510,950,4290,1280,770,260
+"Bristol North West","Darren Jones","Labour",1770,6460,8250,3440,2390,1080,11260,4710,3910,1110,4760,1420,810,280
+"Bristol South","Karin Smyth","Labour",1980,7590,8620,3640,2620,1150,12340,5000,4520,1130,5480,1460,910,290
+"Bristol West","Thangam Debbonaire","Labour",1500,5930,7340,2830,2550,1080,10540,4070,3500,860,4270,1120,830,250
+"Broadland","Mr Keith Simpson","Conservative",1250,4560,5740,2310,1990,850,8320,3120,2580,620,3200,910,650,180
+"Bromley and Chislehurst","Robert Neill","Conservative",1420,5620,6800,2610,2290,960,10050,3690,3170,750,3900,1010,780,210
+"Bromsgrove","Sajid Javid","Conservative",1210,4820,5710,2090,1950,760,8640,3040,2590,550,3240,800,620,170
+"Broxbourne","Mr Charles Walker","Conservative",1540,5990,7050,2800,2380,1010,10480,3940,3390,850,4170,1110,800,200
+"Broxtowe","Anna Soubry","Change UK - The Independent Group",1140,4690,5530,2040,1860,640,8280,2940,2540,550,3170,760,620,160
+"Buckingham","John Bercow","Speaker",1430,5810,6500,2370,2430,860,10230,3470,2990,590,3710,880,750,160
+"Burnley","Julie Cooper","Labour",1800,6120,7330,3230,2050,980,10130,4350,3930,1030,4730,1290,740,270
+"Burton","Andrew Griffiths","Conservative",1650,6360,7180,2820,2300,880,10780,4050,3480,790,4280,1020,780,220
+"Bury North","James Frith","Labour",1550,5930,6300,2560,2040,760,9500,3670,3270,770,4030,960,730,190
+"Bury South","Mr Ivan Lewis","Independent",1870,6800,7610,3270,2520,1070,11160,4390,3840,1110,4840,1420,990,240
+"Bury St Edmunds","Jo Churchill","Conservative",1450,5720,6740,2480,2390,930,10230,3600,3070,650,3830,970,760,190
+"Calder Valley","Craig Whittaker","Conservative",1550,6120,6760,2600,2370,850,10210,3760,3350,780,4210,1060,850,190
+"Camberwell and Peckham","Ms Harriet Harman","Labour",2460,9450,10410,4560,3780,1510,15280,6380,5490,1450,6760,1810,1540,380
+"Camborne and Redruth","George Eustice","Conservative",1280,4680,5900,2470,1890,950,8450,3420,2800,770,3450,1000,640,190
+"Cambridge","Daniel Zeichner","Labour",1490,5610,6690,2560,2210,850,9810,3680,3160,760,3950,1050,790,200
+"Cannock Chase","Amanda Milling","Conservative",1280,5010,6040,2320,1970,820,8900,3270,2810,680,3460,910,690,170
+"Canterbury","Rosie Duffield","Labour",1370,5320,6140,2330,2010,760,9240,3390,2880,630,3550,830,670,180
+"Carlisle","John Stevenson","Conservative",1180,4610,5510,2230,1750,770,8030,3060,2650,680,3260,870,610,160
+"Carshalton and Wallington","Tom Brake","Liberal Democrat",1900,6760,8070,3410,2640,1210,11710,4660,3900,1080,4870,1420,970,260
+"Castle Point","Rebecca Harris","Conservative",1310,4660,5340,2150,1660,660,7910,3120,2630,670,3210,820,560,170
+"Central Devon","Mel Stride","Conservative",1280,4780,5590,2200,1740,680,8190,3110,2710,620,3310,830,590,160
+"Central Suffolk and North Ipswich","Dr Dan Poulter","Conservative",1310,5220,6140,2260,2030,790,9300,3250,2800,590,3480,870,660,170
+"Charnwood","Edward Argar","Conservative",1330,5220,6220,2420,2140,860,9270,3390,2880,630,3560,900,700,180
+"Chatham and Aylesford","Tracey Crouch","Conservative",1710,6600,7650,3070,2620,1000,11280,4350,3740,960,4590,1240,900,210
+"Cheadle","Mary Robinson","Conservative",1240,5120,5830,2170,1980,760,8990,3150,2740,550,3350,780,580,130
+"Chelmsford","Vicky Ford","Conservative",1490,6060,7180,2650,2370,830,10710,3810,3270,720,4070,990,800,210
+"Chelsea and Fulham","Greg Hands","Conservative",1510,5770,6420,2550,2100,810,9620,3690,3240,740,3990,950,720,190
+"Cheltenham","Alex Chalk","Conservative",1450,5710,6490,2510,2080,790,9760,3600,3100,680,3810,900,700,200
+"Chesham and Amersham","Dame Cheryl Gillan","Conservative",1260,5350,6160,2220,2380,870,9670,3340,2780,520,3440,760,680,140
+"Chesterfield","Toby Perkins","Labour",1300,4910,6300,2680,1920,880,8550,3610,2980,820,3650,1080,690,210
+"Chichester","Gillian Keegan","Conservative",1300,5180,6020,2220,1990,750,9050,3270,2810,610,3500,850,670,180
+"Chingford and Woodford Green","Mr Iain Duncan Smith","Conservative",1650,5900,7800,3330,2490,1200,10360,4420,3690,1060,4570,1490,920,250
+"Chippenham","Michelle Donelan","Conservative",1560,5530,6560,2510,2070,810,9630,3600,3080,730,3820,1000,730,200
+"Chipping Barnet","Theresa Villiers","Conservative",2380,7620,9280,3920,2800,1170,13150,5430,4740,1340,5850,1660,1060,300
+"Chorley","Sir Lindsay Hoyle","Labour",1480,5900,6640,2500,2290,800,10000,3620,3220,720,4030,990,810,190
+"Christchurch","Sir Christopher Chope","Conservative",1030,3780,4500,1820,1330,540,6450,2530,2220,530,2670,690,450,120
+"Cities of London and Westminster","Mark Field","Conservative",1400,5380,7020,2990,2140,1060,9250,4000,3390,940,4170,1250,760,210
+"City of Chester","Christian Matheson","Labour",1280,4920,5650,2230,1830,720,8420,3240,2820,630,3430,810,590,170
+"City of Durham","Dr Roberta Blackman-Woods","Labour",1110,4370,4950,1880,1630,610,7530,2710,2320,500,2860,680,530,140
+"Clacton","Giles Watling","Conservative",1140,4710,5210,2180,1870,680,7660,3090,2690,670,3270,840,670,190
+"Cleethorpes","Martin Vickers","Conservative",1280,5100,6200,2490,2150,900,8850,3520,3000,760,3680,980,710,200
+"Colchester","Will Quince","Conservative",1800,7150,8620,3470,2820,1230,12590,4820,4140,1030,5100,1320,960,260
+"Colne Valley","Thelma Walker","Labour",1750,6710,7850,2950,2580,950,11520,4230,3800,860,4750,1200,930,250
+"Congleton","Fiona Bruce","Conservative",1250,4620,5660,2310,1930,840,8280,3140,2590,620,3210,890,650,170
+"Copeland","Trudy Harrison","Conservative",1110,4020,4720,1940,1510,620,6920,2790,2370,580,2910,740,520,150
+"Corby","Tom Pursglove","Conservative",1830,7110,8250,3120,2620,990,12400,4480,3800,840,4670,1110,860,250
+"Coventry North East","Colleen Fletcher","Labour",2500,9440,10950,4700,3410,1490,15590,6450,5780,1450,7010,1850,1180,370
+"Coventry North West","Mr Geoffrey Robinson","Labour",1600,6210,7440,2940,2470,1040,10930,4100,3530,880,4360,1160,860,230
+"Coventry South","Mr Jim Cunningham","Labour",1500,5710,6860,2680,2210,790,9960,3810,3250,840,3970,1070,760,190
+"Crawley","Henry Smith","Conservative",1840,7180,8130,3120,2700,1020,12300,4530,3890,850,4790,1130,900,240
+"Crewe and Nantwich","Laura Smith","Labour",1650,6400,7200,2850,2310,890,10800,4070,3520,810,4340,1040,790,220
+"Croydon Central","Sarah Jones","Labour",2380,7860,10440,4450,3420,1690,14580,6080,5230,1450,6400,1880,1160,350
+"Croydon North","Mr Steve Reed","Labour Co-op",2750,10700,12450,5080,4320,1760,18260,7240,6210,1570,7640,2010,1480,370
+"Croydon South","Chris Philp","Conservative",1690,6970,8130,3040,2860,1010,12210,4400,3820,830,4780,1140,970,240
+"Dagenham and Rainham","Jon Cruddas","Labour",2320,8370,10150,4360,3210,1450,14360,5990,5210,1340,6360,1740,1120,370
+"Darlington","Jenny Chapman","Labour",1420,5490,6370,2600,2190,900,9320,3720,3240,820,3960,1030,730,180
+"Dartford","Gareth Johnson","Conservative",1660,6900,7970,2940,2690,940,12000,4250,3720,790,4630,1100,890,230
+"Daventry","Chris Heaton-Harris","Conservative",1670,5460,6720,2730,2050,830,9570,3770,3220,830,3950,1100,720,200
+"Denton and Reddish","Andrew Gwynne","Labour",1340,5330,6710,2850,2080,950,9070,3840,3280,880,4020,1140,720,210
+"Derby North","Chris Williamson","Independent",1400,5630,6910,2680,2410,990,9990,3840,3310,810,4030,1030,740,230
+"Derby South","Margaret Beckett","Labour",2170,9060,10180,4300,3600,1390,14940,6040,5230,1310,6350,1660,1230,360
+"Derbyshire Dales","Sir Patrick McLoughlin","Conservative",840,3310,4020,1530,1300,510,6040,2210,1800,370,2200,510,390,110
+"Devizes","Claire Perry","Conservative",1450,5640,6720,2570,2270,910,10070,3640,3050,680,3800,980,760,200
+"Dewsbury","Paula Sherriff","Labour",1900,7340,8280,3240,2690,1020,12470,4660,3970,910,4900,1180,920,250
+"Don Valley","Caroline Flint","Labour",1310,5330,6500,2520,2130,890,9380,3580,3120,760,3770,960,640,210
+"Doncaster Central","Dame Rosie Winterton","Labour",1640,6340,7530,3020,2530,1020,10980,4310,3720,940,4540,1200,840,210
+"Doncaster North","Edward Miliband","Labour",1650,6270,7420,3100,2370,1010,10600,4300,3820,950,4650,1230,810,260
+"Dover","Charlie Elphicke","Conservative",1320,5330,6530,2570,2220,920,9360,3640,3150,780,3830,990,700,220
+"Dudley North","Ian Austin","Independent",1830,5720,7170,3250,1960,880,9790,4210,3830,1110,4580,1330,690,240
+"Dudley South","Mike Wood","Conservative",1170,4670,5850,2370,2040,910,8280,3350,2800,710,3430,910,640,190
+"Dulwich and West Norwood","Helen Hayes","Labour",2070,7390,9010,3800,3110,1460,12990,5410,4520,1210,5530,1550,1030,290
+"Ealing Central and Acton","Dr Rupa Huq","Labour",1680,6820,8310,3280,2840,1170,11990,4660,3990,980,4850,1240,870,280
+"Ealing North","Stephen Pound","Labour",2500,8580,10710,4540,3540,1560,15240,6250,5360,1500,6610,1920,1290,360
+"Ealing, Southall","Mr Virendra Sharma","Labour",1640,6360,7990,3120,2690,1110,11330,4400,3780,970,4630,1250,910,270
+"Easington","Grahame Morris","Labour",1250,5180,5680,2410,2060,780,8410,3390,2940,740,3590,940,760,210
+"East Devon","Sir Hugo Swire","Conservative",1310,4990,5970,2340,2150,880,8900,3280,2740,620,3410,900,720,180
+"East Ham","Stephen Timms","Labour",3390,12390,14670,6170,4770,2110,21080,8710,7520,1920,9150,2490,1580,520
+"East Hampshire","Mr Damian Hinds","Conservative",1380,5560,6250,2430,2060,810,9560,3450,3010,640,3720,900,690,150
+"East Surrey","Mr Sam Gyimah","Conservative",1500,5990,7170,2690,2510,1000,10770,3870,3260,690,4060,1010,770,210
+"East Worthing and Shoreham","Tim Loughton","Conservative",1340,5410,6280,2320,2160,790,9430,3360,2950,640,3690,910,740,180
+"East Yorkshire","Sir Greg Knight","Conservative",1400,5160,5910,2420,1860,760,8670,3500,2990,710,3680,900,670,190
+"Eastbourne","Stephen Lloyd","Independent",1420,5490,6620,2670,2170,950,9710,3710,3130,780,3870,1030,760,210
+"Eastleigh","Mims Davies","Conservative",1840,6490,7320,2920,2330,900,10870,4120,3530,850,4390,1160,850,220
+"Eddisbury","Antoinette Sandbach","Conservative",1240,4970,5720,2170,1930,730,8520,3140,2770,620,3450,850,670,170
+"Edmonton","Kate Osamor","Labour Co-op",2130,9460,10990,4520,3680,1440,15900,6400,5540,1350,6640,1700,1080,380
+"Ellesmere Port and Neston","Justin Madders","Labour",1120,4510,5410,2120,1810,780,7980,3000,2570,610,3160,800,610,160
+"Elmet and Rothwell","Alec Shelbrooke","Conservative",1350,5060,6140,2510,2100,870,9010,3430,2820,650,3490,930,740,190
+"Eltham","Clive Efford","Labour",1490,5780,6800,2660,2360,880,10000,3810,3300,830,4030,1070,770,180
+"Enfield North","Joan Ryan","Change UK - The Independent Group",2240,8630,10130,4450,3590,1560,14640,6250,5190,1390,6340,1730,1330,370
+"Enfield, Southgate","Bambos Charalambous","Labour",1640,6090,6950,2830,2190,880,10230,4050,3560,830,4350,1060,750,200
+"Epping Forest","Dame Eleanor Laing","Conservative",1340,5560,6490,2410,2270,800,9790,3480,3030,650,3780,910,730,190
+"Epsom and Ewell","Chris Grayling","Conservative",1480,6240,7090,2580,2520,910,11040,3810,3260,620,4000,880,720,170
+"Erewash","Maggie Throup","Conservative",1330,5170,6470,2560,2240,960,9170,3630,3090,780,3780,1010,730,220
+"Erith and Thamesmead","Teresa Pearce","Labour",2900,10080,11770,5120,3580,1580,16580,6870,6280,1650,7650,2090,1320,440
+"Esher and Walton","Dominic Raab","Conservative",1590,6780,7800,2720,2840,990,12190,4050,3470,630,4250,920,810,180
+"Exeter","Mr Ben Bradshaw","Labour",1330,5130,5790,2230,1960,720,8810,3220,2750,610,3410,820,650,180
+"Fareham","Suella Braverman","Conservative",1090,4570,5440,1890,1910,690,8370,2800,2360,430,2890,640,550,130
+"Faversham and Mid Kent","Helen Whately","Conservative",1510,5780,6570,2560,2230,860,9930,3760,3210,720,3950,940,730,200
+"Feltham and Heston","Seema Malhotra","Labour Co-op",2390,9250,10670,4240,3710,1360,15720,6080,5260,1330,6470,1700,1270,300
+"Filton and Bradley Stoke","Jack Lopresti","Conservative",1510,5640,6520,2540,2030,790,9620,3600,3120,710,3840,980,700,190
+"Finchley and Golders Green","Mike Freer","Conservative",2460,8010,9830,3790,2760,1150,13890,5470,4730,1190,5810,1620,970,300
+"Folkestone and Hythe","Damian Collins","Conservative",1450,5630,7010,2700,2400,1010,10100,3850,3310,820,4030,1080,770,240
+"Forest of Dean","Mr Mark Harper","Conservative",1160,4620,5350,2020,1800,680,7950,2920,2570,570,3210,800,630,160
+"Fylde","Mark Menzies","Conservative",1030,3910,4600,1760,1610,610,6900,2500,2130,480,2650,690,550,140
+"Gainsborough","Sir Edward Leigh","Conservative",1440,5090,5680,2230,1740,660,8460,3220,2730,690,3380,860,650,170
+"Garston and Halewood","Maria Eagle","Labour",1710,6180,7160,3070,2300,990,10220,4180,3760,970,4610,1250,830,260
+"Gateshead","Ian Mearns","Labour",1560,5860,6790,2930,2120,920,9670,4010,3610,900,4380,1150,730,230
+"Gedling","Vernon Coaker","Labour",1440,5550,6000,2380,2020,740,9160,3420,2970,690,3690,890,720,180
+"Gillingham and Rainham","Rehman Chishti","Conservative",1610,6150,7290,2890,2460,1050,10780,4050,3470,850,4300,1160,860,220
+"Gloucester","Richard Graham","Conservative",1850,7280,8890,3510,3150,1320,12760,4970,4260,1070,5240,1430,1050,300
+"Gosport","Caroline Dinenage","Conservative",1650,5740,6660,2740,2170,870,9760,3910,3360,820,4170,1080,790,210
+"Grantham and Stamford","Nick Boles","Independent",1520,6020,7110,2650,2490,900,10620,3830,3330,740,4170,1050,850,210
+"Gravesham","Adam Holloway","Conservative",1980,6480,8350,3550,2680,1310,11780,4730,3930,1200,4910,1610,970,300
+"Great Grimsby","Melanie Onn","Labour",1850,5900,7500,3400,2570,1160,10520,4600,3830,1100,4740,1390,1120,280
+"Great Yarmouth","Brandon Lewis","Conservative",1670,5620,7150,3100,2210,1040,9970,4160,3680,1030,4530,1320,860,250
+"Greenwich and Woolwich","Matthew Pennycook","Labour",2410,9090,10340,4390,3370,1420,14890,6090,5440,1360,6650,1750,1180,370
+"Guildford","Anne Milton","Conservative",1420,5670,6640,2440,2410,890,10100,3570,3040,640,3800,930,790,190
+"Hackney North and Stoke Newington","Ms Diane Abbott","Labour",3270,11150,13020,5740,3980,1760,18230,7660,7010,1870,8570,2350,1510,490
+"Hackney South and Shoreditch","Meg Hillier","Labour Co-op",2570,8560,10280,4670,3630,1680,14650,6380,5490,1550,6770,1940,1520,380
+"Halesowen and Rowley Regis","James Morris","Conservative",1460,5420,6560,2680,1990,800,9110,3700,3160,880,3910,1140,820,220
+"Halifax","Holly Lynch","Labour",1780,6900,8070,3310,2730,1120,11800,4700,4040,1030,4950,1300,920,230
+"Haltemprice and Howden","Mr David Davis","Conservative",1010,4160,4790,1760,1720,630,7410,2560,2180,420,2700,620,540,120
+"Halton","Derek Twigg","Labour",1500,5780,6820,2740,2290,890,9970,3880,3340,850,4090,1080,780,200
+"Hammersmith","Andy Slaughter","Labour",1500,6460,7400,3040,2500,950,10710,4320,3720,920,4490,1160,840,260
+"Hampstead and Kilburn","Tulip Siddiq","Labour",2190,8210,10150,4140,3070,1260,14000,5670,4860,1370,5990,1740,1210,330
+"Harborough","Neil O'Brien","Conservative",1420,5490,6410,2420,2160,840,9710,3460,2940,640,3670,940,730,180
+"Harlow","Robert Halfon","Conservative",1780,6140,8460,3590,2500,1230,11040,4770,3950,1180,4830,1600,860,300
+"Harrogate and Knaresborough","Andrew Jones","Conservative",1410,5720,6350,2470,2110,790,9810,3480,2980,630,3710,900,730,180
+"Harrow East","Bob Blackman","Conservative",1570,6460,7430,2830,2570,940,11340,4130,3490,730,4300,970,810,220
+"Harrow West","Gareth Thomas","Labour Co-op",1910,6920,8060,3170,2580,990,11940,4550,3860,930,4780,1190,910,260
+"Hartlepool","Mike Hill","Labour",1410,5740,6620,2750,2400,910,9630,3910,3310,830,4050,1070,870,240
+"Harwich and North Essex","Sir Bernard Jenkin","Conservative",1430,4890,5920,2240,1840,690,8440,3170,2850,750,3570,1020,720,180
+"Hastings and Rye","Amber Rudd","Conservative",1740,6700,7430,3090,2430,960,10810,4280,3850,960,4730,1250,870,250
+"Havant","Alan Mak","Conservative",1260,5160,6220,2450,2170,880,9030,3520,3020,740,3670,920,660,210
+"Hayes and Harlington","John McDonnell","Labour",2540,9870,11280,4620,3810,1460,16580,6540,5640,1450,6950,1840,1360,340
+"Hazel Grove","Mr William Wragg","Conservative",1230,4320,5170,2000,1650,680,7510,2920,2480,600,3080,830,570,170
+"Hemel Hempstead","Sir Mike Penning","Conservative",1750,6780,7600,3030,2430,940,11350,4380,3850,870,4690,1100,810,230
+"Hemsworth","Jon Trickett","Labour",1550,5980,7330,3150,2240,990,10120,4240,3510,970,4320,1280,860,260
+"Hendon","Dr Matthew Offord","Conservative",2570,9620,11440,4850,3540,1600,16520,6510,5600,1520,6940,1950,1280,340
+"Henley","John Howell","Conservative",1120,4640,5530,1920,1920,680,8440,2840,2390,460,2940,650,580,130
+"Hereford and South Herefordshire","Jesse Norman","Conservative",1260,5060,5970,2200,2040,730,8920,3180,2750,590,3440,850,700,180
+"Hertford and Stortford","Mr Mark Prisk","Conservative",1450,6050,7030,2490,2620,930,10960,3670,3080,570,3820,870,790,170
+"Hertsmere","Oliver Dowden","Conservative",1800,6610,7710,3070,2400,950,11290,4310,3710,860,4560,1180,840,230
+"Hexham","Guy Opperman","Conservative",800,3360,3870,1370,1440,510,6040,2040,1740,330,2150,480,420,90
+"Heywood and Middleton","Liz McInnes","Labour",1750,6680,7710,3210,2650,1140,11270,4560,3940,1010,4850,1290,930,240
+"High Peak","Ruth George","Labour",1180,4720,5410,2030,1810,660,8100,2920,2570,570,3210,800,630,160
+"Hitchin and Harpenden","Bim Afolami","Conservative",1360,5790,6810,2370,2460,880,10550,3530,3000,540,3670,790,690,160
+"Holborn and St Pancras","Keir Starmer","Labour",2080,8660,9830,4190,3460,1410,14340,5920,5100,1280,6200,1600,1190,350
+"Hornchurch and Upminster","Julia Lopez","Conservative",1500,6000,7300,2800,2420,990,10720,3970,3400,810,4180,1060,830,220
+"Hornsey and Wood Green","Catherine West","Labour",1700,6810,8180,3160,2750,1130,12080,4470,3840,920,4730,1210,950,240
+"Horsham","Jeremy Quin","Conservative",1520,6360,7010,2570,2590,900,11060,3770,3270,640,4040,910,780,170
+"Houghton and Sunderland South","Bridget Phillipson","Labour",1320,4870,5800,2460,1760,770,8280,3430,2930,760,3600,970,680,190
+"Hove","Peter Kyle","Labour",1360,5450,6350,2400,2020,760,9300,3430,3100,700,3850,950,700,180
+"Huddersfield","Mr Barry Sheerman","Labour Co-op",1520,5910,6840,2740,2260,800,10030,3880,3330,850,4100,1080,810,200
+"Huntingdon","Mr Jonathan Djanogly","Conservative",1580,6280,7300,2660,2390,890,10980,3900,3380,730,4210,1020,800,210
+"Hyndburn","Graham P Jones","Labour",1570,5490,7120,2960,2280,1120,9930,4250,3340,930,4040,1210,670,270
+"Ilford North","Wes Streeting","Labour",1820,6910,7890,3020,2630,990,11890,4380,3780,820,4680,1120,890,240
+"Ilford South","Mike Gapes","Change UK - The Independent Group",2640,10320,12760,4890,3950,1590,18180,6910,6020,1540,7310,1920,1350,430
+"Ipswich","Sandy Martin","Labour",1660,6660,8130,3170,2860,1180,11790,4520,3900,960,4750,1230,880,270
+"Isle of Wight","Mr Bob Seely","Conservative",1800,6820,8150,3380,2570,1150,11800,4610,3970,1050,4910,1340,910,250
+"Islington North","Jeremy Corbyn","Labour",1850,6570,7980,3520,2740,1270,11410,4920,4120,1120,5010,1410,970,290
+"Islington South and Finsbury","Emily Thornberry","Labour",1390,5780,6470,2770,2350,890,9520,3890,3370,850,4100,1060,830,230
+"Jarrow","Mr Stephen Hepburn","Labour",1210,4680,5470,2240,1820,750,7950,3190,2790,700,3400,880,610,160
+"Keighley","John Grogan","Labour",1710,6480,7320,3040,2310,920,10790,4320,3740,890,4610,1110,830,220
+"Kenilworth and Southam","Jeremy Wright","Conservative",990,4100,4760,1800,1580,610,7260,2580,2240,450,2740,630,470,110
+"Kensington","Emma Dent Coad","Labour",1580,5900,6860,2840,2290,980,10120,3880,3340,890,4160,1170,820,230
+"Kettering","Mr Philip Hollobone","Conservative",1730,6700,7420,3020,2230,880,10930,4290,3850,900,4680,1100,790,210
+"Kingston and Surbiton","Sir Edward Davey","Liberal Democrat",1890,7200,8250,3210,2660,1020,12290,4650,3980,900,4910,1200,910,240
+"Kingston upon Hull East","Karl Turner","Labour",1660,6610,6940,3010,2350,930,10250,4200,3710,960,4560,1190,990,250
+"Kingston upon Hull North","Diana Johnson","Labour",1560,6590,7300,3100,2600,980,10780,4390,3790,930,4600,1160,880,260
+"Kingston upon Hull West and Hessle","Emma Hardy","Labour",1190,5040,5830,2410,2080,780,8500,3390,2920,720,3550,930,710,210
+"Kingswood","Chris Skidmore","Conservative",1490,4990,6280,2490,1950,810,8950,3490,2940,720,3620,1000,670,190
+"Knowsley","Sir George Howarth","Labour",1670,7130,7970,3320,2840,1090,11760,4710,4110,990,4970,1270,920,280
+"Lancaster and Fleetwood","Cat Smith","Labour",1420,4720,5210,2200,1480,610,7650,3150,2650,720,3230,860,550,160
+"Leeds Central","Hilary Benn","Labour",2480,10150,10920,4740,3790,1460,16110,6640,5910,1480,7180,1810,1360,380
+"Leeds East","Richard Burgon","Labour",2250,8250,9500,4150,3350,1370,13730,5740,4960,1330,6100,1680,1340,350
+"Leeds North East","Fabian Hamilton","Labour",1510,5600,6820,2630,2200,920,9820,3760,3260,780,4070,1100,800,210
+"Leeds North West","Alex Sobel","Labour Co-op",880,3370,3910,1420,1290,490,5900,2090,1810,400,2260,570,430,110
+"Leeds West","Rachel Reeves","Labour",1530,5760,6690,2770,2490,1010,9730,3940,3400,830,4170,1120,940,240
+"Leicester East","Keith Vaz","Labour",2230,8290,9900,4140,3180,1400,14210,5800,5080,1310,6200,1660,1120,300
+"Leicester South","Jonathan Ashworth","Labour Co-op",1980,7720,8840,3570,2980,1120,13000,5090,4420,1120,5420,1420,1030,250
+"Leicester West","Liz Kendall","Labour",2030,8370,9180,3930,3390,1250,13620,5530,4790,1220,5870,1510,1270,340
+"Leigh","Jo Platt","Labour Co-op",1670,5620,6780,2840,2030,920,9920,4000,3200,920,3870,1130,670,200
+"Lewes","Maria Caulfield","Conservative",1220,4830,5470,2050,1830,650,8190,2940,2630,590,3290,830,650,160
+"Lewisham East","Janet Daby","Labour",2020,6940,8880,3690,2860,1230,12520,5060,4400,1140,5390,1520,980,320
+"Lewisham West and Penge","Ellie Reeves","Labour",2040,7810,8960,3740,2800,1180,12870,5170,4630,1160,5640,1490,970,310
+"Lewisham, Deptford","Vicky Foxcroft","Labour",1770,7640,8700,3650,3000,1170,12710,5170,4480,1110,5390,1370,940,310
+"Leyton and Wanstead","John Cryer","Labour",1740,6610,8780,3690,2910,1470,11890,5100,4170,1120,5100,1500,910,280
+"Lichfield","Michael Fabricant","Conservative",1430,5150,5730,2200,1820,670,8530,3150,2800,660,3480,880,670,170
+"Lincoln","Karen Lee","Labour",1510,5840,6740,2750,2360,920,9910,3910,3370,860,4160,1100,820,210
+"Liverpool, Riverside","Dame Louise Ellman","Labour Co-op",1310,5000,5810,2480,1690,670,8240,3440,2890,780,3490,950,660,210
+"Liverpool, Walton","Dan Carden","Labour",1290,5550,6480,2650,2320,860,9430,3780,3240,780,3920,1000,730,230
+"Liverpool, Wavertree","Luciana Berger","Independent",1490,5550,6530,2700,2180,920,9430,3770,3330,830,4090,1100,760,220
+"Liverpool, West Derby","Stephen Twigg","Labour Co-op",1430,6140,6900,2890,2500,950,10150,4100,3540,870,4290,1100,840,250
+"Loughborough","Nicky Morgan","Conservative",1390,5380,6180,2330,2100,770,9190,3360,2970,660,3730,950,760,190
+"Louth and Horncastle","Victoria Atkins","Conservative",1140,4400,5210,2070,1720,750,7680,2900,2480,610,3070,820,610,160
+"Ludlow","Mr Philip Dunne","Conservative",1010,3630,4520,1890,1560,710,6550,2530,2040,500,2540,740,560,150
+"Luton North","Kelvin Hopkins","Independent",1830,7200,8860,3500,3190,1370,12740,5010,4260,1060,5220,1400,1000,300
+"Luton South","Mr Gavin Shuker","Independent",2110,8160,9700,3780,3280,1170,14200,5400,4650,1180,5690,1510,1080,270
+"Macclesfield","David Rutley","Conservative",1310,4690,5790,2440,1980,820,8330,3200,2690,690,3300,960,700,180
+"Maidenhead","Mrs Theresa May","Conservative",1420,5890,6860,2450,2440,890,10610,3620,3100,590,3800,850,700,160
+"Maidstone and The Weald","Mrs Helen Grant","Conservative",1540,6020,7000,2580,2310,880,10520,3810,3280,720,4070,1000,760,200
+"Makerfield","Yvonne Fovargue","Labour",1690,6040,6790,2730,2170,810,9980,3860,3430,860,4290,1080,860,220
+"Maldon","Mr John Whittingdale","Conservative",1160,4530,5270,1960,1710,650,7890,2860,2470,550,3060,760,570,150
+"Manchester Central","Lucy Powell","Labour Co-op",2430,9330,10190,4410,3650,1450,14970,6250,5450,1400,6660,1730,1360,370
+"Manchester, Gorton","Afzal Khan","Labour",2420,8550,10160,4380,3200,1430,14340,5960,5270,1360,6470,1780,1190,360
+"Manchester, Withington","Jeff Smith","Labour",1350,5250,6570,2720,2160,970,9020,3790,3220,850,3950,1090,730,210
+"Mansfield","Ben Bradley","Conservative",1600,6210,7280,2980,2500,1010,10680,4230,3600,930,4420,1180,850,220
+"Meon Valley","George Hollingbery","Conservative",1240,4690,5690,2290,1910,800,8350,3120,2630,610,3240,870,640,170
+"Meriden","Dame Caroline Spelman","Conservative",1670,6610,8200,3200,2840,1190,11730,4580,3920,980,4790,1250,890,270
+"Mid Bedfordshire","Ms Nadine Dorries","Conservative",1730,6520,7630,3040,2610,1050,11460,4280,3700,850,4600,1190,890,220
+"Mid Derbyshire","Mrs Pauline Latham","Conservative",1150,4300,5180,2160,1800,750,7560,2900,2420,570,2990,810,660,160
+"Mid Dorset and North Poole","Michael Tomlinson","Conservative",1100,4210,5110,2040,1730,740,7500,2810,2370,540,2910,770,560,150
+"Mid Norfolk","George Freeman","Conservative",1570,5640,6570,2630,2010,790,9580,3690,3180,760,3890,1010,700,190
+"Mid Sussex","Sir Nicholas Soames","Conservative",1530,6210,7190,2690,2520,970,11080,3910,3330,660,4100,970,760,170
+"Mid Worcestershire","Nigel Huddleston","Conservative",1400,5390,6260,2380,2090,790,9240,3430,3010,700,3780,970,770,190
+"Middlesbrough","Andy McDonald","Labour",1700,7030,7940,3440,2690,1140,11470,4830,4260,1060,5160,1300,930,280
+"Middlesbrough South and East Cleveland","Mr Simon Clarke","Conservative",1380,5340,6190,2520,2060,800,9060,3580,3080,790,3780,1000,720,170
+"Milton Keynes North","Mark Lancaster","Conservative",2400,8920,10490,4360,3340,1470,15270,5950,5130,1370,6360,1770,1210,330
+"Milton Keynes South","Iain Stewart","Conservative",2660,9720,11670,4950,3720,1680,16790,6660,5700,1580,7100,2040,1360,370
+"Mitcham and Morden","Siobhain McDonagh","Labour",1670,6630,8230,3260,2790,1200,11700,4620,3930,970,4810,1260,910,280
+"Mole Valley","Sir Paul Beresford","Conservative",1180,4870,5620,2040,1950,710,8660,2990,2540,500,3130,710,600,140
+"Morecambe and Lunesdale","David Morris","Conservative",1600,5180,6880,2910,2100,960,9070,3940,3190,1010,3970,1400,840,230
+"Morley and Outwood","Andrea Jenkyns","Conservative",1440,5120,6180,2420,2020,840,9100,3510,2880,690,3580,960,690,190
+"New Forest East","Dr Julian Lewis","Conservative",1410,4770,5890,2410,1780,750,8330,3370,2870,710,3490,940,620,180
+"New Forest West","Sir Desmond Swayne","Conservative",950,3610,4430,1780,1550,690,6470,2480,2050,470,2530,670,500,130
+"Newark","Robert Jenrick","Conservative",1530,5570,6460,2580,2070,820,9510,3680,3150,740,3890,990,730,190
+"Newbury","Richard Benyon","Conservative",1680,6380,7820,3130,2700,1190,11460,4340,3600,820,4440,1180,860,230
+"Newcastle-under-Lyme","Paul Farrelly","Labour",1230,4650,5350,2120,1710,660,8000,3070,2550,600,3140,760,580,170
+"Newcastle upon Tyne Central","Chi Onwurah","Labour",1760,6610,7920,3340,2500,1110,11290,4630,4110,1010,4970,1320,820,270
+"Newcastle upon Tyne East","Mr Nicholas Brown","Labour",1060,4370,4910,2080,1690,670,7160,2920,2530,630,3080,800,610,180
+"Newcastle upon Tyne North","Catherine McKinnell","Labour",1330,5270,6570,2630,2240,1000,9290,3730,3170,800,3870,1030,700,220
+"Newton Abbot","Anne Marie Morris","Conservative",1110,4310,5300,2030,1760,750,7680,2950,2530,590,3140,810,590,160
+"Normanton, Pontefract and Castleford","Yvette Cooper","Labour",1700,6550,7710,3130,2640,1080,11240,4470,3860,980,4740,1240,890,220
+"North Cornwall","Scott Mann","Conservative",1300,4900,5780,2360,1860,770,8490,3440,2900,690,3540,860,610,170
+"North Devon","Peter Heaton-Jones","Conservative",1230,4880,5630,2080,1900,680,8450,2990,2630,580,3300,830,670,160
+"North Dorset","Simon Hoare","Conservative",1420,4840,6000,2510,1780,790,8660,3410,2740,680,3360,940,600,190
+"North Durham","Mr Kevan Jones","Labour",1310,4650,6210,2600,2020,950,8310,3460,2880,820,3580,1170,770,210
+"North East Bedfordshire","Alistair Burt","Conservative",1980,7020,7970,3110,2510,940,11790,4510,3840,880,4760,1180,910,240
+"North East Cambridgeshire","Stephen Barclay","Conservative",1790,6730,7740,3190,2470,1050,11390,4400,3760,950,4680,1240,920,240
+"North East Derbyshire","Lee Rowley","Conservative",1330,4620,5620,2160,1620,640,7950,3040,2700,680,3360,930,630,170
+"North East Hampshire","Mr Ranil Jayawardena","Conservative",1230,5220,6110,2130,2220,800,9490,3170,2680,490,3280,720,620,130
+"North East Hertfordshire","Sir Oliver Heald","Conservative",1590,5770,6850,2750,2090,810,9970,3840,3220,800,3970,1040,730,210
+"North East Somerset","Mr Jacob Rees-Mogg","Conservative",1330,4940,6020,2430,2100,880,8850,3310,2750,630,3410,940,720,190
+"North Herefordshire","Bill Wiggin","Conservative",1280,4230,4910,1930,1510,590,7280,2830,2290,580,2820,760,510,150
+"North Norfolk","Norman Lamb","Liberal Democrat",850,3420,4020,1480,1350,480,6020,2130,1840,400,2300,570,470,120
+"North Shropshire","Mr Owen Paterson","Conservative",1630,5750,6710,2650,2120,850,9830,3790,3260,770,4010,1040,740,200
+"North Somerset","Dr Liam Fox","Conservative",1230,4960,5820,2090,2230,840,8980,3170,2650,500,3290,730,660,140
+"North Swindon","Justin Tomlinson","Conservative",1700,6800,7880,2940,2630,950,11780,4200,3670,810,4600,1160,940,230
+"North Thanet","Sir Roger Gale","Conservative",1320,5240,6560,2620,2300,1040,9320,3740,3140,790,3840,1030,720,220
+"North Tyneside","Mary Glindon","Labour",1450,5450,6540,2670,2330,1040,9550,3850,3210,830,3940,1070,770,200
+"North Warwickshire","Craig Tracey","Conservative",1350,5280,5960,2260,2030,720,8940,3230,2890,650,3620,920,740,180
+"North West Cambridgeshire","Mr Shailesh Vara","Conservative",2320,8840,9650,3840,3130,1190,14560,5520,4800,1100,5950,1430,1130,290
+"North West Durham","Laura Pidcock","Labour",1500,5120,6000,2480,1810,690,8600,3360,2870,840,3630,1050,780,180
+"North West Hampshire","Kit Malthouse","Conservative",1450,5740,6760,2470,2310,900,10260,3590,3060,640,3830,950,760,190
+"North West Leicestershire","Andrew Bridgen","Conservative",1390,5160,6350,2370,2160,800,9240,3390,2920,660,3690,970,800,200
+"North West Norfolk","Sir Henry Bellingham","Conservative",1230,4920,5860,2320,1900,820,8610,3260,2810,690,3450,890,650,170
+"North Wiltshire","James Gray","Conservative",1520,5220,6090,2370,1750,700,9020,3310,2820,710,3480,980,650,160
+"Northampton North","Michael Ellis","Conservative",1720,5800,7240,3050,1940,880,9700,4220,3530,1070,4300,1380,710,230
+"Northampton South","Andrew Lewer","Conservative",2080,7260,8240,3610,2280,910,11710,4980,4450,1200,5430,1480,950,240
+"Norwich North","Chloe Smith","Conservative",1160,4580,5480,2160,1840,780,8100,3030,2590,630,3190,840,630,160
+"Norwich South","Clive Lewis","Labour",1240,4800,5550,2200,1910,700,8200,3130,2700,690,3320,890,660,150
+"Nottingham East","Mr Chris Leslie","Change UK - The Independent Group",1550,6340,7500,3200,2740,1170,10860,4550,3850,970,4670,1230,910,270
+"Nottingham North","Alex Norris","Labour Co-op",2080,8060,9140,4000,3290,1420,13370,5620,4700,1220,5770,1570,1290,340
+"Nottingham South","Lilian Greenwood","Labour",1300,5060,6060,2370,2020,720,8860,3370,2900,740,3530,930,650,160
+"Nuneaton","Mr Marcus Jones","Conservative",1650,5890,7610,3350,2170,960,9980,4330,3630,1130,4500,1500,890,240
+"Old Bexley and Sidcup","James Brokenshire","Conservative",1200,4680,5460,2020,1770,660,8200,2940,2490,560,3110,780,600,160
+"Oldham East and Saddleworth","Debbie Abrahams","Labour",1840,7160,8380,3320,2910,1090,12340,4740,4090,1030,5010,1330,960,230
+"Oldham West and Royton","Jim McMahon","Labour Co-op",2170,8330,9580,4000,2890,1220,13730,5500,4920,1230,5960,1590,1000,330
+"Orpington","Joseph Johnson","Conservative",1350,5310,6350,2360,2120,780,9380,3400,2950,650,3680,920,730,190
+"Oxford East","Anneliese Dodds","Labour Co-op",1860,6800,8430,3560,2470,1020,11430,4810,4040,1160,4990,1490,1010,280
+"Oxford West and Abingdon","Layla Moran","Liberal Democrat",1410,5680,6610,2490,2270,860,10130,3570,3050,630,3750,900,710,170
+"Pendle","Andrew Stephenson","Conservative",1290,5320,6430,2470,2150,890,9490,3520,3020,700,3710,910,720,190
+"Penistone and Stocksbridge","Angela Smith","Independent",1100,4220,5110,2020,1770,740,7540,2820,2340,530,2910,760,600,160
+"Penrith and The Border","Rory Stewart","Conservative",850,3670,4150,1520,1550,550,6510,2240,1910,360,2360,510,460,100
+"Peterborough","Ms Lisa Forbes","Labour",2270,8500,10150,4170,3260,1370,14560,5810,5130,1280,6250,1690,1100,350
+"Plymouth, Moor View","Johnny Mercer","Conservative",1490,5590,6730,2700,2160,890,9700,3760,3330,830,4060,1110,710,220
+"Plymouth, Sutton and Devonport","Luke Pollard","Labour Co-op",1520,5870,6630,2690,2260,860,9810,3830,3320,850,4090,1090,800,190
+"Poole","Sir Robert Syms","Conservative",1390,5360,6080,2440,1910,750,9010,3500,3070,700,3750,880,650,180
+"Poplar and Limehouse","Jim Fitzpatrick","Labour",2390,10120,12060,4870,4070,1480,17250,6890,5880,1460,7100,1870,1340,440
+"Portsmouth North","Penny Mordaunt","Conservative",1510,5970,7380,2860,2580,1070,10620,4080,3520,870,4290,1130,810,250
+"Portsmouth South","Stephen Morgan","Labour",1590,5940,6950,2850,2260,940,10070,3970,3500,870,4280,1160,770,230
+"Preston","Sir Mark Hendrick","Labour Co-op",1590,5930,7220,2950,2280,950,10290,4110,3630,900,4410,1180,760,250
+"Pudsey","Stuart Andrew","Conservative",1330,5090,6180,2490,2160,910,9080,3430,2860,660,3530,930,710,180
+"Putney","Justine Greening","Conservative",1320,5160,6250,2400,2130,890,9220,3410,2920,690,3610,940,740,190
+"Rayleigh and Wickford","Mr Mark Francois","Conservative",1260,4930,5850,2170,2040,810,8840,3130,2650,560,3320,840,670,170
+"Reading East","Matt Rodda","Labour",1800,6800,8070,3080,2540,970,11660,4370,3910,930,4890,1280,940,240
+"Reading West","Alok Sharma","Conservative",1510,6190,7570,2900,2560,1040,11190,4120,3510,820,4310,1070,860,220
+"Redcar","Anna Turley","Labour Co-op",1260,4680,5810,2340,1840,760,8310,3260,2820,720,3440,950,610,200
+"Redditch","Rachel Maclean","Conservative",1740,5790,6880,2940,1990,780,9740,3980,3540,1020,4360,1210,780,200
+"Reigate","Crispin Blunt","Conservative",1510,6040,7100,2620,2400,910,10790,3810,3220,680,4020,980,780,210
+"Ribble Valley","Mr Nigel Evans","Conservative",1080,4550,5400,1870,1960,690,8350,2770,2340,430,2870,640,560,130
+"Richmond (Yorks)","Rishi Sunak","Conservative",1350,5110,6110,2390,2200,890,9120,3340,2790,630,3480,940,760,190
+"Richmond Park","Zac Goldsmith","Conservative",1650,6850,8140,2830,3030,1070,12610,4210,3560,650,4380,980,860,200
+"Rochdale","Tony Lloyd","Labour",2280,8620,9800,4190,3120,1350,14090,5790,5130,1300,6270,1670,1110,360
+"Rochester and Strood","Kelly Tolhurst","Conservative",1570,6290,7620,2950,2570,1060,11260,4180,3550,830,4360,1110,880,230
+"Rochford and Southend East","James Duddridge","Conservative",1810,6360,7900,3340,2500,1120,11130,4610,4070,1010,4940,1330,840,270
+"Romford","Andrew Rosindell","Conservative",1870,6390,7870,3390,2430,1110,11140,4490,3840,1120,4790,1440,890,250
+"Romsey and Southampton North","Caroline Nokes","Conservative",1110,4300,5190,2040,1820,750,7700,2840,2380,530,2950,770,580,150
+"Rossendale and Darwen","Jake Berry","Conservative",1510,5750,6530,2580,2150,830,9810,3740,3190,730,3930,950,740,200
+"Rother Valley","Sir Kevin Barron","Labour",1350,5140,6440,2670,2150,1070,9270,3700,3070,810,3800,1070,740,200
+"Rotherham","Sarah Champion","Labour",1480,6160,7190,3080,2630,1120,10440,4380,3730,930,4540,1170,890,250
+"Rugby","Mark Pawsey","Conservative",1680,6240,7320,2930,2180,870,10590,4090,3590,840,4350,1100,750,200
+"Ruislip, Northwood and Pinner","Mr Nick Hurd","Conservative",1330,5190,6130,2280,2100,830,9240,3280,2790,600,3490,890,710,180
+"Runnymede and Weybridge","Mr Philip Hammond","Conservative",1360,5430,6390,2340,2140,840,9710,3390,2890,600,3610,900,700,180
+"Rushcliffe","Mr Kenneth Clarke","Conservative",1290,5380,6140,2350,2110,800,9430,3370,2930,590,3600,830,640,150
+"Rutland and Melton","Sir Alan Duncan","Conservative",1570,5500,6340,2540,1890,730,9480,3490,2990,770,3700,1050,710,170
+"Saffron Walden","Mrs Kemi Badenoch","Conservative",1680,5910,7770,3060,2550,1090,11260,4240,3540,820,4380,1210,840,230
+"Salford and Eccles","Rebecca Long Bailey","Labour",1660,6230,7280,3060,2300,990,10430,4220,3730,940,4550,1230,810,260
+"Salisbury","John Glen","Conservative",1240,4890,5780,2050,1810,670,8740,3020,2590,560,3250,790,640,160
+"Scarborough and Whitby","Mr Robert Goodwill","Conservative",1450,4980,5880,2510,1710,720,8400,3310,2840,850,3550,1080,700,190
+"Scunthorpe","Nic Dakin","Labour",1610,5760,6660,2740,2020,750,9600,3870,3270,900,4050,1130,830,200
+"Sedgefield","Phil Wilson","Labour",1100,4410,5400,2080,1830,740,7810,2990,2580,630,3130,790,560,180
+"Sefton Central","Bill Esterson","Labour",970,3670,4400,1710,1520,620,6540,2400,2010,460,2500,670,520,130
+"Selby and Ainsty","Nigel Adams","Conservative",1460,5370,6480,2650,2020,840,9550,3610,2940,730,3640,1000,720,200
+"Sevenoaks","Sir Michael Fallon","Conservative",1430,5520,6580,2490,2280,920,9850,3540,3000,650,3740,970,780,190
+"Sheffield Central","Paul Blomfield","Labour",1430,5170,6030,2510,1810,720,8780,3610,2970,800,3590,990,610,170
+"Sheffield South East","Mr Clive Betts","Labour",1440,5690,7210,3010,2290,1040,9840,4110,3500,920,4280,1190,760,230
+"Sheffield, Brightside and Hillsborough","Gill Furniss","Labour",2130,8850,9860,4040,3610,1280,14550,5750,4970,1220,6050,1580,1250,350
+"Sheffield, Hallam","Jared O'Mara","Independent",1170,4200,4950,1870,1550,610,7480,2770,2220,470,2720,660,500,140
+"Sheffield, Heeley","Louise Haigh","Labour",1470,5380,6550,2670,2120,890,9400,3700,3220,810,3950,1100,730,230
+"Sherwood","Mark Spencer","Conservative",1670,5530,6610,2720,1920,780,9440,3680,3140,930,3910,1180,780,200
+"Shipley","Philip Davies","Conservative",1280,5010,5830,2130,1930,720,8780,3130,2710,600,3370,830,650,170
+"Shrewsbury and Atcham","Daniel Kawczynski","Conservative",1490,5430,6260,2390,2070,820,9410,3500,2920,690,3660,960,720,190
+"Sittingbourne and Sheppey","Gordon Henderson","Conservative",2040,7810,8960,3700,3040,1220,13100,5240,4620,1180,5670,1490,1060,280
+"Skipton and Ripon","Julian Smith","Conservative",1090,4690,5270,1880,1970,690,8310,2790,2400,450,2960,650,570,120
+"Sleaford and North Hykeham","Dr Caroline Johnson","Conservative",1440,5690,6790,2550,2480,970,10290,3680,3060,650,3840,970,780,210
+"Slough","Mr Tanmanjeet Singh Dhesi","Labour",2520,10150,12300,4720,4160,1730,18180,6720,5760,1350,7070,1790,1400,360
+"Solihull","Julian Knight","Conservative",1330,5240,6220,2270,2110,830,9420,3290,2800,580,3510,880,690,180
+"Somerton and Frome","David Warburton","Conservative",1520,5360,6450,2430,2090,820,9500,3470,2920,670,3690,990,750,200
+"South Basildon and East Thurrock","Stephen Metcalfe","Conservative",1850,6240,8000,3460,2630,1310,11250,4690,4120,1150,5050,1480,910,270
+"South Cambridgeshire","Heidi Allen","Independent",1600,6620,7670,2860,2600,990,11720,4110,3550,710,4360,1010,800,180
+"South Derbyshire","Mrs Heather Wheeler","Conservative",1600,5860,6940,2750,2170,890,10110,3930,3380,780,4120,1050,730,200
+"South Dorset","Richard Drax","Conservative",1150,4430,5060,1940,1630,620,7630,2790,2370,520,2930,700,550,150
+"South East Cambridgeshire","Lucy Frazer","Conservative",1580,6580,7300,2620,2720,930,11510,3880,3360,640,4150,930,810,170
+"South East Cornwall","Mrs Sheryll Murray","Conservative",1070,4340,5050,1870,1670,590,7530,2690,2370,510,2950,720,570,150
+"South Holland and The Deepings","Sir John Hayes","Conservative",1350,5520,6300,2320,2090,720,9460,3330,2960,640,3700,890,750,180
+"South Leicestershire","Alberto Costa","Conservative",1340,5370,6120,2250,2130,790,9550,3390,2720,550,3320,760,600,150
+"South Norfolk","Mr Richard Bacon","Conservative",1400,5410,6590,2620,2210,950,9650,3630,3060,690,3760,970,710,180
+"South Northamptonshire","Andrea Leadsom","Conservative",1640,6580,7560,2770,2500,910,11600,4080,3380,680,4140,940,770,190
+"South Ribble","Seema Kennedy","Conservative",1360,5120,5950,2200,1960,750,8900,3240,2810,620,3490,870,670,180
+"South Shields","Mrs Emma Lewell-Buck","Labour",1270,4670,5550,2370,1730,760,7900,3240,2830,720,3450,940,620,200
+"South Staffordshire","Gavin Williamson","Conservative",1360,4470,5340,2130,1550,600,7650,2940,2480,650,3070,850,570,150
+"South Suffolk","James Cartlidge","Conservative",1300,4820,5530,2100,1820,700,8320,3040,2630,600,3260,840,620,160
+"South Swindon","Robert Buckland","Conservative",1670,6540,7290,2840,2340,880,11010,4070,3510,780,4320,1030,800,220
+"South Thanet","Craig Mackinlay","Conservative",1490,5660,6740,2640,2300,880,9850,3760,3210,820,3950,1070,790,180
+"South West Bedfordshire","Andrew Selous","Conservative",1810,6950,7650,2990,2590,960,11650,4330,3760,850,4650,1110,880,230
+"South West Devon","Sir Gary Streeter","Conservative",1000,4260,4950,1750,1820,660,7720,2610,2230,410,2730,590,510,110
+"South West Hertfordshire","Mr David Gauke","Conservative",1430,5900,6890,2410,2670,950,10780,3580,3040,560,3770,870,790,160
+"South West Norfolk","Elizabeth Truss","Conservative",1620,6230,6890,2760,2140,840,10270,3940,3500,810,4280,1020,740,200
+"South West Surrey","Mr Jeremy Hunt","Conservative",1500,5920,6970,2550,2570,950,10750,3730,3150,630,3900,940,780,180
+"South West Wiltshire","Dr Andrew Murrison","Conservative",1340,5490,6380,2340,2180,770,9570,3390,2980,640,3730,900,750,190
+"Southampton, Itchen","Royston Smith","Conservative",1570,5970,7050,2770,2450,940,10340,3970,3400,870,4180,1130,830,190
+"Southampton, Test","Dr Alan Whitehead","Labour",1590,6180,7290,2880,2580,930,10740,4110,3530,900,4330,1150,850,210
+"Southend West","Sir David Amess","Conservative",1230,5060,5880,2180,1950,700,8800,3150,2760,590,3430,830,660,170
+"Southport","Damien Moore","Conservative",1220,4790,5300,2070,1680,640,7980,2960,2590,580,3190,760,580,160
+"Spelthorne","Kwasi Kwarteng","Conservative",1410,5650,6720,2520,2240,860,9860,3660,3220,720,4010,990,770,200
+"St Albans","Mrs Anne Main","Conservative",1600,6220,7400,2850,2700,1100,11130,4090,3410,750,4240,1080,860,220
+"St Austell and Newquay","Steve Double","Conservative",1310,5190,6370,2440,2100,860,9350,3470,2950,710,3610,920,720,190
+"St Helens North","Conor McGinn","Labour",1640,5940,6960,2990,1980,810,9890,4100,3630,960,4420,1200,780,220
+"St Helens South and Whiston","Ms Marie Rimmer","Labour",1650,6180,7140,3010,2300,970,10280,4150,3700,940,4510,1220,790,250
+"St Ives","Derek Thomas","Conservative",1050,4070,4710,1790,1530,570,7100,2580,2180,470,2690,630,510,140
+"Stafford","Jeremy Lefroy","Conservative",1320,5000,5740,2180,1860,720,8590,3180,2740,620,3390,850,640,170
+"Staffordshire Moorlands","Karen Bradley","Conservative",930,3590,4300,1630,1420,550,6420,2310,1950,440,2430,620,480,130
+"Stalybridge and Hyde","Jonathan Reynolds","Labour Co-op",1610,5510,7040,2940,2310,960,9930,4010,3460,980,4260,1250,820,220
+"Stevenage","Stephen McPartland","Conservative",1440,5670,6940,2760,2270,1020,10130,3850,3290,810,4040,1070,760,190
+"Stockport","Ann Coffey","Change UK - The Independent Group",1370,5470,6830,2730,2330,1030,9650,3870,3310,830,4020,1060,690,220
+"Stockton North","Alex Cunningham","Labour",1830,6300,7540,3400,2090,930,10380,4440,4030,1090,4870,1330,790,270
+"Stockton South","Dr Paul Williams","Labour",1530,6060,7020,2610,2300,850,10460,3760,3330,730,4140,1030,780,200
+"Stoke-on-Trent Central","Gareth Snell","Labour Co-op",1490,5660,6510,2830,2000,900,9220,3880,3540,870,4270,1100,680,220
+"Stoke-on-Trent North","Ruth Smeeth","Labour",1950,6890,8250,3660,2450,1130,11480,4890,4460,1150,5390,1440,870,310
+"Stoke-on-Trent South","Jack Brereton","Conservative",1520,5780,6640,2760,2220,960,9670,3930,3440,870,4210,1110,770,200
+"Stone","Sir William Cash","Conservative",890,3780,4310,1540,1610,570,6730,2300,1980,370,2430,520,460,100
+"Stourbridge","Margot James","Conservative",1480,5690,6330,2630,1920,760,9230,3730,3390,810,4130,970,700,180
+"Stratford-on-Avon","Nadhim Zahawi","Conservative",1200,4300,5350,2190,1850,770,7720,2920,2440,610,3020,870,650,170
+"Streatham","Chuka Umunna","Independent",1970,7410,8260,3490,2640,1110,11970,4810,4310,1090,5260,1420,940,280
+"Stretford and Urmston","Kate Green","Labour",1910,6260,7970,3380,2640,1220,11310,4480,3780,1130,4740,1540,970,280
+"Stroud","Dr David Drew","Labour Co-op",1420,5380,6730,2850,2290,1060,9670,3800,3110,740,3810,1040,740,200
+"Suffolk Coastal","Dr Th<e9>r<e8>se Coffey","Conservative",1100,4410,5160,1830,1700,630,7800,2710,2350,510,2930,710,560,150
+"Sunderland Central","Julie Elliott","Labour",1560,5070,6260,2650,1810,820,8810,3780,3220,880,3870,1100,600,200
+"Surrey Heath","Michael Gove","Conservative",1490,5800,6840,2540,2470,970,10380,3680,3120,660,3900,1000,800,200
+"Sutton and Cheam","Paul Scully","Conservative",1640,6010,7120,2820,2280,920,10430,4030,3420,800,4220,1080,790,210
+"Sutton Coldfield","Mr Andrew Mitchell","Conservative",1590,5050,6590,2690,2140,950,9500,3660,3030,810,3840,1200,850,200
+"Tamworth","Christopher Pincher","Conservative",1590,5670,6590,2760,2070,860,9590,3940,3360,850,4140,1070,750,200
+"Tatton","Esther McVey","Conservative",1160,4400,5260,2060,1820,750,7820,2890,2430,550,3010,790,600,150
+"Taunton Deane","Rebecca Pow","Conservative",1610,6370,7790,3020,2540,1080,11220,4350,3770,860,4690,1180,870,230
+"Telford","Lucy Allan","Conservative",1780,6330,7640,3200,2330,1020,10820,4410,3820,1000,4670,1300,830,270
+"Tewkesbury","Mr Laurence Robertson","Conservative",1520,5520,6620,2610,2100,850,9690,3730,3080,730,3830,1000,730,200
+"The Cotswolds","Sir Geoffrey Clifton-Brown","Conservative",1200,4740,5430,2020,1980,740,8390,2950,2490,510,3110,750,650,140
+"The Wrekin","Mark Pritchard","Conservative",1600,5320,6560,2640,2080,830,9480,3720,3210,850,3950,1090,720,200
+"Thirsk and Malton","Kevin Hollinrake","Conservative",1180,4590,5380,2040,1880,740,8150,2920,2480,540,3080,790,610,150
+"Thornbury and Yate","Luke Hall","Conservative",1120,4390,5280,2040,1800,760,7860,2880,2420,520,3000,770,580,150
+"Thurrock","Jackie Doyle-Price","Conservative",2240,8820,10990,4320,3720,1620,15670,6110,5230,1310,6380,1720,1190,360
+"Tiverton and Honiton","Neil Parish","Conservative",1490,5300,6210,2500,1890,760,8980,3520,3080,730,3740,960,650,180
+"Tonbridge and Malling","Tom Tugendhat","Conservative",1690,6300,7390,2780,2410,930,11020,4020,3440,780,4290,1100,830,220
+"Tooting","Dr Rosena Allin-Khan","Labour",1570,5910,7080,2890,2240,1010,10280,3970,3410,890,4210,1170,790,210
+"Torbay","Kevin Foster","Conservative",1350,5270,5990,2380,2080,750,8890,3410,2960,750,3640,960,710,160
+"Torridge and West Devon","Mr Geoffrey Cox","Conservative",1250,4790,5690,2150,1920,710,8410,3080,2650,610,3320,870,690,180
+"Totnes","Dr Sarah Wollaston","Independent",990,3900,4460,1700,1500,550,6790,2470,2090,450,2570,600,480,130
+"Tottenham","Mr David Lammy","Labour",2110,9490,10930,4490,3970,1350,16030,6350,5430,1320,6560,1660,1250,390
+"Truro and Falmouth","Sarah Newton","Conservative",1190,4810,5480,2060,1820,660,8180,2970,2650,590,3300,810,630,160
+"Tunbridge Wells","Greg Clark","Conservative",1770,6170,7400,2950,2250,860,10830,4040,3400,880,4220,1190,880,220
+"Twickenham","Sir Vince Cable","Liberal Democrat",1500,6380,7480,2630,2730,990,11600,3910,3300,600,4060,890,770,170
+"Tynemouth","Sir Alan Campbell","Labour",1330,5420,6230,2320,2070,740,9340,3340,2940,650,3660,900,710,180
+"Uxbridge and South Ruislip","Boris Johnson","Conservative",1530,6040,7360,2850,2480,1040,10840,4040,3440,820,4220,1090,840,220
+"Vauxhall","Kate Hoey","Labour",2310,5860,7940,3650,2510,1230,10910,4820,4230,1390,5130,1690,900,280
+"Wakefield","Mary Creagh","Labour",1500,5860,7050,2850,2450,1020,10040,3990,3420,890,4230,1190,870,230
+"Wallasey","Ms Angela Eagle","Labour",1440,5530,6540,2760,2010,860,9340,3770,3340,840,4050,1080,680,230
+"Walsall North","Eddie Hughes","Conservative",2150,7980,8890,3930,3090,1310,12910,5470,4860,1290,5940,1570,1190,310
+"Walsall South","Valerie Vaz","Labour",2020,7030,9260,3900,2840,1370,12940,5490,4600,1190,5540,1540,900,330
+"Walthamstow","Stella Creasy","Labour Co-op",2340,8390,10390,4440,3380,1540,14700,6150,5360,1350,6520,1770,1130,350
+"Wansbeck","Ian Lavery","Labour",1140,4390,5080,2030,1850,690,7540,2880,2470,630,3050,820,630,140
+"Wantage","Mr Edward Vaizey","Conservative",1840,6930,8060,3210,2870,1090,12100,4450,3790,880,4710,1250,1010,230
+"Warley","John Spellar","Labour",2230,6750,9270,4070,2800,1360,12700,5520,4680,1280,5660,1650,940,360
+"Warrington North","Helen Jones","Labour",1290,5270,6250,2490,2290,940,9370,3540,2970,720,3690,930,770,180
+"Warrington South","Faisal Rashid","Labour",1650,6300,7190,2640,2390,890,10900,3870,3360,750,4200,1050,810,210
+"Warwick and Leamington","Matt Western","Labour",1580,5230,6550,2740,1930,820,9160,3760,3150,810,3850,1060,690,200
+"Washington and Sunderland West","Mrs Sharon Hodgson","Labour",1400,5420,6320,2670,2040,860,9110,3700,3270,810,3980,1040,680,210
+"Watford","Richard Harrington","Conservative",1980,7470,8800,3270,2920,1130,13130,4800,4100,890,5120,1280,1000,260
+"Waveney","Peter Aldous","Conservative",1370,5400,6590,2560,2310,960,9530,3680,3160,790,3860,1020,730,220
+"Wealden","Ms Nusrat Ghani","Conservative",1420,5530,6510,2440,2320,890,9880,3510,2980,640,3710,950,740,190
+"Weaver Vale","Mike Amesbury","Labour",1220,4780,5840,2270,2040,880,8620,3220,2720,660,3370,900,690,180
+"Wellingborough","Mr Peter Bone","Conservative",1910,7100,8520,3650,2650,1250,12240,4880,4140,1130,5150,1480,990,280
+"Wells","James Heappey","Conservative",1600,5770,6800,2730,2020,810,9770,3820,3360,810,4060,1040,700,190
+"Welwyn Hatfield","Grant Shapps","Conservative",1620,6420,7390,2750,2570,920,11130,3980,3510,770,4380,1100,860,210
+"Wentworth and Dearne","John Healey","Labour",1480,5790,6780,2700,2290,870,9940,3850,3330,840,4080,1070,780,190
+"West Bromwich East","Tom Watson","Labour",1730,6740,7700,3240,2370,1010,11020,4460,4060,990,4910,1280,810,260
+"West Bromwich West","Mr Adrian Bailey","Labour Co-op",1680,7070,7750,3210,2800,980,11480,4530,3950,980,4810,1250,980,280
+"West Dorset","Sir Oliver Letwin","Conservative",1130,4370,5220,1990,1870,770,7820,2830,2380,510,2970,770,630,150
+"West Ham","Lyn Brown","Labour",3730,13160,15420,6940,5030,2310,21980,9500,8330,2250,10140,2780,1930,520
+"West Lancashire","Rosie Cooper","Labour",1170,4790,5810,2260,2000,830,8600,3230,2730,640,3350,830,670,170
+"West Suffolk","Matt Hancock","Conservative",1830,6870,8050,3010,2670,1030,12020,4400,3780,850,4710,1190,910,240
+"West Worcestershire","Harriett Baldwin","Conservative",1300,4840,5640,2150,1700,630,8170,3040,2730,660,3400,900,650,170
+"Westminster North","Ms Karen Buck","Labour",1870,7090,9150,3740,3120,1220,12770,5220,4390,1120,5320,1480,1070,340
+"Westmorland and Lonsdale","Tim Farron","Liberal Democrat",890,3710,4180,1570,1510,550,6500,2280,1960,390,2420,550,460,100
+"Weston-Super-Mare","John Penrose","Conservative",1670,6130,8020,3340,2680,1250,10850,4530,3780,1050,4690,1450,1000,270
+"Wigan","Lisa Nandy","Labour",1380,5540,6780,2620,2340,940,9890,3770,3230,780,3910,970,700,230
+"Wimbledon","Stephen Hammond","Conservative",1410,5580,6490,2460,2250,890,9890,3550,3070,630,3790,910,710,150
+"Winchester","Steve Brine","Conservative",1330,5450,6030,2180,2210,770,9520,3200,2740,530,3400,790,690,140
+"Windsor","Adam Afriyie","Conservative",1970,6620,7490,2960,2250,910,11290,4290,3570,870,4420,1190,830,220
+"Wirral South","Alison McGovern","Labour",980,3740,4350,1630,1400,540,6470,2380,2060,460,2550,630,480,130
+"Wirral West","Margaret Greenwood","Labour",1030,3540,4180,1620,1250,470,6050,2260,1940,490,2420,640,460,120
+"Witham","Priti Patel","Conservative",1200,4780,5500,1970,1810,670,8340,2910,2540,550,3160,770,600,160
+"Witney","Robert Courts","Conservative",1430,5590,6460,2360,2340,860,10000,3440,2910,580,3620,880,750,170
+"Woking","Mr Jonathan Lord","Conservative",1640,6270,7450,2810,2640,1030,11230,3990,3370,750,4230,1130,910,230
+"Wokingham","John Redwood","Conservative",1440,6070,7070,2440,2310,820,10790,3590,3070,580,3770,820,720,160
+"Wolverhampton North East","Emma Reynolds","Labour",1930,7390,7750,3400,2250,890,11330,4650,4160,1110,5070,1340,970,280
+"Wolverhampton South East","Mr Pat McFadden","Labour",2240,7680,8390,3750,2420,980,12090,5110,4510,1270,5500,1520,1090,300
+"Wolverhampton South West","Eleanor Smith","Labour",1350,4870,6240,2570,1850,820,8560,3550,2940,830,3580,1070,640,210
+"Worcester","Mr Robin Walker","Conservative",1400,5530,6350,2450,2070,780,9560,3530,3020,660,3700,870,680,190
+"Workington","Sue Hayman","Labour",1100,4130,4670,1820,1510,570,6980,2610,2270,520,2820,690,550,140
+"Worsley and Eccles South","Barbara Keeley","Labour",1710,6110,7830,3160,2480,1030,11110,4360,3740,960,4580,1300,840,270
+"Worthing West","Sir Peter Bottomley","Conservative",1160,4700,5360,2000,1680,610,7960,2860,2560,570,3180,780,600,160
+"Wycombe","Mr Steve Baker","Conservative",2000,7160,8630,3400,2690,1040,12530,4800,4090,1000,5030,1310,920,260
+"Wyre and Preston North","Mr Ben Wallace","Conservative",1030,4240,4870,1800,1670,640,7500,2620,2260,440,2780,640,500,110
+"Wyre Forest","Mark Garnier","Conservative",1600,5230,6500,2770,2170,1050,9290,3720,3110,890,3910,1250,810,220
+"Wythenshawe and Sale East","Mike Kane","Labour",1990,7160,8570,3540,2800,1200,12300,4900,4260,1070,5260,1470,1010,290
+"Yeovil","Mr Marcus Fysh","Conservative",1410,5580,6680,2480,2260,820,9900,3560,3090,660,3860,960,780,200
+"York Central","Rachael Maskell","Labour Co-op",1330,5160,5810,2260,1890,720,8770,3250,2790,620,3440,830,650,180
+"York Outer","Julian Sturdy","Conservative",1250,4730,5350,2090,1680,670,8140,2980,2520,580,3130,800,600,150
