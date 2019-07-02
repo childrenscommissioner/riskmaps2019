@@ -3,7 +3,7 @@
 require(dplyr)
 require(tidyr)
 
-pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-15.csv")
+pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-17.csv")
 
 bounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/bounds_simple.rds")
 
@@ -31,7 +31,7 @@ pc_use<-pcEst %>% bind_rows() %>%
   select(-fRate)
 
 pc_use<-pc_use %>%
-  left_join(pcPop %>% select(PCON11NM,pop=pop015)) %>%
+  left_join(pcPop %>% select(PCON11NM,pop=pop017)) %>%
   mutate(popRate=round(est*pop,0),
    modRate_low=round(fLower*pop,0),
     modRate_high=round(fUpper*pop,0),
@@ -96,7 +96,7 @@ pc_use<-pcEst %>% bind_rows() %>%
   left_join(popSize %>% select(-pop),by=c("pc"="pc")) %>%
   select(-fRate)
 
-pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-15.csv")
+pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-17.csv")
 
 
 
@@ -136,29 +136,29 @@ pcCSV<-pcDep %>% select(-toxictrionarrow,-PCON11CD,-pc,-LAnum) %>%
           ifelse(grepl("Adult has 2 or more of the above risks",labOutcome),"Adult has 2 or more of the toxic trio issues",
           labOutcome)))))) %>%
   mutate(labOutcome=gsub("^Adult","adult",labOutcome)) %>%
-  mutate(labOutcome=paste0("Projected % of 0-15 yr olds in a household where an ",labOutcome)) %>%
+  mutate(labOutcome=paste0("Projected % of 0-17 yr olds in a household where an ",labOutcome)) %>%
   mutate(labOutcome=ifelse(grepl("broad",outcome),paste0(labOutcome," (broad measures)"),
     ifelse(grepl("narrow",outcome),paste0(labOutcome," (narrow measures)"),labOutcome))) %>%
   select(-outcome) %>%
-  left_join(pcPop %>% select(PCON11NM,pop015),by=c("Constituency"="PCON11NM"))
+  left_join(pcPop %>% select(PCON11NM,pop017),by=c("Constituency"="PCON11NM"))
 
-order<-c("Projected % of 0-15 yr olds in a household where an adult experienced domestic abuse in last year",
-  "Projected % of 0-15 yr olds in a household where an adult has ever experienced domestic abuse",
-  "Projected % of 0-15 yr olds in a household where an adult has moderate or higher mental ill-health symptoms",
-  "Projected % of 0-15 yr olds in a household where an adult has severe mental ill-health symptoms",
-  "Projected % of 0-15 yr olds in a household where an adult reports any substance misuse",
-  "Projected % of 0-15 yr olds in a household where an adult has an alcohol or drug dependency",
-  "Projected % of 0-15 yr olds in a household where an adult has any of the 'toxic trio' issues (broad measures)",
-  "Projected % of 0-15 yr olds in a household where an adult has any of the 'toxic trio' issues (narrow measures)",
-  "Projected % of 0-15 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (broad measures)",
-  "Projected % of 0-15 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (narrow measures)",
-  "Projected % of 0-15 yr olds in a household where an adult has 2 or more of the toxic trio issues (broad measures)",
-  "Projected % of 0-15 yr olds in a household where an adult has 2 or more of the toxic trio issues (narrow measures)",
-  "Projected % of 0-15 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (broad measures)",
-  "Projected % of 0-15 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (narrow measures)")
+order<-c("Projected % of 0-17 yr olds in a household where an adult experienced domestic abuse in last year",
+  "Projected % of 0-17 yr olds in a household where an adult has ever experienced domestic abuse",
+  "Projected % of 0-17 yr olds in a household where an adult has moderate or higher mental ill-health symptoms",
+  "Projected % of 0-17 yr olds in a household where an adult has severe mental ill-health symptoms",
+  "Projected % of 0-17 yr olds in a household where an adult reports any substance misuse",
+  "Projected % of 0-17 yr olds in a household where an adult has an alcohol or drug dependency",
+  "Projected % of 0-17 yr olds in a household where an adult has any of the 'toxic trio' issues (broad measures)",
+  "Projected % of 0-17 yr olds in a household where an adult has any of the 'toxic trio' issues (narrow measures)",
+  "Projected % of 0-17 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (broad measures)",
+  "Projected % of 0-17 yr olds in a household where an adult has 2 of 3 'toxic trio' issues (narrow measures)",
+  "Projected % of 0-17 yr olds in a household where an adult has 2 or more of the toxic trio issues (broad measures)",
+  "Projected % of 0-17 yr olds in a household where an adult has 2 or more of the toxic trio issues (narrow measures)",
+  "Projected % of 0-17 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (broad measures)",
+  "Projected % of 0-17 yr olds in a household where an adult has all 3 of the 'toxic trio' issues (narrow measures)")
 
 pcCSV_rate<-pcCSV %>%
-  select(-pop015) %>%
+  select(-pop017) %>%
   mutate(rate=round(rate*100,2)) %>%
   spread(key=labOutcome,value=rate) %>%
   left_join(mpList %>% select(Constituency,MP=nm,Party=party))
@@ -168,8 +168,8 @@ pcCSV_rate[,c("Constituency","MP","Party",order)] %>%
   write.csv(.,"toxicTrio_pc_data_rate.csv",row.names=F)
 
 pcCSV_count<-pcCSV %>%
-  mutate(count=round(rate*pop015,-1)) %>%
- select(-pop015,-rate) %>%
+  mutate(count=round(rate*pop017,-1)) %>%
+ select(-pop017,-rate) %>%
   mutate(labOutcome=gsub("[%]","number",labOutcome)) %>%
    spread(key=labOutcome,value=count) %>%
   left_join(mpList %>% select(Constituency,MP=nm,Party=party))
@@ -180,17 +180,17 @@ pcCSV_count[,c("Constituency","MP","Party",orderNum)] %>%
   write.csv(.,"toxicTrio_pc_data_count.csv",row.names=F)
 
 
-regLookup<-readr::read_csv("la_region_lookup.csv")
+regLookup<-readr::read_csv("./output_files/la_region_lookup.csv")
 
 regLookup$new_la_code[regLookup$new_la_code=="E08000020"]<-"E08000037"
 regLookup$new_la_code[regLookup$new_la_code=="E06000048"]<-"E06000057"
 
 laPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/Gangs/hotspots_summit/onsPop.csv") %>%
-  filter(age<16) %>%
+  filter(age<18) %>%
   group_by(area) %>%
   summarise(pop=sum(population_2017))
 
-laCSV<-la_use %>% select(-toxictrionarrow,-pop) %>%
+laCSV<-la_use %>% select(-toxictrionarrow) %>%
   left_join(laPop,by=c("cd"="area")) %>%
   left_join(regLookup,by=c("cd"="new_la_code")) %>% select(-cd) %>%
   rename(LA=la,Region=region_name) %>%
@@ -203,7 +203,7 @@ laCSV<-la_use %>% select(-toxictrionarrow,-pop) %>%
           ifelse(grepl("Adult has 2 or more of the above risks",labOutcome),"Adult has 2 or more of the toxic trio issues",
           labOutcome)))))) %>%
   mutate(labOutcome=gsub("^Adult","adult",labOutcome)) %>%
-  mutate(labOutcome=paste0("Projected % of 0-15 yr olds in a household where an ",labOutcome)) %>%
+  mutate(labOutcome=paste0("Projected % of 0-17 yr olds in a household where an ",labOutcome)) %>%
   mutate(labOutcome=ifelse(grepl("broad",outcome),paste0(labOutcome," (broad measures)"),
     ifelse(grepl("narrow",outcome),paste0(labOutcome," (narrow measures)"),labOutcome))) %>%
   select(-outcome)
