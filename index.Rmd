@@ -140,7 +140,7 @@ This approach makes several key assumptions that are difficult to test without f
 
 As such the results below provide only a useful first step in estimating local levels of these factors. They are in need of further validation from local surveys and administrative data that are not currently collected centrally.
 
-The data underlying these maps can be downloaded from [here](https://github.com/childrenscommissioner/riskmaps2019/raw/master/output_files/Local%20are%20toxic%20trio%20data%20combined_2.xlsx)
+The data underlying these maps can be downloaded from [here](https://www.childrenscommissioner.gov.uk/wp-content/uploads/2019/07/children-in-families-at-risk-underlying-data-july-2019.xlsx)
 
 ## Local authority Map
 
