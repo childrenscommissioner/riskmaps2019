@@ -31,7 +31,7 @@ knitr::opts_chunk$set(echo = F,message = F,warning = F)
 
 #bounds<-spTransform(bounds,CRS("+init=epsg:4326"))
 
-pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-15.csv")
+pcPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/pCon0-17.csv")
 
 bounds<-readRDS("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/vulnerability db/Toxic trio LA level/Parliamentary constituency/bounds_simple.rds")
 
@@ -59,7 +59,7 @@ pc_use<-pcEst %>% bind_rows() %>%
   select(-fRate)
 
 pc_use<-pc_use %>%
-  left_join(pcPop %>% select(PCON11NM,pop=pop015)) %>%
+  left_join(pcPop %>% select(PCON11NM,pop=pop017)) %>%
   mutate(popRate=round(est*pop,0),
    modRate_low=round(fLower*pop,0),
     modRate_high=round(fUpper*pop,0),
@@ -111,7 +111,7 @@ la_use<-laEst %>%
   spread(key=outcome,value=est)
 
 laPop<-readr::read_csv("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/Gangs/hotspots_summit/onsPop.csv") %>%
-  filter(age<16) %>%
+  filter(age<18) %>%
   group_by(area) %>%
   summarise(pop=sum(population_2017))
 
