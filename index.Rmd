@@ -140,7 +140,7 @@ This approach makes several key assumptions that are difficult to test without f
 
 As such the results below provide only a useful first step in estimating local levels of these factors. They are in need of further validation from local surveys and administrative data that are not currently collected centrally.
 
-The data underlying these maps can be downloaded from [here](LINK)
+The data underlying these maps can be downloaded from [here](https://github.com/childrenscommissioner/toxictriomap_1/raw/master/output_files/Local%20are%20toxic%20trio%20data%20combined_2.xlsx)
 
 ## Local authority Map
 
@@ -224,13 +224,7 @@ leaflet() %>%
 
 ```
 
-```{r, include=F}
-readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/output_files/toxicTrio_la_data_rate.csv") %>% 
-  paste0(collapse="\n") %>% 
-  openssl::base64_encode() -> encoded
-```
 
-[Download underlying data](`r sprintf('data:text/csv;base64,%s', encoded)`)
 
 ## Parliamentary Constituency Map
 
@@ -349,14 +343,6 @@ leaflet() %>%
 
 
 ```
-
-```{r, include=F}
-readLines("C:/Users/TCLARKE1/OneDrive - Department for Education/Documents/ToxicTrio_1/toxictriomap_1/output_files/toxicTrio_pc_data_rate.csv") %>% 
-  paste0(collapse="\n") %>% 
-  openssl::base64_encode() -> encoded
-```
-
-[Download underlying data](`r sprintf('data:text/csv;base64,%s', encoded)`)
 
 
 ```{r, results='asis',echo=F,warning=F}
