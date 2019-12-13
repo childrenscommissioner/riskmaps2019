@@ -1,9 +1,2 @@
 name: "map test"
 output_dir: "docs"
-navbar:
-  title: "Toxic trio maps"
-  left:
-    - text: "LA"
-      href: index.html
-    - text: "PC"
-      href: pc.html
