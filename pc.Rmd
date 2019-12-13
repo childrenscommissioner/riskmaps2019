@@ -1,5 +1,9 @@
 ---
-output: html_document
+output: 
+  html_document:
+   theme: null
+   mathjax: null
+   highlight: null
 ---
 
 ```{r setup, include=F}
