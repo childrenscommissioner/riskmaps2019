@@ -114,73 +114,35 @@ laPop<-readr::read_csv("//Lonnetapp01/NDPB OCC Research and Data Analysis Restri
 
 ```
 
-```{r, echo=F,message=F,warning=F, out.width="100%"}
-pc_use<-pcEst %>% bind_rows() %>%
-  select(pc,outcome,fRate=popRate,fLower,fUpper,estRate=fRate) %>% 
-  bind_rows(resConf_rose_use %>%
-       left_join(outLab %>% select(outcome,popRate)) %>%
-      select(pc,outcome,fRate=popRate,fLower,fUpper,estRate=fRate)) %>%
-  mutate(est=fRate) %>%
-  left_join(popSize %>% select(-pop),by=c("pc"="pc")) %>%
-  select(-fRate)
+```{r, echo=F,message=F,warning=F,out.width="100%"}
 
-pcPop<-readr::read_csv("//Lonnetapp01/NDPB OCC Research and Data Analysis Restricted/APMS/Toxic trio LA level backup 18112019/Toxic trio LA level/Parliamentary constituency/pCon0-17.csv")
+require(dplyr)
+require(tidyr)
+require(leaflet)
 
 
-
-pc_use_d<-pc_use
-
-
-pcDep<-pc_use_d %>%
-  left_join(depRank %>% select(Constituency,depDec),by=c("PCON11NM"="Constituency")) %>%
-  left_join(depDec %>% ungroup() %>% select(outcome,depDec,min,max) %>% distinct()) %>%
- # filter(!outcome %in% c("alcordrugdep","submisuse")) %>%
-  mutate(split=paste0(outcome,"_",depDec)) %>%
-  split(.$split) %>%
-  purrr::map_df(function(x){
-    
-    l<-unique(x$min)
-    t<-unique(x$max)
-    
-    x %>% mutate(estRate_dep=scales::rescale(estRate,c(l,t)))
-  }) %>%
-  select(pc,outcome,fRate=estRate_dep) %>% 
-  mutate(est=fRate) %>%
-  left_join(popSize %>% select(-pop),by=c("pc"="pc")) %>%
-  select(-fRate) %>%
-  spread(key=outcome,value=est) 
-
-for(i in names(pcDep)[5:length(names(pcDep))]){
+for(i in names(la_use)[3:length(names(la_use))]){
 nVar<-rlang::sym(paste0(i,"_fill"))
 var<-rlang::sym(i) 
 
-pcDep <- pcDep %>% ungroup() %>%
+la_use <- la_use %>% ungroup() %>%
   mutate(!!nVar:=scales::rescale((!!var),c(0,1))) }
 
-pc_Dep<-pcDep %>%
-  left_join(pcPop %>% select(PCON11NM,pop=pop017))
+la_use<-la_use %>%
+  left_join(laPop,by=c("cd"="area"))
 
-bounds@data$pcon18nm<-gsub("St[.] ","St ",bounds@data$pcon18nm)
-
-c<-sp::merge(bounds,as.data.frame(pc_Dep),by.x="pcon18nm",by.y="PCON11NM",all.x=T,all.y=T)
+c<-sp::merge(laBounds,as.data.frame(la_use),by.x="ctyua16cd",by.y="cd",all.x=T,all.y=T)
 pal <- colorNumeric("viridis", domain = c(0,1))
-pal3<-colorNumeric("viridis", domain = c(0,1.3))
 
 
 
-outLab$labOutcome<-gsub(" [(].*$","",outLab$labOutcome)
-
-c<-sp::merge(c,mpList,by.x="pcon18nm",by.y="Constituency",all.x=T)
-
-
-labels <- lapply(names(pc_Dep)[!grepl("_fill|^PC|^LA|^pc",names(pc_Dep))],function(x){
-  iconv(paste0(
-  "<strong>",c$pcon18nm,"</strong><br/>Projected % of children in households where an ",gsub(" [(].*[)]","",tolower(outLab$labOutcome[outLab$outcome==x]))," : ",round(c@data[,x]*100,2),
-  "%<br/>Projected number of 0-17 yr olds affected: ",round(c@data[,x]*c@data$pop,-1),"<br/>MP: ",c$nm,
-    "<br/>Party: ",c$party),to="UTF-8") %>% lapply(htmltools::HTML)
+labels <- lapply(names(la_use)[!grepl("_fill|^la|^cd",names(la_use))],function(x){
+  paste0(
+  "<strong>",c$la,"</strong><br/>Projected % of children in households where an ",gsub(" [(].*[)]","",tolower(outLab$labOutcome[outLab$outcome==x]))," : ",round(c@data[,x],2),
+  "%<br/>Projected number of 0-17 yr olds affected: ",round(c@data[,x]/100*c@data$pop,-1)) %>% lapply(htmltools::HTML)
 })
 
-names(labels)<-names(pc_Dep)[!grepl("_fill|^PC|^LA|^pc",names(pc_Dep))]
+names(labels)<-names(la_use)[!grepl("_fill|^la|^cd",names(la_use))]
 
 
 leaflet() %>%
@@ -205,9 +167,10 @@ leaflet() %>%
     opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`twoplusharmsnarrow_fill`),
     popupOptions = highlightOptions(bringToFront = T,weight=4),group="2 or more of the above risks",popup =labels[["twoplusharmsnarrow"]]) %>%
   
-   addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
+    addPolygons(data=c,color = "#444444", weight = 1, smoothFactor = 0.5,
     opacity = 1.0, fillOpacity = 0.7,fillColor = ~pal(`toxictrionarrow_synthetic_fill`),
-    popupOptions = highlightOptions(bringToFront = T,weight=4),group="All 3 of the above risks",popup =labels[["toxictrionarrow_synthetic"]])  %>%
+    popupOptions = highlightOptions(bringToFront = T,weight=4),group="All 3 of the above risks",popup =labels[["toxictrionarrow_synthetic"]]) %>%
+  
   addLayersControl(
    baseGroups = c("Alcohol/substance misuse", "Domestic abuse","Mental health problems",
      "Any of the above risks","2 or more of the above risks","All 3 of the above risks"),
@@ -219,11 +182,10 @@ leaflet() %>%
        for (i in 2:(n-1)){cuts[i] = " "} 
        cuts[1] = "Lowest rate" 
        paste0(cuts[-n], cuts[-1])},
-    title = "Projected rate of children<br/>affected in<br/>parliamentary constituency",
+    title = "Projected rate of children<br/>affected in<br/>local authority",
      na.label = "Missing/excluded",
     opacity = 0.7
   ) 
-
 
 ```
 
