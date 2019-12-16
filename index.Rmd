@@ -4,7 +4,6 @@ output:
    theme: null
    mathjax: null
    highlight: null
-   include:
-     in-header: margin_css.css
+   css: margin_css.css
 ---
 
