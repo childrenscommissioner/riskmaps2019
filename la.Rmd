@@ -192,14 +192,14 @@ leaflet() %>%
 minVals<-sapply(la_use[,c("alcordrugdep","dvavictimyear","severemhprob","oneplusharmsnarrow",
    "twoplusharmsnarrow","toxictrionarrow_synthetic")],function(x,y){
      
-     paste0(round(min(x),4)*100,"%")
+     paste0(round(min(x),2),"%")
      
    }) 
 
 maxVals<-sapply(la_use[,c("alcordrugdep","dvavictimyear","severemhprob","oneplusharmsnarrow",
    "twoplusharmsnarrow","toxictrionarrow_synthetic")],function(x,y){
      
-     paste0(round(max(x),4)*100,"%")
+     paste0(round(max(x),2),"%")
      
    }) 
 
