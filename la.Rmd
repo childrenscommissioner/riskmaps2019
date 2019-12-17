@@ -189,14 +189,90 @@ leaflet() %>%
 ```
 
 ```{r, results='asis',echo=F,warning=F}
+minVals<-sapply(la_use[,c("alcordrugdep","dvavictimyear","severemhprob","oneplusharmsnarrow",
+   "twoplusharmsnarrow","toxictrionarrow_synthetic")],function(x,y){
+     
+     paste0(round(min(x),4)*100,"%")
+     
+   }) 
+
+maxVals<-sapply(la_use[,c("alcordrugdep","dvavictimyear","severemhprob","oneplusharmsnarrow",
+   "twoplusharmsnarrow","toxictrionarrow_synthetic")],function(x,y){
+     
+     paste0(round(max(x),4)*100,"%")
+     
+   }) 
+
+
+minVals<-jsonlite::toJSON(minVals,"values")
+
+maxVals<-jsonlite::toJSON(maxVals,"values")
+
 cat(paste0('<script>
   
   window.addEventListener("load", function () {
     var eles = document.getElementsByClassName("leaflet-control-layers-base");
     
     eles[0].insertAdjacentHTML("afterbegin","<span style=',"'","margin-bottom:3px;font-weight:bold","'",'>Select measure to view:</span>")
-    eles[1].insertAdjacentHTML("afterbegin","<span style=',"'","margin-bottom:3px;font-weight:bold","'",'>Select measure to view:</span>")
+
+  var maxArr = ',maxVals,';
+
+  var minArr = ',minVals,';
+
+  var legendEntries = document.getElementsByClassName("leaflet-control-layers-selector")
+
+  for (var i=0; i < legendEntries.length; i++){
+
+  legendEntries[i].setAttribute("minval_map",minArr[i])
+
+  legendEntries[i].setAttribute("maxval_map",maxArr[i])
+
+  }
+
+var legend_1 = document.getElementsByClassName("info legend leaflet-control")[0]
+
+  var legEntries_1 = legend_1.getElementsByTagName("text")
+
+  legEntries_1[0].innerHTML = minArr[0]
+
+  legEntries_1[0].setAttribute("dx",60)
+
+  legEntries_1[legEntries_1.length - 1].innerHTML = maxArr[0]
+
+  legEntries_1[legEntries_1.length - 1].setAttribute("dx",60)
+
+
+f3 = function(){
+
+  var minVal_var = this.getAttribute("minval_map")
+
+  var maxVal_var = this.getAttribute("maxval_map")
+
+  var legend = document.getElementsByClassName("info legend leaflet-control")[0]
+
+  var legEntries = legend.getElementsByTagName("text")
+
+  legEntries[0].innerHTML = minVal_var
+
+  legEntries[0].setAttribute("dx",60)
+
+  legEntries[legEntries.length - 1].innerHTML = maxVal_var
+
+  legEntries[legEntries.length - 1].setAttribute("dx",60)
+
+  }
+
+  for (var i=0; i < legendEntries.length; i++){
+
+  legendEntries[i].addEventListener("click",f3)
+
+  }
+    
 })
+
+  
+  
+
   </script>'
   ))
 ```
