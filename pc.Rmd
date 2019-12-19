@@ -306,7 +306,7 @@ f3 = function(){
 
   var legendTitle = legend.getElementsByTagName("strong")
 
-  legendTitle[0].innerHTML = "Projected rate of<br/>children affected by<br/>" + varval_var + "<br/>in in parliamentary constituency"
+  legendTitle[0].innerHTML = "Projected rate of<br/>children affected by<br/>" + varval_var + "<br/>in parliamentary constituency"
 
   var legEntries = legend.getElementsByTagName("text")
 
