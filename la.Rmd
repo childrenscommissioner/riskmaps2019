@@ -106,10 +106,10 @@ la_use<-laEst %>%
   select(-fRate) %>%
   spread(key=outcome,value=est)
 
-laPop<-readr::read_csv("//Lonnetapp01/NDPB OCC Research and Data Analysis Restricted/Gangs Review data/Analysis/Gangs/hotspots_summit/onsPop.csv") %>%
+laPop<-readr::read_csv("//Lonnetapp01/NDPB OCC Research and Data Analysis Restricted/APMS/Toxic trio LA level backup 18112019/Toxic trio LA level/Parliamentary constituency/la_pops2018.csv") %>%
   filter(age<18) %>%
-  group_by(area) %>%
-  summarise(pop=sum(population_2017))
+  group_by(code) %>%
+  summarise(pop=sum(population_2018))
 
 ```
 
@@ -128,7 +128,7 @@ la_use <- la_use %>% ungroup() %>%
   mutate(!!nVar:=scales::rescale((!!var),c(0,1))) }
 
 la_use<-la_use %>%
-  left_join(laPop,by=c("cd"="area"))
+  left_join(laPop,by=c("cd"="code"))
 
 c<-sp::merge(laBounds,as.data.frame(la_use),by.x="ctyua16cd",by.y="cd",all.x=T,all.y=T)
 pal <- colorNumeric("viridis", domain = c(0,1))
